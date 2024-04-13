@@ -14716,11 +14716,11 @@ ul li:last-child .card-list-4 {
   .bg-img-online-course h2 {
     font-size: 40px !important;
     margin-bottom: 10px !important;
-    margin-left: -10px !important;
+    /* margin-left: -10px !important; */
  }
   .online-course-text {
     font-size: 18px !important;
-    margin-left: -10px !important;
+    /* margin-left: -10px !important; */
  }
 }
 @media (max-width: 580px) {
@@ -14814,6 +14814,7 @@ ul li:last-child .card-list-4 {
 .btn-online-course-search {
   color: #fff;
   border: none;
+  background-color: #3aab67;
   border-radius: 8px;
   width: 32%;
   height: auto;
