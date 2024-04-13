@@ -139,7 +139,8 @@ export default function Index() {
                       <li>
                         <div className="course__sidebar-check mb-10 d-flex align-items-center" onClick={() => handleCategoryFilter(0)}>
                           <input type="radio" readOnly checked={selectedCategory === 0 ? "checked" : ""} />
-                          <label>All</label>
+                          {/* <label>All</label> */}
+                          <label>all</label>
                         </div>
                       </li>
                       {filteredCategories.map((category) => (
