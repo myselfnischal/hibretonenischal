@@ -15552,29 +15552,28 @@ ul li:last-child .card-list-4 {
 @media (max-width: 580px) {
   .bg-img-laptop h2 {
     font-size: 26px !important;
-    margin-left: -64px !important;
+    margin-left: -69px !important;
  }
   .industry-intelligence-sub-text {
     font-size: 16px !important;
     line-height: 20px !important;
-    margin-left: -64px !important;
+    margin-left: -69px !important;
  }
 }
 @media (max-width: 445px) {
   .industry-intelligence-sub-text {
     font-size: 14px !important;
     line-height: 20px !important;
-    margin-left: -64px !important;
  }
 }
 @media (max-width: 390px) {
   .bg-img-laptop h2 {
-    font-size: 30px !important;
+    /* font-size: 30px !important; */
  }
   .industry-intelligence-sub-text {
     font-size: 14px !important;
     line-height: 20px !important;
-    margin-left: -64px !important;
+    /* margin-left: -64px !important; */
  }
 }
 /*Media Query End*/
