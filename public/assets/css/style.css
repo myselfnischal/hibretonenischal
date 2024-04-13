@@ -14701,6 +14701,8 @@ ul li:last-child .card-list-4 {
 @media (max-width: 992px) {
   .bg-img-online-course h2 {
     font-size: 36px !important;
+    padding-bottom: 0px !important;
+    padding-top: -10px !important;
  }
  .online-course-text {
   font-size: 16px !important;
