@@ -14682,6 +14682,7 @@ ul li:last-child .card-list-4 {
 }
 .bg-img-online-course p {
   border-left: 10px solid #83cbff;
+  
 }
 .bg-img-online-course::before {
   content: "";
@@ -14695,12 +14696,15 @@ ul li:last-child .card-list-4 {
   background: #05264e;
 }
 /*Media Query */
+
+
 @media (max-width: 992px) {
   .bg-img-online-course h2 {
     font-size: 36px !important;
  }
-  p {
-    font-size: 24px !important;
+ .online-course-text {
+  font-size: 16px !important;
+  line-height: 16px !important
  }
 }
 @media (max-width: 768px) {
@@ -14729,7 +14733,7 @@ ul li:last-child .card-list-4 {
 }
 @media (max-width: 455px) {
   .bg-img-online-course h2 {
-    font-size: 29px !important;
+    font-size: 24px !important;
  }
   .online-course-text {
     font-size: 16px !important;
@@ -14737,7 +14741,7 @@ ul li:last-child .card-list-4 {
 }
 @media (max-width: 400px) {
   .bg-img-online-course h2 {
-    font-size: 29px !important;
+    font-size: 24px !important;
     line-height: 23px !important;
  }
 
