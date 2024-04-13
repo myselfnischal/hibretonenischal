@@ -1,0 +1,15 @@
+.heart-icon {
+    margin: 0px 10px;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    transition: color 0.2s ease-in-out;
+}
+
+.heart-icon:hover {
+    color: gray;
+}
+
+.heart-icon.liked {
+    color: red;
+}

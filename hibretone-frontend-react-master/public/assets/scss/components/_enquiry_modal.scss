@@ -1,0 +1,147 @@
+
+.enquiry-modal {
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  padding-top: 70px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.enquiry-modal-content {
+  display: inline-table;
+  align-items: center;
+  width: 90vw;
+  max-width: 500px;
+  height: 35vh;
+  max-height: 900px;
+  border-radius: 15px;
+  background: url(../imgs/page/entrepreneurial-assessments/Hero.webp) no-repeat top;
+  background-size: cover;
+  background-color: rgba(5,38,78,0.8);
+  background-blend-mode:overlay;
+}
+
+.enquiry-modal-header {
+  position: relative;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  @include media-breakpoint-down(xxl) {
+    height: 7.5vh;
+    h5 {
+      font-weight: bold;
+      font-size: 22.5px;
+      left: 0;
+      z-index: 1;
+    }
+    p {
+      line-height: 1.5vh;
+      color: white;
+      font-size: 15px;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    height: 9vh;
+    h5 {
+      font-weight: bold;
+      font-size: 20px;
+      left: 0;
+      z-index: 1;
+    }
+    p {
+      line-height: 1vh;
+      font-size: 15px;
+      color: white;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    height: 10vh;
+    h5 {
+      font-weight: bold;
+      font-size: 14px;
+      left: 0;
+      z-index: 1;
+    }
+    p {
+      line-height: 1vh;
+      font-size: 10px;
+      color: white;
+    }
+  }
+}
+
+.enquiry-modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.enquiry-modal-footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 60px;
+  height: 7vh;
+  color: white;
+  z-index: 1;
+  padding: 20px 0;
+}
+
+.enquiry-modal-body {
+  margin: 0px auto;
+  background-color: white;
+  width: 100%;
+  padding: 1px;
+  h6 {
+    font-weight: bold;
+    margin: 0;
+  }
+  textarea {
+    height: 50px;
+  }
+}
+
+.assessment-icon {
+  color: white;
+  transition: 0.1s ease-in-out;
+  &:hover {
+    color: #05264E;
+    scale: 105%;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+.tracker {
+  width: 50%;
+  font-weight: 600;
+  font-size: 85%;
+  z-index: 2;
+  p {
+    color: white;
+  }
+}
+
+.progress-bar {
+  height: 5px;
+  width: 85%;
+  border-radius: 15px;
+}
+
+.bar {
+  height: inherit;
+  background-color: #3AAB67;
+  border-radius: inherit;
+}

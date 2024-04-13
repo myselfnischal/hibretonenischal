@@ -1,0 +1,54 @@
+.bg-img-business-plan-writer {
+  display: flex;
+  height: 30vh;
+  background: url(../imgs/page/business-plan-writer/Hero.jpg) no-repeat center center;
+  background-size: cover;
+
+  h2, p {
+    z-index: 2;
+    position: relative;
+    color: white;
+    padding-left: 10px;
+    border-left: 10px solid #83cbff
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background: #05264E;
+  }
+}
+
+.background-random-business-plan-writer {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-random-business-plan-writer::before,
+.background-random-business-plan-writer::after {
+  content: "";
+  position: absolute;
+  width: 800px;
+  height: 1500px;
+  background: #F2F6FD;
+  transform-origin: top right;
+  z-index: -1;
+}
+
+.background-random-business-plan-writer::before {
+  transform: rotate(-25deg);
+  top: -50px;
+  left: -500px;
+}
+
+.background-random-business-plan-writer::after {
+  transform: rotate(25deg);
+  top: 800px;
+  right: -500px;
+}

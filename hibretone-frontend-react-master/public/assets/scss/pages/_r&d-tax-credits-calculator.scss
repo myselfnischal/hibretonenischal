@@ -1,0 +1,38 @@
+.bg-img-calculator {
+  display:flex;
+  height: 30vh;
+  background: url(../imgs/page/r&d-tax-credits-calculator/Hero.jpg) no-repeat center center;
+  background-size: cover;
+  h2 {
+    font-size: 60px;
+  }
+  h2,p {
+    z-index: 2;
+    position: relative;
+    color: white;
+    padding-left: 10px;
+    border-left: 10px solid #83cbff
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background: #05264E;
+  }
+}
+
+.content-media {
+  border-radius: 16px;
+  transition: 0.05s ease-in-out;
+  width: 100%;
+  max-width: 1000px;
+  &:hover {
+    scale: 1.02;
+    transition: 0.05s ease-in-out;
+  }
+}
