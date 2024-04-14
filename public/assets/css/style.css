@@ -14459,10 +14459,17 @@ ul li:last-child .card-list-4 {
   text-align: right;
   margin-right: 10px;
 }
+@media screen and (max-width: 1400px) {
+  .article-description-online-course {
+    font: 500 13px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    height: 105px !important;
+ }
+}
+
 @media screen and (max-width: 1200px) {
   .article-description-online-course {
     font: 500 13px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-    height: 87px !important;
+    height: 161px !important;
  }
   .author-name-online-course {
     color: var(--brand-brand-1, #05264e);
@@ -14475,7 +14482,7 @@ ul li:last-child .card-list-4 {
 @media screen and (max-width: 760px) {
   .article-description-online-course {
     font: 500 13px/17px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-    height: 136px;
+    height: 136px !important;
  }
   .author-name-online-course {
     color: var(--brand-brand-1, #05264e);
@@ -14924,12 +14931,7 @@ ul li:last-child .card-list-4 {
  }
 
 }
-@media screen and (max-width: 1400px){
-  .article-description-online-course {
-      font: 500 13px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-  }
-  
-  }
+
 @media (max-width: 574px){
   .article-description-online-course {
     font: 500 13px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
