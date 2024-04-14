@@ -98,7 +98,7 @@ const PopularCourse2 = () => {
                                         <a href="/online-courses/search">
                                         <p className='image-text-online-course'>{item.type}</p>
                                            <p className='image-text-online-course_next'>{item.type1}</p>
-                                    <p className='image-text-online-course_third'>{item.type2}</p>
+                                    {/* <p className='image-text-online-course_third'>{item.type2}</p> */}
                                       
                                                     <div className="article-title">{item.title}</div>
                                             </a>
