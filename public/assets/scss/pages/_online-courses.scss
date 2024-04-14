@@ -299,7 +299,22 @@ max-width: 200px;
     } 
 
 }
+@media screen and (max-width: 450px) {
 
+  .banner-hero1 .block-banner1 .online-course-form-find {
+    padding: 8px;
+    width: 143%;
+    margin-left: -53px !important;
+
+ }}
+@media screen and (max-width: 392px) {
+
+  .banner-hero1 .block-banner1 .online-course-form-find {
+    padding: 8px;
+    width: 154%;
+    margin-left: -64px !important;
+
+ }}
 /*hero secton end */
 
 /* Online-course-Video Start */

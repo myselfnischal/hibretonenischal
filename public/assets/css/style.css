@@ -15563,19 +15563,40 @@ ul li:last-child .card-list-4 {
 }
 /* Background Blue random Design End */
 /*Media Query */
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
+  .bg-img-laptop h2 {
+    font-size: 36px !important;
+    margin-bottom: 10px !important;
+    /* margin-left: -49px !important; */
+
+ }
   .industry-intelligence-sub-text {
-    font-size: 20px !important;
+    /* font-size: 16px !important; */
+    /* margin-left: -49px !important;  */
+
  }
 }
-@media (max-width: 770px) {
+@media (max-width: 992px) {
+  .bg-img-laptop h2 {
+    font-size: 36px !important;
+    margin-bottom: 10px !important;
+    /* margin-left: -37px !important; */
+
+ }
+  .industry-intelligence-sub-text {
+    /* font-size: 16px !important; */
+    /* margin-left: -37px !important; */
+
+ }
+}
+@media (max-width: 765x) {
   .bg-img-laptop h2 {
     font-size: 36px !important;
     margin-bottom: 10px !important;
 
  }
   .industry-intelligence-sub-text {
-    font-size: 16px !important;
+    /* font-size: 16px !important; */
     line-height: 16px !important;
  }
 }
@@ -15583,12 +15604,12 @@ ul li:last-child .card-list-4 {
   .bg-img-laptop h2 {
     font-size: 36px !important;
     margin-bottom: 10px !important;
-    margin-left: -44px !important;
+    margin-left: -24px !important;
  }
   .industry-intelligence-sub-text {
     font-size: 18px !important;
     line-height: 25px !important;
-    margin-left: -44px !important;
+    margin-left: -24px !important;
  }
 }
 @media (max-width: 580px) {

@@ -9027,39 +9027,58 @@ ul li:last-child .card-list-4 {
 }
 
 /*Media Query */
-@media (max-width: 992px) {
+@media (max-width: 1183px) {
   .bg-img-online-course h2 {
     font-size: 36px !important;
-    padding-bottom: 0px !important;
-    padding-top: -10px !important;
+    margin-left: 0px !important;
   }
   .online-course-text {
     font-size: 16px !important;
     line-height: 16px !important;
+    margin-left: 0px !important;
+  }
+}
+@media (max-width: 992px) {
+  .bg-img-online-course h2 {
+    font-size: 36px !important;
+    margin-left: -16px !important;
+  }
+  .online-course-text {
+    font-size: 16px !important;
+    line-height: 16px !important;
+    margin-left: -16px !important;
   }
 }
 @media (max-width: 768px) {
   .bg-img-online-course h2 {
     font-size: 36px !important;
     margin-bottom: 10px !important;
+    margin-left: 1px !important;
   }
   .online-course-text {
     font-size: 16px !important;
     line-height: 20px !important;
+    margin-left: 1px !important;
   }
 }
-@media (max-width: 653px) {
+@media (max-width: 660px) {
   .bg-img-online-course h2 {
     font-size: 36px !important;
     margin-bottom: 10px !important;
+    margin-left: -13px !important;
   }
   .online-course-text {
     font-size: 16px !important;
+    margin-left: -13px !important;
   }
 }
 @media (max-width: 580px) {
   .bg-img-online-course h2 {
-    font-size: 36px !important;
+    font-size: 26px !important;
+    margin-left: -67px !important;
+  }
+  .online-course-text {
+    margin-left: -67px !important;
   }
 }
 @media (max-width: 455px) {
@@ -9068,12 +9087,17 @@ ul li:last-child .card-list-4 {
   }
   .online-course-text {
     font-size: 16px !important;
+    margin-left: -65px !important;
   }
 }
 @media (max-width: 400px) {
   .bg-img-online-course h2 {
-    font-size: 24px !important;
+    font-size: 29px !important;
     line-height: 23px !important;
+    margin-left: -65px !important;
+  }
+  .online-course-text {
+    margin-left: -65px !important;
   }
 }
 /*Media Query End*/
@@ -9223,6 +9247,20 @@ ul li:last-child .card-list-4 {
   }
   .btn-online-course-search:not(:first-of-type) {
     margin-top: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .banner-hero1 .block-banner1 .online-course-form-find {
+    padding: 8px;
+    width: 143%;
+    margin-left: -53px !important;
+  }
+}
+@media screen and (max-width: 392px) {
+  .banner-hero1 .block-banner1 .online-course-form-find {
+    padding: 8px;
+    width: 154%;
+    margin-left: -64px !important;
   }
 }
 /*hero secton end */
