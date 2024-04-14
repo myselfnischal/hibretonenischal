@@ -14927,8 +14927,9 @@ ul li:last-child .card-list-4 {
 @media screen and (max-width: 580px){
 .article-description-online-course {
     font: 500 13px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-    height: 63px !important;
+    height: 67px !important;
 }
+
 }
 @media (max-width: 574px){
 
