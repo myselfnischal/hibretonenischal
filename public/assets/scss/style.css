@@ -12588,64 +12588,69 @@ ul li:last-child .card-list-4 {
 
 /* Background Blue random Design End */
 /*Media Query */
-@media (max-width: 992px) {
+@media (max-width: 1183px) {
+  .bg-img-laptop h2 {
+    font-size: 36px !important;
+    margin-left: 0px !important;
+  }
   .industry-intelligence-sub-text {
-    font-size: 20px !important;
+    font-size: 16px !important;
+    line-height: 16px !important;
+    margin-left: 0px !important;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 992px) {
   .bg-img-laptop h2 {
     font-size: 36px !important;
     margin-bottom: 10px !important;
-    margin-left: 2px !important;
+    margin-left: -15px !important;
   }
   .industry-intelligence-sub-text {
-    font-size: 18px !important;
-    line-height: 25px !important;
-    margin-left: 2px !important;
+    margin-left: -15px !important;
+  }
+}
+@media (max-width: 765x) {
+  .bg-img-laptop h2 {
+    font-size: 36px !important;
+    margin-bottom: 10px !important;
+  }
+  .industry-intelligence-sub-text {
+    line-height: 16px !important;
   }
 }
 @media (max-width: 673px) {
   .bg-img-laptop h2 {
-    font-size: 36px !important;
-    margin-bottom: 10px !important;
-    margin-left: -44px !important;
+    margin-left: -24px !important;
   }
   .industry-intelligence-sub-text {
-    font-size: 18px !important;
     line-height: 25px !important;
-    margin-left: -44px !important;
+    margin-left: -24px !important;
   }
 }
 @media (max-width: 580px) {
   .bg-img-laptop h2 {
     font-size: 26px !important;
-    margin-left: -64px !important;
+    margin-left: -69px !important;
   }
   .industry-intelligence-sub-text {
     font-size: 16px !important;
     line-height: 20px !important;
-    margin-left: -64px !important;
+    margin-left: -69px !important;
   }
 }
 @media (max-width: 445px) {
   .industry-intelligence-sub-text {
     font-size: 14px !important;
     line-height: 20px !important;
-    margin-left: -64px !important;
   }
 }
 @media (max-width: 390px) {
-  .bg-img-laptop h2 {
-    font-size: 30px !important;
-  }
   .industry-intelligence-sub-text {
     font-size: 14px !important;
     line-height: 20px !important;
-    margin-left: -64px !important;
   }
 }
-/*Media Query  End*/
+/*Media Query End*/
 /* Share Icon Start */
 .share-icon-industry-intelligence-container {
   position: absolute;
