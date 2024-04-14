@@ -14909,10 +14909,17 @@ ul li:last-child .card-list-4 {
     margin-top: 10px;
  }
 }
-@media screen and (max-width: 400px) {
-  .block-banner1 {
-    width: auto;
- }
+
+@media screen and (max-width: 450px) {
+
+  .banner-hero1 .block-banner1 .online-course-form-find {
+    padding: 8px;
+    width: 143%;
+    margin-left: -53px !important;
+
+ }}
+@media screen and (max-width: 392px) {
+
   .banner-hero1 .block-banner1 .online-course-form-find {
     padding: 8px;
     width: 154%;
