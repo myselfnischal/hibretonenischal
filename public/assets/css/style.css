@@ -14700,9 +14700,6 @@ ul li:last-child .card-list-4 {
 @media (max-width: 1183px) {
   .bg-img-online-course h2 {
     font-size: 36px !important;
-    /* border-left: 10px solid #83cbff; */
-    /* padding-bottom: 0px !important; */
-    /* padding-top: -10px !important; */
     margin-left: 0px !important;
  }
  .online-course-text {
@@ -14715,8 +14712,6 @@ ul li:last-child .card-list-4 {
 @media (max-width: 992px) {
   .bg-img-online-course h2 {
     font-size: 36px !important;
-    /* padding-bottom: 0px !important; */
-    /* padding-top: -10px !important; */
     margin-left: -16px !important;
  }
  .online-course-text {
@@ -14880,7 +14875,9 @@ ul li:last-child .card-list-4 {
  }
   .banner-hero1 .block-banner1 .online-course-form-find {
     padding: 20px;
-    width: 121%;
+    width: 149%;
+    margin-left: -74px !important;
+
  }
   .banner-hero1 .block-banner1 .online-course-form-find form {
     display: flex;
@@ -14912,6 +14909,16 @@ ul li:last-child .card-list-4 {
     margin-top: 10px;
  }
 }
+@media screen and (max-width: 400px) {
+  .block-banner1 {
+    width: auto;
+ }
+  .banner-hero1 .block-banner1 .online-course-form-find {
+    padding: 8px;
+    width: 154%;
+    margin-left: -64px !important;
+
+ }}
 /*hero secton end */
 /* Online-course-Video Start */
 .online-video-section-image-one {
