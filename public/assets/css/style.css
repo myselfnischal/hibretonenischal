@@ -14914,9 +14914,9 @@ ul li:last-child .card-list-4 {
     font-size: 16px !important;
  }
   .image-text-online-course_third {
-    /* font-size: 16px !important; */
-    /* margin-top: 24px !important; */
-    /* margin-left: 123px !important; */
+    font-size: 16px !important;
+    margin-top: 24px !important;
+    margin-left: 123px !important;
  }
 }
 @media (max-width: 680px) {
@@ -14926,8 +14926,14 @@ ul li:last-child .card-list-4 {
   .image-text-online-course_next {
     font-size: 16px !important;
  }
+
+}
+
+@media (max-width: 570px) {
   .image-text-online-course_third {
     font-size: 16px !important;
+    margin-top: -7px !important;
+    margin-left: 187px !important;
  }
 
 }
