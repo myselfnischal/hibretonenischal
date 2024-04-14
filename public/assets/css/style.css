@@ -12841,577 +12841,7 @@ ul li:last-child .card-list-4 {
     max-width: 1120px;
   }
 }
-.meetourteamname {
-  overflow: hidden;
-  font-size: 18px;
-  /* 4th April */
-}
 
-.social-share-link-aboutus {
-  display: inline-block;
-  height: 30px;
-  width: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* margin-left: 14px; */
-  /* 4th April */
-}
-
-.article-description-aboutus {
-  color: var(--text-paragraph, #6c6e70);
-  align-self: center;
-  margin-top: 18px;
-  font:
-    500 16px/25px Plus Jakarta Sans,
-    -apple-system,
-    Roboto,
-    Helvetica,
-    sans-serif;
-  margin: 0 10px;
-  height: 125px;
-  text-align: justify;
-  overflow: hidden;
-}
-
-.card-list-aboutus {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr));
-  justify-content: center;
-  gap: 20px;
-}
-
-@media (max-width: 760px) {
-  .card-list-aboutus {
-    grid-template-columns: repeat(auto-fill, minmax(calc(50% - 20px), 1fr));
-  }
-}
-@media (max-width: 450px) {
-  .card-list-aboutus {
-    grid-template-columns: repeat(auto-fill, minmax(calc(100% - 20px), 1fr));
-  }
-}
-.article-title-aboutus {
-  color: var(--brand-brand-1, #05264e);
-  align-self: start;
-  margin: 22px 0 0 10px;
-  font:
-    700 20px/26px Plus Jakarta Sans,
-    -apple-system,
-    Roboto,
-    Helvetica,
-    sans-serif;
-  height: 60px;
-  overflow: hidden;
-  margin-right: 10px;
-  text-align: justify;
-}
-
-.author-image-aboutus {
-  aspect-ratio: 1;
-  object-fit: cover;
-  width: 35px;
-  margin: auto 0;
-  border-radius: 50%;
-}
-
-.author-name-aboutus {
-  color: var(--brand-brand-1, #05264e);
-  font:
-    700 18px/144% Plus Jakarta Sans,
-    -apple-system,
-    Roboto,
-    Helvetica,
-    sans-serif;
-}
-
-.publish-date-aboutus {
-  color: var(--text-Paragrap-2, #435579);
-  margin-top: 5px;
-  font:
-    500 16px/156% Plus Jakarta Sans,
-    -apple-system,
-    Roboto,
-    Helvetica,
-    sans-serif;
-}
-
-.read-time-aboutus {
-  color: var(--text-Paragrap-2, #435579);
-  flex-grow: 1;
-  flex-basis: auto;
-  margin: auto 0;
-  font:
-    500 16px/156% Plus Jakarta Sans,
-    -apple-system,
-    Roboto,
-    Helvetica,
-    sans-serif;
-  text-align: right;
-  margin-right: 10px;
-}
-
-@media screen and (max-width: 1200px) {
-  .article-title-aboutus {
-    font:
-      700 15px/20px Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-    height: 60px;
-  }
-  .article-description-aboutus {
-    font:
-      500 13px/20px Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-    height: 100px;
-  }
-  .author-image-aboutus {
-    width: 30px;
-  }
-  .author-name-aboutus {
-    font:
-      700 12px/125% Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-  }
-  .publish-date-aboutus {
-    font:
-      500 10px/135% Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-  }
-  .read-time-aboutus {
-    font:
-      500 10px/135% Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-  }
-}
-@media screen and (max-width: 760px) {
-  .article-title-aboutus {
-    font:
-      700 17px/18px Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-    height: 75px;
-    margin-top: 5px;
-  }
-  .article-description-aboutus {
-    font:
-      500 13px/17px Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-    height: 120px;
-  }
-  .author-image-aboutus {
-    width: 30px;
-  }
-  .author-name-aboutus {
-    font:
-      700 14px/125% Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-  }
-  .publish-date-aboutus {
-    font:
-      500 12px/135% Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-  }
-  .read-time-aboutus {
-    font:
-      500 12px/135% Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-  }
-}
-@media screen and (max-width: 450px) {
-  .article-title-aboutus {
-    font:
-      700 15px/17px Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-    height: 40px;
-    margin-top: 5px;
-  }
-  .article-description-aboutus {
-    font:
-      500 11px/16px Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-    height: 50px;
-  }
-  .author-image-aboutus {
-    width: 30px;
-  }
-  .author-name-aboutus {
-    font:
-      700 12px/125% Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-  }
-  .publish-date-aboutus {
-    font:
-      500 10px/135% Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-  }
-  .read-time-aboutus {
-    font:
-      500 10px/135% Plus Jakarta Sans,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-  }
-}
-.swiperprevious-aboutus {
-  position: absolute;
-  top: 72%;
-  transform: translateY(-50%);
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  left: 5vw;
-}
-
-.swipernext-aboutus {
-  position: absolute;
-  top: 72%;
-  transform: translateY(-50%);
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  right: 5vw;
-}
-
-@media screen and (max-width: 1400px) {
-  .swiperprevious-aboutus {
-    top: 71%;
-    width: 50px;
-    height: 50px;
-    left: 30px;
-  }
-  .swipernext-aboutus {
-    top: 71%;
-    width: 50px;
-    height: 50px;
-    right: 30px;
-  }
-}
-@media screen and (max-width: 1290px) {
-  .swiperprevious-aboutus {
-    top: 71%;
-    width: 50px;
-    height: 50px;
-    left: 0px;
-  }
-  .swipernext-aboutus {
-    top: 71%;
-    width: 50px;
-    height: 50px;
-    right: 0px;
-  }
-}
-@media screen and (max-width: 1225px) {
-  .swiperprevious-aboutus {
-    top: 71%;
-    width: 40px;
-    height: 40px;
-    left: -5px;
-  }
-  .swipernext-aboutus {
-    top: 71%;
-    width: 40px;
-    height: 40px;
-    right: -5px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .swiperprevious-aboutus {
-    top: 78%;
-    width: 40px;
-    height: 40px;
-    left: 8px;
-  }
-  .swipernext-aboutus {
-    top: 78%;
-    width: 40px;
-    height: 40px;
-    right: 8px;
-  }
-}
-@media screen and (max-width: 992px) {
-  .swiperprevious-aboutus {
-    top: 80%;
-    width: 40px;
-    height: 40px;
-    left: 4px;
-  }
-  .swipernext-aboutus {
-    top: 80%;
-    width: 40px;
-    height: 40px;
-    right: 4px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .swiperprevious-aboutus {
-    top: 79%;
-    width: 40px;
-    height: 40px;
-    left: 4px;
-  }
-  .swipernext-aboutus {
-    top: 79%;
-    width: 40px;
-    height: 40px;
-    right: 4px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .swiperprevious-aboutus {
-    top: 85%;
-    width: 30px;
-    height: 30px;
-    left: -4px;
-  }
-  .swipernext-aboutus {
-    top: 85%;
-    width: 30px;
-    height: 30px;
-    right: -4px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .swiperprevious-aboutus {
-    top: 86%;
-    width: 30px;
-    height: 30px;
-    left: -4px;
-  }
-  .swipernext-aboutus {
-    top: 86%;
-    width: 30px;
-    height: 30px;
-    right: -4px;
-  }
-}
-.swiperprevious-aboutusfull {
-  position: absolute;
-  top: 79%;
-  transform: translateY(-50%);
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  left: 5vw;
-}
-
-.swipernext-aboutusfull {
-  position: absolute;
-  top: 79%;
-  transform: translateY(-50%);
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  right: 5vw;
-}
-
-@media screen and (max-width: 1400px) {
-  .swiperprevious-aboutusfull {
-    top: 78%;
-    width: 50px;
-    height: 50px;
-    left: 30px;
-  }
-  .swipernext-aboutusfull {
-    top: 78%;
-    width: 50px;
-    height: 50px;
-    right: 30px;
-  }
-}
-@media screen and (max-width: 1290px) {
-  .swiperprevious-aboutusfull {
-    top: 78%;
-    width: 50px;
-    height: 50px;
-    left: 0px;
-  }
-  .swipernext-aboutusfull {
-    top: 78%;
-    width: 50px;
-    height: 50px;
-    right: 0px;
-  }
-}
-@media screen and (max-width: 1225px) {
-  .swiperprevious-aboutusfull {
-    top: 78%;
-    width: 40px;
-    height: 40px;
-    left: -5px;
-  }
-  .swipernext-aboutusfull {
-    top: 78%;
-    width: 40px;
-    height: 40px;
-    right: -5px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .swiperprevious-aboutusfull {
-    top: 83%;
-    width: 40px;
-    height: 40px;
-    left: 8px;
-  }
-  .swipernext-aboutusfull {
-    top: 83%;
-    width: 40px;
-    height: 40px;
-    right: 8px;
-  }
-}
-@media screen and (max-width: 992px) {
-  .swiperprevious-aboutusfull {
-    top: 87%;
-    width: 40px;
-    height: 40px;
-    left: 4px;
-  }
-  .swipernext-aboutusfull {
-    top: 87%;
-    width: 40px;
-    height: 40px;
-    right: 4px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .swiperprevious-aboutusfull {
-    top: 87%;
-    width: 40px;
-    height: 40px;
-    left: 4px;
-  }
-  .swipernext-aboutusfull {
-    top: 87%;
-    width: 40px;
-    height: 40px;
-    right: 4px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .swiperprevious-aboutusfull {
-    top: 92%;
-    width: 30px;
-    height: 30px;
-    left: -4px;
-  }
-  .swipernext-aboutusfull {
-    top: 92%;
-    width: 30px;
-    height: 30px;
-    right: -4px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .swiperprevious-aboutusfull {
-    top: 93%;
-    width: 30px;
-    height: 30px;
-    left: -4px;
-  }
-  .swipernext-aboutusfull {
-    top: 93%;
-    width: 30px;
-    height: 30px;
-    right: -4px;
-  }
-}
-@media screen and (max-width: 992px) {
-  .section-box-aboutus {
-    margin-top: 10px !important;
-  }
-  .section-box-meetourteam-aboutus {
-    margin-top: 35px !important;
-  }
-  .section-box-newsandevents-aboutus {
-    margin-top: 10px !important;
-  }
-  .mb5 {
-    margin-bottom: 5px;
-  }
-  .button-meetourteam-aboutus {
-    margin-top: 0px !important;
-  }
-  .yellowbanner-aboutus {
-    margin-top: 40px !important;
-  }
-  .subscription-aboutus {
-    margin-top: -20px !important;
-  }
-}
-.background-random-aboutus {
-  position: relative;
-  overflow: hidden;
-}
-
-.background-random-aboutus::before,
-.background-random-aboutus::after {
-  content: "";
-  position: absolute;
-  width: 800px;
-  height: 1500px;
-  background: #f2f6fd;
-  transform-origin: top left;
-  z-index: -1;
-}
-
-.background-random-aboutus::before {
-  transform: rotate(-8deg);
-  top: 800px;
-  left: -300px;
-  border-radius: 25px;
-}
-
-.background-random-aboutus::after {
-  transform: rotate(8deg);
-  top: 1100px;
-  right: -300px;
-  border-radius: 25px;
-}
-
-/* 4th April */
-/* aboutus */
 .card-grid-4 .image-top-feature {
   padding-bottom: 10px;
 }
@@ -14927,6 +14357,7 @@ ul li:last-child .card-list-4 {
 
  }}
 /*hero secton end */
+
 /* Online-course-Video Start */
 .online-video-section-image-one {
   height: 150px;
@@ -14972,6 +14403,7 @@ ul li:last-child .card-list-4 {
   max-width: 198px;
 }
 /* Online-course-Video End */
+
 /*Popular courses Start */
 .swiperprevious-online-course {
   position: absolute;
@@ -15030,7 +14462,7 @@ ul li:last-child .card-list-4 {
 @media screen and (max-width: 1200px) {
   .article-description-online-course {
     font: 500 13px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-    height: 100px;
+    height: 119px;
  }
   .author-name-online-course {
     color: var(--brand-brand-1, #05264e);
@@ -15043,7 +14475,7 @@ ul li:last-child .card-list-4 {
 @media screen and (max-width: 760px) {
   .article-description-online-course {
     font: 500 13px/17px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-    height: 120px;
+    height: 136px;
  }
   .author-name-online-course {
     color: var(--brand-brand-1, #05264e);
@@ -15056,6 +14488,7 @@ ul li:last-child .card-list-4 {
 @media screen and (max-width: 450px) {
   .article-description-online-course {
     font: 500 11px/16px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    height:100% !important;
  }
   .author-name-online-course {
     color: var(--brand-brand-1, #05264e);
@@ -15421,7 +14854,7 @@ ul li:last-child .card-list-4 {
  }
   .article-title {
     font-size: 20px !important;
-    height: 77px !important;
+    height: 64px !important;
  }
   .article-category {
     white-space: initial;
@@ -15455,7 +14888,7 @@ ul li:last-child .card-list-4 {
  }
   .article-title {
     font-size: 20px !important;
-    height: 77px !important;
+    height: 59px !important;
  }
   .article-category {
     white-space: initial;
@@ -15489,6 +14922,26 @@ ul li:last-child .card-list-4 {
   .image-text-online-course_third {
     font-size: 16px !important;
  }
+
+}
+@media screen and (max-width: 580px){
+.article-description-online-course {
+    font: 500 13px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    height: 63px !important;
+}
+}
+@media (max-width: 574px){
+
+   .article-title {
+  font-size: 20px !important;
+  height: 42px !important;
+}
+}
+@media (max-width: 400px) {
+ .article-title {
+  font-size: 20px !important;
+  height: 38px !important;
+}
 }
 /* popular courses end */
 

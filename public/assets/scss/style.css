@@ -12937,6 +12937,24 @@ ul li:last-child .card-list-4 {
     display: none;
   }
 }
+@media screen and (max-width: 768px) {
+  .banner-hero1 .block-banner1 .industry-form-find, .banner-hero1 .block-banner1 .industry-form-find-top {
+    padding: 20px;
+    width: 520px !important;
+  }
+}
+@media screen and (max-width: 555px) {
+  .banner-hero1 .block-banner1 .industry-form-find, .banner-hero1 .block-banner1 .industry-form-find-top {
+    padding: 20px;
+    width: 400px !important;
+  }
+}
+@media screen and (max-width: 410px) {
+  .banner-hero1 .block-banner1 .industry-form-find, .banner-hero1 .block-banner1 .industry-form-find-top {
+    padding: 20px;
+    width: 341px !important;
+  }
+}
 @media (min-width: 768px) {
   .text-center1 {
     display: flex;
