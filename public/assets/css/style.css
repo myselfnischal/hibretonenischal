@@ -15603,11 +15603,11 @@ ul li:last-child .card-list-4 {
 @media (max-width: 673px) {
   .bg-img-laptop h2 {
     /* font-size: 36px !important; */
-    margin-bottom: 10px !important;
+    /* margin-bottom: 10px !important; */
     margin-left: -24px !important;
  }
   .industry-intelligence-sub-text {
-    /* font-size: 18px !important; */
+    /* font-size: 16px !important; */
     line-height: 25px !important;
     margin-left: -24px !important;
  }
