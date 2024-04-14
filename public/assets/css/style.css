@@ -15574,12 +15574,12 @@ ul li:last-child .card-list-4 {
 @media (max-width: 1183px) {
   .bg-img-laptop h2 {
     font-size: 36px !important;
-    margin-left: 0px !important;
+    margin-left: -10px !important;
  }
  .industry-intelligence-sub-text {
   font-size: 16px !important;
   line-height: 16px !important;
-  margin-left: 0px !important;
+  margin-left: -10px !important;
  }
 }
 @media (max-width: 992px) {
