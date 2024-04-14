@@ -15574,25 +15574,23 @@ ul li:last-child .card-list-4 {
 @media (max-width: 1183px) {
   .bg-img-laptop h2 {
     font-size: 36px !important;
-    margin-left: -10px !important;
+    margin-left: 0px !important;
  }
  .industry-intelligence-sub-text {
   font-size: 16px !important;
   line-height: 16px !important;
-  margin-left: -10px !important;
+  margin-left: 0px !important;
  }
 }
 @media (max-width: 992px) {
   .bg-img-laptop h2 {
     font-size: 36px !important;
     margin-bottom: 10px !important;
-    /* margin-left: -37px !important; */
+    margin-left: -15px !important;
 
  }
   .industry-intelligence-sub-text {
-    /* font-size: 16px !important; */
-    /* margin-left: -37px !important; */
-
+    margin-left: -15px !important;
  }
 }
 @media (max-width: 765x) {
