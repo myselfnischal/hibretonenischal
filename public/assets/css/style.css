@@ -11796,6 +11796,9 @@ ul li:last-child .card-list-4 {
   justify-content: center;
   align-items: center;
   position: relative;
+  padding: 0px 65px 0px 70px;
+  max-width: 1770px;
+  margin: 0 auto;
 }
 
 .banner-hero1 .block-banner1 .industry-form-find {
@@ -15400,12 +15403,7 @@ ul li:last-child .card-list-4 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
  }
 }
-.banner-hero1 {
-  padding: 0px 65px 0px 70px;
-  position: relative;
-  max-width: 1770px;
-  margin: 0 auto;
-}
+
 .overlay-loader {
   position: fixed;
   top: 0;
@@ -15769,3 +15767,13 @@ ul li:last-child .card-list-4 {
   margin-top: 50px;
 }
 /* Inner Page End */
+
+
+/* Entrepreneur Academy Start */
+
+
+
+
+
+
+/* Entrepreneur Academy End */

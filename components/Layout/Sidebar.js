@@ -75,7 +75,7 @@ const Sidebar = ({openClass}) => {
                                                 </li>
                                                 <li>
                                                     <Link legacyBehavior
-                                                          href="https://innovatio.bubbleapps.io/version-test/entre_academy">
+                                                          href="/entrepreneur-academy">
                                                         <a>Entrepreneur Academy</a>
                                                     </Link>
                                                 </li>

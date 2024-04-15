@@ -272,7 +272,11 @@ $font-family:Plus Jakarta Sans, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    position: relative;
+    padding: 0px 65px 0px 70px;
+    max-width: 1770px;
+    margin: 0 auto;
+  }
 
 .banner-hero1 {
     .block-banner1 {
@@ -584,12 +588,7 @@ $font-family:Plus Jakarta Sans, sans-serif;
 }
 
 
-.banner-hero1 {
-    padding: 0px 65px 0px 70px;
-    position: relative;
-    max-width: 1770px;
-    margin: 0 auto;
-}
+
 .overlay-loader {
     position: fixed;
     top: 0;
