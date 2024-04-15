@@ -11796,9 +11796,6 @@ ul li:last-child .card-list-4 {
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 0px 65px 0px 70px;
-  max-width: 1770px;
-  margin: 0 auto;
 }
 
 .banner-hero1 .block-banner1 .industry-form-find {
@@ -15186,6 +15183,10 @@ ul li:last-child .card-list-4 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0px 65px 0px 70px;
+  position: relative;
+  max-width: 1770px;
+  margin: 0 auto;
 }
 .banner-hero1 .block-banner1 .industry-form-find {
   background: #fff;
@@ -15203,7 +15204,11 @@ ul li:last-child .card-list-4 {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.banner-hero1 .block-banner1 .industry-form-find form, .banner-hero1 .block-banner1 .industry-form-find-top form {
+.banner-hero1 .block-banner1 .industry-form-find form{
+  width: 102%;
+  display: flex;
+}
+.banner-hero1 .block-banner1 .industry-form-find-top form {
   width: 100%;
   display: flex;
 }
@@ -15769,11 +15774,430 @@ ul li:last-child .card-list-4 {
 /* Inner Page End */
 
 
-/* Entrepreneur Academy Start */
+
+/*entrepreneur academy  start*/
 
 
+.bg-img-entrepreneur-academy {
+  display: flex;
+  height: 30vh;
+  background: url(../imgs/page/online-courses/audience.jpeg) no-repeat center center;
+  background-size: cover;
+}
+.bg-img-entrepreneur-academy h2, .bg-img-entrepreneur-academy p {
+  z-index: 2;
+  position: relative;
+  color: white;
+  padding-left: 25px;
+}
+.bg-img-entrepreneur-academy h2 {
+  border-left: 10px solid #83cbff;
+  padding-bottom: 8px;
+  padding-top: 5px;
+}
+
+.bg-img-entrepreneur-academy p{
+  border-left: 10px solid #83cbff;
+}
+.bg-img-entrepreneur-academy::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  background: #05264e;
+}
+
+.sub-heading-text-enacademy{
+  color: #66789C;
+  font-size: 24px;
+  max-width: 1035px;
+  line-height: 30px;
+}
+
+ /*Media Query */
+ @media (max-width: 1225px) {
+  .bg-img-entrepreneur-academy h2 {
+    font-size: 36px !important; 
+    margin-left: 1px !important;
+  }
+  .sub-heading-text-enacademy {
+    font-size: 20px !important;
+    margin-left: 1px !important;
+  }
+}
+@media (max-width: 990px) {
+ .bg-img-entrepreneur-academy h2 {
+  font-size: 36px !important;
+    margin-bottom: 10px !important;
+    margin-left: -30px !important;
+  }
+  .sub-heading-text-enacademy {
+    font-size: 16px !important;
+    line-height: 25px !important;
+    margin-left: -30px !important;
+  }
+}
+
+@media (max-width: 768px) {
+ .bg-img-entrepreneur-academy h2 {
+    font-size: 28px !important;
+    margin-bottom: 10px !important;
+    margin-left: 1px !important;
+  }
+  .sub-heading-text-enacademy {
+    font-size: 16px !important;
+    line-height: 25px !important;
+    margin-left: 1px !important;
+  }
+}
+@media (max-width: 660px) {
+
+  .bg-img-entrepreneur-academy h2 {
+    /* font-size: 36px !important; */
+    margin-left: -26px !important;  
+
+  }
+
+  .sub-heading-text-enacademy {
+    /* font-size: 16px !important; */
+    line-height: 20px !important;
+    margin-left: -26px !important;  
+
+}
+}
+
+@media (max-width: 575px) {
+  .bg-img-entrepreneur-academy h2 {
+    font-size: 24px !important;
+    margin-left: -64px !important;  
+
+  }
+  .sub-heading-text-enacademy {
+    /* font-size: 12px !important; */
+    line-height: 20px !important;  
+    margin-left: -64px !important;  
+}
+}
+/*Media Query  End*/
+
+ /* Share Icon Start */
+
+ .share-icon-entrepreneur-academy-container{
+  position: absolute;
+}
+
+.share-icon-entrepreneur-academy {
+  font-size: 30px;
+  color: #3c65f5;
+}
+.share-icon-entrepreneur-academy:hover {
+  transform: translateY(-2px);
+  color: #ffffff;
+  background-color: #05264e;
+  transition: 0.2s;
+  border-radius: 4px;
+}
 
 
+@media screen and (max-width:1200px){
+  .share-icon-entrepreneur-academy{
+    margin-left: 35px !important;
+    margin-top: -76px !important;
+
+  }
+  }
+@media screen and (max-width:999px){
+  .share-icon-entrepreneur-academy{
+    margin-left: 14px !important;
+    margin-top: -76px !important;
+
+  }
+  }
+
+@media screen and (max-width:768px){
+  .share-icon-entrepreneur-academy{
+    margin-left: 32px !important;
+    margin-top: -76px !important;
+
+  }
+  }
+@media screen and (max-width:580px){
+.share-icon-entrepreneur-academy{
+  margin-left: 3px !important;
+  margin-top: -80px !important;
+}
+}
+/* Share Icon End */
+
+/* EntrepreneurAcademyCounter Start */
+.counter {
+  color: var(--brand-brand-2, #3C65F5);
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+  
+.countertext {
+  color: var(--text-Paragrap-2, var(--text-Paragrap-2, #435579));
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+/* EntrepreneurAcademyCounter End */
+
+/* Popular acceletor lesson Start */
+
+.author-image-entrepreneur-academy{
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 35px;
+  margin: auto 0;
+  border-radius: 50%;
+}
+.article-description-entrepreneur-academy {
+  color: var(--text-paragraph, #6c6e70);
+  align-self: center;
+  margin-top: 18px;
+  font: 500 16px/25px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  margin: 0 10px;
+  height: 125px;
+  text-align: justify;
+  overflow: hidden;
+}
 
 
-/* Entrepreneur Academy End */
+.read-time-entrepreneur-academy {
+  color: var(--text-Paragrap-2, #435579);
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: auto 0;
+  font: 500 16px/156% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  text-align: right;
+  margin-right: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .article-description-entrepreneur-academy {
+    font: 500 13px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    height: 100px;
+ }
+
+  .read-time-entrepreneur-academy {
+    font: 500 10px/135% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+ }
+}
+@media screen and (max-width: 760px) {
+  .article-description-entrepreneur-academy {
+    font: 500 13px/17px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    height: 120px;
+ }
+
+  .read-time-entrepreneur-academy{
+    font: 500 12px/135% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+ }
+}
+@media screen and (max-width: 450px) {
+  .article-description-online-course {
+    font: 500 11px/16px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+ }
+
+  .read-time-entrepreneur-academy {
+    font: 500 10px/135% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+ }
+}
+
+@media screen and (max-width: 1400px) {
+  .author-image-entrepreneur-academy {
+    width: 30px;
+ }
+}
+@media screen and (max-width: 1290px) {
+
+  .author-image-entrepreneur-academy {
+    width: 30px;
+ }
+}
+@media screen and (max-width: 1225px) {
+  .article-title {
+    font-size: 20px !important;
+    height: 77px !important;
+ }
+  .author-image-entrepreneur-academy {
+    width: 30px;
+ }
+}
+@media screen and (max-width: 1200px) {
+
+  .article-title {
+    font-size: 20px !important;
+    height: 77px !important;
+ }
+  .author-image-entrepreneur-academy {
+    width: 30px;
+ }
+
+  .author-image-entrepreneur-academy {
+    width: 30px;
+ }
+}
+@media screen and (max-width: 992px) {
+
+  .author-image-entrepreneur-academy{
+    width: 30px;
+ }
+
+}
+@media screen and (max-width: 768px) {
+
+  .author-image-entrepreneur-academy {
+    width: 30px;
+ }
+}
+@media screen and (max-width: 576px) {
+
+  .author-image-entrepreneur-academy {
+    width: 30px;
+ }
+}
+@media screen and (max-width: 450px) {
+
+  .author-image-entrepreneur-academy {
+    width: 30px;
+ }
+}
+@media screen and (max-width: 400px) {
+  .author-image-entrepreneur-academy {
+    width: 20px;
+ }
+
+}
+.background-random-entrepreneur-academy {
+  position: relative;
+  overflow: hidden;
+}
+.background-random-entrepreneur-academy::before, .background-random-entrepreneur-academy::after {
+  content: "";
+  position: absolute;
+  width: 800px;
+  height: 1500px;
+  background: #f2f6fd;
+  transform-origin: top left;
+  z-index: -1;
+}
+.background-random-entrepreneur-academy::before {
+  transform: rotate(-8deg);
+  top: 1200px;
+  left: -300px;
+  border-radius: 12px;
+}
+.background-random-entrepreneur-academy::after {
+  transform: rotate(8deg);
+  top: 800px;
+  right: -300px;
+  border-radius: 25px;
+}
+
+.card-content {
+  border-radius: 16px;
+  border: 1px solid #e0e6f6;
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 13px 12px;
+  height: 100%;
+}
+.featured-image {
+  aspect-ratio: 1.85;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.article-title {
+  color: var(--brand-brand-1, #05264e);
+  align-self: start;
+  margin: 22px 0 0 10px;
+  font: 700 20px/26px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  height: 60px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.image-text {
+  position: absolute;
+  background-color: #b4c0e0;
+  border: none;
+  border-radius: 6px;
+  height: auto;
+  font-size: 16px;
+  padding: 0px 5px 0px 8px;
+  margin-left: 45px;
+  margin-top: 35px;
+  color: #3c65f5;
+}
+@media (max-width: 991px) {
+  .card-content {
+    max-width: 100%;
+ }
+  .featured-image {
+    max-width: 100%;
+ }
+}
+@media (max-width: 768px) {
+  .card-content {
+    padding: 10px;
+ }
+  .card-list {
+    grid-template-columns: repeat(auto-fill, minmax(calc(50% - 20px), 1fr));
+ }
+  .featured-image {
+    max-width: 100%;
+ }
+}
+.image-text-entrepreneur-academy {
+  position: absolute;
+  background-color: #b4c0e0;
+  border: none;
+  border-radius: 6px;
+  height: auto;
+  font-size: 16px;
+  padding: 0px 5px 0px 8px;
+  margin-left: 22px;
+  margin-top: 15px;
+  color: #3c65f5;
+}
+
+.image-text-entrepreneur-academy-type-one{
+  position: absolute;
+  background-color: #b4c0e0;
+  border: none;
+  border-radius: 6px;
+  height: auto;
+  font-size: 16px;
+  padding: 0px 5px 0px 8px;
+  margin-left: 131px;
+  margin-top: 16px;
+  color: #3c65f5;
+}
+/* Popular acceletor lesson End */
+
+/*logo style start */
+
+/* logo style end */
