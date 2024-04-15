@@ -117,7 +117,7 @@ export default function Index() {
                         </div>
                     </section>
 
-                    <section className="section-box mt-65 mb-25">
+                    {/* <section className="section-box mt-65 mb-25">
                     <div className="container">
                             <div className="list-brands mt-40 mb-30">
                                 <div className="box-swiper">
@@ -127,8 +127,8 @@ export default function Index() {
                                 </div>
                             </div>
                         </div>
-                        </section>
-
+                        </section> */}
+{/* 
                         <section className="section-box mt-50">
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
@@ -148,7 +148,7 @@ export default function Index() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
 
                     <div className="col d-flex justify-content-center align-items-center mt-50">
                                     <button className="btn btn-sign-up-inverted fs-6 hover-up font-force-lg">
