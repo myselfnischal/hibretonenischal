@@ -55,7 +55,7 @@ export default function Index() {
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
                                 <div className="text-center">
-                                    <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>
+                                    <h2 className="section-title exlpore-online-course mb-10">
                                     Explore our Course Categories
                                     </h2>
                                     <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto" style={{color:'#435579'}}>
@@ -78,7 +78,7 @@ export default function Index() {
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
                                 <div className="text-center">
-                                    <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>
+                                    <h2 className="section-title selection-online-courses mb-10">
                                    Selection of Popular Courses
                                     </h2>
                                     <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto" style={{color:'#435579'}}>

@@ -14181,6 +14181,15 @@ ul li:last-child .card-list-4 {
  .online-course-text {
   margin-left: -67px !important;
 }
+.text-size-online-course{
+  font-size: 24px !important;
+}
+.exlpore-online-course{
+  font-size: 24px !important;
+}
+.selection-online-courses{
+  font-size: 24px !important;
+}
 }
 @media (max-width: 455px) {
   .bg-img-online-course h2 {
@@ -14190,6 +14199,16 @@ ul li:last-child .card-list-4 {
     font-size: 16px !important;
     margin-left: -67px !important;
  }
+ .text-size-online-course{
+  font-size: 24px !important;
+}
+.exlpore-online-course{
+  font-size: 24px !important;
+}
+.selection-online-courses{
+  font-size: 24px !important;
+}
+
 }
 @media (max-width: 400px) {
   .bg-img-online-course h2 {
@@ -14199,6 +14218,15 @@ ul li:last-child .card-list-4 {
  }
  .online-course-text {
   margin-left: -65px !important;
+}
+.text-size-online-course{
+  font-size: 24px !important;
+}
+.exlpore-online-course{
+  font-size: 24px !important;
+}
+.selection-online-courses{
+  font-size: 24px !important;
 }
 }
 /*Media Query End*/
