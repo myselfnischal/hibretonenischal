@@ -15102,7 +15102,7 @@ ul li:last-child .card-list-4 {
     line-height: 20px !important;
  }
  .text-size{
-  font-size: 20px !important;
+  font-size: 24px !important;
 }
 }
 @media (max-width: 390px) {
@@ -15114,7 +15114,7 @@ ul li:last-child .card-list-4 {
     line-height: 20px !important;
  }
  .text-size{
-    font-size: 20px !important;
+    font-size: 24px !important;
 }
 }
 /*Media Query End*/
