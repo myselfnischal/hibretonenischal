@@ -51,7 +51,7 @@ const DiscoverButton = () => {
                 
                         </div>
                         <div className="text-center">
-                            <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>
+                            <h2 className="section-title text-size mb-10" style={{fontSize:'36px'}}>
                                 Research your Market and Occupation
                             </h2>
                             <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto" style={{color:'#435579'}}>

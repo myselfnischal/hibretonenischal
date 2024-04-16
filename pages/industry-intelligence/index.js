@@ -88,7 +88,7 @@ export default function Index() {
                   sx={{ display: { xs: "flex", md: "flex", lg: "none" } }}
                 >
                   <Grid item xs={12} md={12} sx={{ marginBottom: "20px" }}>
-                    <h3 style={{ fontSize: "20px !important" }}>Intelligence to Plan or Change Career</h3>
+                    <h3 style={{ fontSize: "24px !important" }}>Intelligence to Plan or Change Career</h3>
                   </Grid>
                   <Grid item xs={12} md={12}>
                     <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
@@ -180,7 +180,7 @@ export default function Index() {
                   sx={{ display: { xs: "flex", md: "flex", lg: "none" } }}
                 >
                   <Grid item xs={12} md={12} sx={{ marginBottom: "20px" }}>
-                    <h3 style={{ fontSize: "20px !important" }}>Market Sector Guide</h3>
+                    <h3 style={{ fontSize: "24px !important" }}>Market Sector Guide</h3>
                   </Grid>
                   <Grid item xs={12} md={12}>
                     <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
@@ -266,7 +266,7 @@ export default function Index() {
                   sx={{ display: { xs: "flex", md: "flex", lg: "none" } }}
                 >
                   <Grid item xs={12} md={12} sx={{ marginBottom: "20px" }}>
-                    <h3 style={{ fontSize: "20px !important" }}>New Occupation Guide</h3>
+                    <h3 style={{ fontSize: "24px !important" }}>New Occupation Guide</h3>
                   </Grid>
                   <Grid item xs={12} md={12}>
                     <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
@@ -348,7 +348,7 @@ export default function Index() {
                   sx={{ display: { xs: "flex", md: "flex", lg: "none" } }}
                 >
                   <Grid item xs={12} md={12}>
-                    <h3 style={{fontSize:'20px !important'}}>Discover Business Idea</h3>
+                    <h3 style={{fontSize:'24px !important'}}>Discover Business Idea</h3>
                   </Grid>
                   <Grid className="mt-10" item xs={12} md={12}>
                     <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">

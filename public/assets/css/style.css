@@ -15081,7 +15081,7 @@ ul li:last-child .card-list-4 {
 }
 @media (max-width: 580px) {
   .bg-img-laptop h2 {
-    font-size: 26px !important;
+    font-size: 24px !important;
     margin-left: -69px !important;
  }
   .industry-intelligence-sub-text {
@@ -15089,24 +15089,33 @@ ul li:last-child .card-list-4 {
     line-height: 20px !important;
     margin-left: -69px !important;
  }
+ .text-size{
+  font-size: 24px !important;
+}
 }
 @media (max-width: 445px) {
   .bg-img-laptop h2 {
-    font-size: 20px !important;
+    font-size: 24px !important;
  }
   .industry-intelligence-sub-text {
     font-size: 14px !important;
     line-height: 20px !important;
  }
+ .text-size{
+  font-size: 20px !important;
+}
 }
 @media (max-width: 390px) {
   .bg-img-laptop h2 {
-    font-size: 20px !important;
+    font-size: 24px !important;
  }
   .industry-intelligence-sub-text {
     font-size: 14px !important;
     line-height: 20px !important;
  }
+ .text-size{
+    font-size: 20px !important;
+}
 }
 /*Media Query End*/
 /* Share Icon Start */
