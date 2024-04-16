@@ -16048,8 +16048,8 @@ ul li:last-child .card-list-4 {
 }
 @media screen and (max-width: 1200px) {
   .article-description-entrepreneur-academy {
-    font: 500 13px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-    height: 100px;
+    font: 500 14px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    height: 120px;
  }
 
   .read-time-entrepreneur-academy {
@@ -16058,7 +16058,7 @@ ul li:last-child .card-list-4 {
 }
 @media screen and (max-width: 760px) {
   .article-description-entrepreneur-academy {
-    font: 500 16px/17px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    font: 500 12px/17px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
     height: 120px;
  }
 
@@ -16075,27 +16075,8 @@ ul li:last-child .card-list-4 {
     font: 500 10px/135% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
  }
 }
-/* 
-@media screen and (max-width: 1400px) {
-  .author-image-entrepreneur-academy {
-    width: 30px;
- }
-}
-@media screen and (max-width: 1290px) {
 
-  .author-image-entrepreneur-academy {
-    width: 30px;
- }
-} */
-@media screen and (max-width: 1225px) {
-  .article-title-entrepreneur-academy {
-    font-size: 20px !important;
-    height: 77px !important;
- }
-  .author-image-entrepreneur-academy {
-    width: 30px;
- }
-}
+
 @media screen and (max-width: 1200px) {
 
   .article-title-entrepreneur-academy {
@@ -16164,7 +16145,7 @@ font-size: 16px !important;
 @media screen and (max-width: 468px){
   .article-description-entrepreneur-academy {
       font: 500 16px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-      height: 100px !important;
+      height: 120px !important;
   }
   
   .author-image-entrepreneur-academy {
