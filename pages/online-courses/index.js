@@ -48,10 +48,10 @@ export default function Index() {
           <section className="section-box mt-25 mb-25">
             <YellowBanner />
           </section>
-          <section className="section-box mt-50 mb-25">
+          <section className="section-box mt-25 mb-25">
         < OnlineCourseVideo />
         </section>
-          <section className="section-box mt-50 mb-25">
+          <section className="section-box mt-25 mb-25">
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
                                 <div className="text-center">
@@ -74,7 +74,7 @@ export default function Index() {
                         </div>
                     </section> 
 
-          <section className="section-box mb-25">
+          <section className="section-box mb-25" style={{marginTop:'-30px'}}>
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
                                 <div className="text-center">

@@ -28,7 +28,7 @@ const OnlineCourse = () => {
                                 <IoShareSocialOutline className="share-icon-online-course" />
                         </div>
                         <div className="text-center">
-                            <h2 className="section-title  text-size-online-course mb-10" style={{fontSize:'36px !important'}}>
+                            <h2 className="section-title  text-size-online-course mb-10">
                               Upskilling  for Better-paying Careers
                             </h2>
                             <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto"style={{color:'#435579'}}>
