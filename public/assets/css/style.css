@@ -15921,7 +15921,7 @@ ul li:last-child .card-list-4 {
   }
   .sub-heading-text-enacademy {
     font-size: 12px !important;
-    line-height: 20px !important;  
+    line-height: 15px !important;  
     margin-left: -64px !important;  
 }
 }
@@ -15935,6 +15935,9 @@ ul li:last-child .card-list-4 {
 }
 .text-size-patners-entrepreneur-academy{
   font-size: 26px !important;;  
+}
+.testonomial-entrepreneur-academy{
+  font-size: 26px !important;
 }
 }
 

@@ -76,15 +76,15 @@ export default function EntrepreneurAcademyVideo() {
   sx={{ display: { xs: 'flex', sm: 'flex', md: 'none', lg: 'none' } }}
 >
   <Grid item xs={12} md={12}>
-    <h3 style={{ fontSize: '24px !important' }}>Preferred Partners</h3>
+    <h3 style={{ fontSize: '26px !important' }}>Preferred Partners</h3>
   </Grid>
-  <Grid item xs={12} md={12} style={{ marginTop: '60px' }}>
+  <Grid item xs={12} md={12} style={{ marginTop: '20px' }}>
   <div className='grid__thumb w-img fix grid_thumb_height grid_thumb'>
                                 <iframe width="" height="100%" src="https://www.youtube.com/embed/XPf1kLnJpio" frameborder="0" allowfullscreen></iframe>
                             </div>
   </Grid>
   <Grid item xs={12} md={12} style={{ marginTop: '40px' }}>
-    <div style={{ textAlign: 'justify' }}>
+    <div  style={{ textAlign: 'justify',marginTop:'-20px' }}>
     <p className="" style={{ color: "#6C6E70" }}>
                                  The Entrepreneur Accelerator is a 20
                                 course programme and the most popular 
