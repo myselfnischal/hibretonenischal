@@ -112,71 +112,7 @@ export default function EntrepreneurAcademyVideo() {
     </div>
   </Grid>
   </Grid>
-                                {/* <Grid
-                                    container
-                                    alignItems="center"
-                                    style={{ minWidth: "100%" }}
-                                    sx={{
-                                        display: {
-                                            xs: "flex",
-                                            md: "flex",
-                                            lg: "none",
-                                        },
-                                    }}
-                                >
-                                    <Grid
-                                        item
-                                        xs={12}
-                                        md={12}
-                                        sx={{ marginBottom: "20px" }}
-                                    >
-                                       <h3 style={{ fontSize: '24px !important' }}>Preferred Partners</h3>
-                                    </Grid>
-                                    <Grid item xs={12} md={12}>
-                                        <iframe
-                                            className="content-media"
-                                            width="663"
-                                            height="100%"
-                                            src="https://www.youtube.com/embed/XPf1kLnJpio"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            referrerpolicy="strict-origin-when-cross-origin"
-                                            allowfullscreen
-                                        ></iframe>
-                                    </Grid>
-                                    <Grid item xs={12} md={12}>
-                                        <div className="mt-10">
-                                            <p className="color-text-paragraph mt-10">
-                                                Hear from entrepreneurs who have
-                                                successfully used grant funding
-                                                to develop their product. Then
-                                                applying for additional grant
-                                                funding to increase staff and
-                                                grow their business.
-                                            </p>
-                                            <p className="color-text-paragraph mt-10">
-                                                Grants can be for innovative
-                                                ideas, but grants are also
-                                                available for traditional
-                                                businesses looking to survive
-                                                through troubled times, or to
-                                                grow. Our Grant Finder will
-                                                point you in the right direction
-                                                with a few words. The Grant
-                                                Finder will also find similar
-                                                grants which you may also be
-                                                eligible for.
-                                            </p>
-                                        </div>
-                                        <div className="mt-20">
-                            
-                      <button href="" className="btn btn-default fs-6">
-                      Find a Bursary
-                      </button>
-                                        </div>
-                                    </Grid>
-                                </Grid> */}
+
                             </div>
                         </div>
                     </section>

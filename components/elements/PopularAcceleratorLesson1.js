@@ -82,11 +82,12 @@ const PopularAcceleratorLesson = () => {
                                             alt="Article featured image"
                                             className="featured-image"
                                         />
-                                           <p className='image-text-entrepreneur-academy'>{item.type}</p>
-                                           <p className='image-text-entrepreneur-academy-type-one'>{item.type1}</p>
+                                        
                                         <div></div>
                                         <a href="/entrepreneur-academy">
-                                                    <div className="article-title">{item.title}</div>
+                                        <p className='image-text-entrepreneur-academy'>{item.type}</p>
+                                           <p className='image-text-entrepreneur-academy-type-one'>{item.type1}</p>
+                                                    <div className="article-title-entrepreneur-academy">{item.title}</div>
                                             </a>
                                         <p className="article-description-entrepreneur-academy">{item.description}</p>
                                         <div className="article-meta">

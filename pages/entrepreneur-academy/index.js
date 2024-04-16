@@ -61,7 +61,7 @@ export default function Index() {
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
                                 <div className="text-center">
-                                    <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>
+                                    <h2 className="section-title text-size-entrepreneur-academy mb-10">
                                     Entrepreneur Accelerator
                                     </h2>
                                 </div>
@@ -77,7 +77,7 @@ export default function Index() {
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
                                 <div className="text-center">
-                                    <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>
+                                    <h2 className="section-title text-size-popular-entrepreneur-academy mb-10">
                                     Most Popular Accelerator Lessons
                                     </h2>
                                     <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto" style={{color:'#435579'}}>
@@ -99,12 +99,12 @@ export default function Index() {
                             </div>
                         </div>
                     </section>
-
+{/* 
                     <section className="section-box mt-50 mb-25">
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
                                 <div className="text-center">
-                                    <h2 className="section-title mb-10" style={{fontSize:'36px !important'}}>
+                                    <h2 className="section-title text-size-patners-entrepreneur-academy mb-10">
                                     Featured Partners Rewarding Your Learning
                                     </h2>
                                     <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto" style={{color:'#435579'}}>
@@ -115,7 +115,7 @@ export default function Index() {
                           
                             </div>
                         </div>
-                    </section>
+                    </section> */}
 
                     {/* <section className="section-box mt-65 mb-25">
                     <div className="container">
@@ -127,7 +127,7 @@ export default function Index() {
                                 </div>
                             </div>
                         </div>
-                        </section> */}
+                        </section>
 {/* 
                         <section className="section-box mt-50">
                         <div className="section-box wow animate__animated animate__fadeIn">
