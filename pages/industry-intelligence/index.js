@@ -320,7 +320,7 @@ export default function Index() {
                     <h3 className="mt-5" style={{ fontSize: "36px !important" }}>
                       Discover Business Idea
                     </h3>
-                    <div className="title-details">
+                    <div  className="title-details">
                       <p className="p-color mt-10">
                         If you are in need of inspiration to start a new
                         business, we've got you covered. You can discover the
@@ -360,7 +360,7 @@ export default function Index() {
                     </div>
                   </Grid>
                   <Grid item xs={12} md={12}>
-                    <div style={{ textAlign: "justify" }}>
+                    <div  className="mt-10" style={{ textAlign: "justify" }}>
                       <p className="p-color">
                         If you are in need of inspiration to start a new
                         business, we've got you covered. You can discover the
