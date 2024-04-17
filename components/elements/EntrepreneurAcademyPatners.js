@@ -77,16 +77,16 @@ export default function EntrepreneurAcademyVideo() {
                                 <iframe width="" height="100%" src="https://www.youtube.com/embed/XPf1kLnJpio" frameborder="0" allowfullscreen></iframe>
                             </div>
   </Grid>
-  <Grid item xs={12} md={12} style={{ marginTop: '40px' }}>
-  <div className="mt-10" style={{ textAlign: 'justify'}}>
-                      <p className=" mt-10" style={{ color: "#6C6E70" }}>
+  <Grid item xs={12} md={12} style={{marginTop:'10px '}}>
+  <div style={{ textAlign: 'justify'}}>
+                      <p style={{ color: "#6C6E70" }}>
                       Complete the courses and pass the quizzes to receive incentives to learning from our partners.
                        Win a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin 
                        Entertainment. Win tasty macaroons  from Ms Macaroon, even some time with a life coach. hibretOne 
                        with our fantastic partners aims to incentivise your learning and success.
                       </p>
                               
-                      <p className=" mt-10" style={{ color: "#6C6E70" }}>
+                      <p style={{ color: "#6C6E70" }}>
                       Complete the courses and pass the quizzes to receive incentives to learning from our partners.
                        Win a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin 
                        Entertainment. Win tasty macaroons  from Ms Macaroon, even some time with a life coach. hibretOne 
