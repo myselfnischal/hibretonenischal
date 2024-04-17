@@ -39,26 +39,20 @@ export default function EntrepreneurAcademyVideo() {
                                         lg={6}
                                         sx={{ paddingLeft: { lg: "75px" } }}
                                     >
-                                        <h3 style={{ fontSize: '36px !important' }}>Preferred Partners</h3>
-                                        <div className="mt-10">
-                                        <p className="" style={{ color: "#6C6E70" }}>
-                                 The Entrepreneur Accelerator is a 20
-                                course programme and the most popular 
-                                learning programme within the Entrepreneur Academy. 
-                      </p>
-                            
+                                        <h3 style={{ fontSize: '36px !important' }}>Channel Partners</h3>
+                                        <div className="mt-10" style={{ textAlign: 'justify'}}>
                       <p className=" mt-10" style={{ color: "#6C6E70" }}>
-                      90% of entrepreneurs fail within 12 months. Research conducted
-                      by NatWest show 82% of entrepreneurs who have completed an in-person
-                     Accelerator are still in business 3 years on. The power of Accelerators 
-                     to improve startup success is proven and why every entrepreneur wishing 
-                     to start a successful business is incentivised to complete the programme.
+                      Complete the courses and pass the quizzes to receive incentives to learning from our partners.
+                       Win a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin 
+                       Entertainment. Win tasty macaroons  from Ms Macaroon, even some time with a life coach. hibretOne 
+                       with our fantastic partners aims to incentivise your learning and success.
                       </p>
                               
                       <p className=" mt-10" style={{ color: "#6C6E70" }}>
-                      The hibretOne Accelerator gets you prepared and when completed,
-                       provides an overview of the key elements to start an enterprise.
-                        finger-tips.
+                      Complete the courses and pass the quizzes to receive incentives to learning from our partners.
+                       Win a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin 
+                       Entertainment. Win tasty macaroons  from Ms Macaroon, even some time with a life coach. hibretOne 
+                       with our fantastic partners aims to incentivise your learning and success.
                       </p>
     </div>
                  <div className="mt-20 mb-30">
@@ -84,25 +78,19 @@ export default function EntrepreneurAcademyVideo() {
                             </div>
   </Grid>
   <Grid item xs={12} md={12} style={{ marginTop: '40px' }}>
-    <div  style={{ textAlign: 'justify',marginTop:'-20px' }}>
-    <p className="" style={{ color: "#6C6E70" }}>
-                                 The Entrepreneur Accelerator is a 20
-                                course programme and the most popular 
-                                learning programme within the Entrepreneur Academy. 
-                      </p>
-                            
+  <div className="mt-10" style={{ textAlign: 'justify'}}>
                       <p className=" mt-10" style={{ color: "#6C6E70" }}>
-                      90% of entrepreneurs fail within 12 months. Research conducted
-                      by NatWest show 82% of entrepreneurs who have completed an in-person
-                     Accelerator are still in business 3 years on. The power of Accelerators 
-                     to improve startup success is proven and why every entrepreneur wishing 
-                     to start a successful business is incentivised to complete the programme.
+                      Complete the courses and pass the quizzes to receive incentives to learning from our partners.
+                       Win a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin 
+                       Entertainment. Win tasty macaroons  from Ms Macaroon, even some time with a life coach. hibretOne 
+                       with our fantastic partners aims to incentivise your learning and success.
                       </p>
                               
                       <p className=" mt-10" style={{ color: "#6C6E70" }}>
-                      The hibretOne Accelerator gets you prepared and when completed,
-                       provides an overview of the key elements to start an enterprise.
-                        finger-tips.
+                      Complete the courses and pass the quizzes to receive incentives to learning from our partners.
+                       Win a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin 
+                       Entertainment. Win tasty macaroons  from Ms Macaroon, even some time with a life coach. hibretOne 
+                       with our fantastic partners aims to incentivise your learning and success.
                       </p>
     </div>
                  <div className="mt-20 mb-30">

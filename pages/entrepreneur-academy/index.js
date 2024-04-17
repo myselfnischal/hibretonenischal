@@ -80,7 +80,7 @@ export default function Index() {
                                     Byte-sized entrepreneur learning
                                     </p>
                                 </div>
-                                <div className="box-swiper mt-20 grant-category">
+                                <div className="mt-20 grant-category">
                                     <div>
                                         <PopularAcceleratorLessonOne />
                                         <PopularAcceleratorLessonTwo />
@@ -88,9 +88,9 @@ export default function Index() {
                                   
                                 </div>
                                   <div className="col d-flex justify-content-center align-items-center mt-35">
-                        <button href="" className="btn btn-default fs-6">
+                        <a href="/entrepreneur-academy/accelerator-programme-courses" className="btn btn-default fs-6">
                        Get Started
-                          </button>
+                          </a>
                           </div>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ export default function Index() {
                                     <h2 className="section-title text-size-patners-entrepreneur-academy mb-10">
                                     Featured Partners Rewarding Your Learning
                                     </h2>
-                                    <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto" style={{color:'#435579'}}>
+                                    <p className="font-lg fw-bold color-text-paragraph w-lg-57 mx-auto" style={{color:'#435579'}}>
                                     A selection of our Partners, incentivising your entrepreneurial learning journey.
                                     </p>
                                 </div>

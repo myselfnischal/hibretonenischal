@@ -53,10 +53,6 @@ const PopularAcceleratorLesson = () => {
                 <Swiper
                     slidesPerView={3}
                     spaceBetween={30}
-                    navigation={{
-                        nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-                    }}
                     breakpoints={{
                         320: {
                             slidesPerView: 1,
@@ -74,7 +70,7 @@ const PopularAcceleratorLesson = () => {
                 >
                     {data.map((item, i) => (
                         <SwiperSlide key={i}>
-                            <div className="swiper-slide hover-up">
+                            <div>
                             <div className="card-content">
                                         <img
                                             loading="lazy"

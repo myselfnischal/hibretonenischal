@@ -76,7 +76,7 @@ export default function EntrepreneurAcademyCounter() {
                                                 60,000+
                                                 </span>
                                             </h2>
-                                            <span className="countertext">Grants directed to founders, pro-bono </span>
+                                            <span className="countertext">Free vocational & professional courses  </span>
                                         </div>
                                     </div>
                                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12" style={{marginTop:'20px'}}>
@@ -86,7 +86,7 @@ export default function EntrepreneurAcademyCounter() {
                                                 10,000+
                                                 </span>
                                             </h2>
-                                            <span className="countertext">Users facilitated and guided every month </span>
+                                            <span className="countertext">Learners & aspirers every month </span>
 
                                         </div>
                                     </div>
@@ -97,7 +97,7 @@ export default function EntrepreneurAcademyCounter() {
                                                 220+
                                                 </span>
                                             </h2>
-                                            <span className="countertext">Socio-economic impact of our pilot </span>
+                                            <span className="countertext">Academy content providers </span>
 
                                         </div>
                                     </div>
@@ -108,7 +108,7 @@ export default function EntrepreneurAcademyCounter() {
                                                 £7.3m+
                                                 </span>
                                             </h2>
-                                            <span className="countertext">Business support interventions </span>
+                                            <span className="countertext">Directed to learners attending the courses</span>
                                         </div>
                                     </div>
                                 </div>
