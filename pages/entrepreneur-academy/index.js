@@ -76,7 +76,7 @@ export default function Index() {
                                     <h2 className="section-title text-size-popular-entrepreneur-academy mb-10">
                                     Most Popular Accelerator Lessons
                                     </h2>
-                                    <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto" style={{color:'#435579'}}>
+                                    <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto" style={{color:'#435579',fontSize:'18px !important'}}>
                                     Byte-sized entrepreneur learning
                                     </p>
                                 </div>
@@ -103,8 +103,8 @@ export default function Index() {
                                     <h2 className="section-title text-size-patners-entrepreneur-academy mb-10">
                                     Featured Partners Rewarding Your Learning
                                     </h2>
-                                    <p className="font-lg fw-bold color-text-paragraph w-lg-57 mx-auto" style={{color:'#435579'}}>
-                                    A selection of our Partners, incentivising your entrepreneurial learning journey.
+                                    <p className="font-lg fw-bold color-text-paragraph w-lg-57 mx-auto" style={{color:'#435579',fontSize:'18px !important'}}>
+                                    A selection of our Partners, incentivising your  learning journey
                                     </p>
                                 </div>
                                < EntrepreneurAcademyPatners />
@@ -132,7 +132,7 @@ export default function Index() {
                                     <h2 className="section-title testonomial-entrepreneur-academy mb-10 wow animate__animated animate__fadeInUp">
                                         Testimonials
                                     </h2>
-                                    <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto wow animate__animated animate__fadeInUp">
+                                    <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto wow animate__animated animate__fadeInUp" style={{fontSize:'18px !important'}}>
                                     Trusted feedback from aspirers attending our programmes 
                                         
                                     </p>

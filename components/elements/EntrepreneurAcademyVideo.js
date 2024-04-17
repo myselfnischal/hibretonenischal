@@ -59,9 +59,9 @@ export default function EntrepreneurAcademyVideo() {
                       </p>
                             </div>
                             <div className="mt-20 mb-30">
-                      <button href="" className="btn btn-default fs-6">
+                      <a href="/entrepreneur-academy/accelerator-programme-courses" className="btn btn-default fs-6">
                       Get Started
-                      </button>
+                      </a>
                     </div>
                         </Grid>
                     </Grid>
@@ -126,9 +126,9 @@ export default function EntrepreneurAcademyVideo() {
                       </p>
     </div>
     <div className="mt-20 mb-30">
-      <button href="" className="btn btn-default fs-6">
-        Get Started
-      </button>
+    <a href="/entrepreneur-academy/accelerator-programme-courses" className="btn btn-default fs-6">
+                      Get Started
+                      </a>
     </div>
   </Grid>
 </Grid>

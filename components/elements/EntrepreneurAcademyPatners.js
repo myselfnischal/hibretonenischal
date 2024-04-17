@@ -40,8 +40,8 @@ export default function EntrepreneurAcademyVideo() {
                                         sx={{ paddingLeft: { lg: "75px" } }}
                                     >
                                         <h3 style={{ fontSize: '36px !important' }}>Channel Partners</h3>
-                                        <div className="mt-10" style={{ textAlign: 'justify'}}>
-                      <p className=" mt-10" style={{ color: "#6C6E70" }}>
+                                        <div style={{ textAlign: 'justify',marginTop:'27px !important'}}>
+                      <p className=" mt-27" style={{ color: "#6C6E70" }}>
                       Complete the courses and pass the quizzes to receive incentives to learning from our partners.
                        Win a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin 
                        Entertainment. Win tasty macaroons  from Ms Macaroon, even some time with a life coach. hibretOne 
@@ -77,7 +77,7 @@ export default function EntrepreneurAcademyVideo() {
                                 <iframe width="" height="100%" src="https://www.youtube.com/embed/XPf1kLnJpio" frameborder="0" allowfullscreen></iframe>
                             </div>
   </Grid>
-  <Grid item xs={12} md={12} style={{marginTop:'10px '}}>
+  <Grid item xs={12} md={12} style={{marginTop:'20px '}}>
   <div style={{ textAlign: 'justify'}}>
                       <p style={{ color: "#6C6E70" }}>
                       Complete the courses and pass the quizzes to receive incentives to learning from our partners.

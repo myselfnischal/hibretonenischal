@@ -13,7 +13,7 @@ import "swiper/css/grid";
 const PopularAcceleratorLesson2 = () => {
     const data = [
         {
-            image: "assets/imgs/page/online-courses/img1.png",
+            image: "assets/imgs/page/entrepreneur-academy/3.jpg",
             title: "Pitching, Testing, and Prototyping",
             description:
             "We delve into the dynamic trio of pitching,testing,and prototyping in the enterpreneurial journey.Explore the art of carfting compelling pitches to effectively communicate your business ideas...more ",

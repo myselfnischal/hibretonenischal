@@ -43,8 +43,8 @@ const PopularAcceleratorLesson = () => {
         author: {
             image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
       },
-      type:"People",
-      type1:"Strategic"
+      type:"Strategic",
+      type1:"People"
   },
   ];
     return (
