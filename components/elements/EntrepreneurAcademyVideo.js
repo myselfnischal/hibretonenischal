@@ -1,5 +1,10 @@
 import { Grid } from '@mui/material';
 
+const handleClick = () => {
+  const url = '/entrepreneur-academy/accelerator-programme-courses';
+  window.open(url, '_blank');
+};
+
 
 export default function EntrepreneurAcademyVideo() {
     return (
@@ -59,9 +64,9 @@ export default function EntrepreneurAcademyVideo() {
                       </p>
                             </div>
                             <div className="mt-20 mb-30">
-                      <a href="/entrepreneur-academy/accelerator-programme-courses" className="btn btn-default fs-6">
+                      <button className="btn btn-default fs-6" onClick={handleClick}>
                       Get Started
-                      </a>
+                      </button>
                     </div>
                         </Grid>
                     </Grid>
@@ -126,9 +131,9 @@ export default function EntrepreneurAcademyVideo() {
                       </p>
     </div>
     <div className="mt-20 mb-30">
-    <a href="/entrepreneur-academy/accelerator-programme-courses" className="btn btn-default fs-6">
+    <button  className="btn btn-default fs-6"  onClick={handleClick}>
                       Get Started
-                      </a>
+                      </button>
     </div>
   </Grid>
 </Grid>

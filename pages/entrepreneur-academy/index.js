@@ -40,11 +40,10 @@ const NoSSRTestimonialSliderEntrepreneurAcademy = dynamic(
 );
 
 const handleClick = () => {
-  // Change the URL to the desired link
   const url = '/entrepreneur-academy/accelerator-programme-courses';
-  // Open a new tab/window with the specified URL
   window.open(url, '_blank');
 };
+
 export default function Index() {
   const [isOpen, setIsOpen] = useState(false);
 
