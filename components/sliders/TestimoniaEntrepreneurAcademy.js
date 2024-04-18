@@ -47,7 +47,16 @@ const TestimoniaEntrepreneurAcademy = () => {
                                     <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" />
                                 </div>
                                 <div className="review-comment">
-                                    {showMore1 ? "To maintain the West Midlands largest Black Business and Community network, we add great value in sharing hibretOne resources with our users" : "To maintain the West Midlands largest Black Business and Community network, we add great value in sharing hibretOne resources"}
+                                    {showMore1 ? "To maintain the West Midlands largest Black Business and Community network,we add great value in sharing hibretOne resources with our users." : 
+                                    
+                                    
+                                    "To maintain the West Midlands largest Black Business and Community network, we add great value in sharing hibretOne resources"}
+                                    {showMore1 && (
+                                        <p className="review-comment">
+                                            Our users expect us to deliver the best resources. If we do not deliver they go somewhere else. To maintain the West Midlands largest Black Business and Community network, we work with partners like hibretOne who help us achieve this goal through providing value added resources.
+                                        </p>
+                                    
+                                    )}
                                     <button className="btn-show-more" onClick={() => setShowMore1(!showMore1)}>{showMore1 ? "show less" : "...more"}</button>
                                 </div> 
                             </div>
@@ -71,6 +80,13 @@ const TestimoniaEntrepreneurAcademy = () => {
                                 </div>
                                 <div className="review-comment">
                                     {showMore2 ? "I started off working as an intern at hibretOne. Following the programme I have had 5 job offers, 3 in the same week. In addition to working" : "I started off working as an intern at hibretOne. Following the programme I have had 5 job offers, 3 in the same week."}
+                                    
+                                    {showMore2 && (
+                                        <p className="review-comment mt-5">
+                                            I started working as an intern at hibretOne. Following the programme I have had 5 job offers, 3 of those offers came in the same week. The hibretOne programme empowers students like myself to aim high and to believe that we can run a successful business. During the programme I actually began working  on my own startup.
+                                        </p>
+                                    
+                                    )}
                                     <button className="btn-show-more" onClick={() => setShowMore2(!showMore2)}>{showMore2 ? "show less" : "...more"}</button>
                                 </div> 
                             </div>
@@ -93,7 +109,13 @@ const TestimoniaEntrepreneurAcademy = () => {
                                     <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" /> <img src="assets/imgs/template/icons/star.svg" alt="jobBox" />
                                 </div>
                                 <div className="review-comment">
-                                    {showMore3 ? "I have attended a number of hibretOne’s in-person training events. Receiving valuable funding and business advice" : "I have attended a number of hibretOne’s in-person training events. Receiving valuable funding"}
+                                    {showMore3 ? "I have attended a number of hibretOne’s in-person training events. Receiving valuable funding and business advice" : "I have attended a number of hibretOne’s in-person training events. Receiving valuable funding and business advice"}
+                                    {showMore3 && (
+                                        <p className="review-comment mt-5">
+                                            I have attended a number of the hibretOne in-person training events. Receiving valuable funding and business advice. To have all the information in one place, all of it designed to improve the success of my business, saves me time and money. I cannot recommend Drew Currie's work highly enough. He is on a mission to support all entrepreneurs.
+                                        </p>
+                                    )}
+                                    
                                     <button className="btn-show-more" onClick={() => setShowMore3(!showMore3)}>{showMore3 ? "show less" : "...more"}</button>
                                 </div>
                             </div>

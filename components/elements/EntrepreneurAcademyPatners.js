@@ -26,7 +26,7 @@ export default function EntrepreneurAcademyVideo() {
                                             className="content-media"
                                             width="663"
                                             height="504"
-                                            src="https://www.youtube.com/embed/XPf1kLnJpio"
+                                            src="https://www.youtube.com/embed/vmUaZtrwAq8"
                                             title="YouTube video player"
                                             frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -42,17 +42,16 @@ export default function EntrepreneurAcademyVideo() {
                                         <h3 style={{ fontSize: '36px !important' }}>Channel Partners</h3>
                                         <div style={{ textAlign: 'justify',marginTop:'27px !important'}}>
                       <p className=" mt-27" style={{ color: "#6C6E70" }}>
-                      Complete the courses and pass the quizzes to receive incentives to learning from our partners.
-                       Win a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin 
-                       Entertainment. Win tasty macaroons  from Ms Macaroon, even some time with a life coach. hibretOne 
-                       with our fantastic partners aims to incentivise your learning and success.
+                      Complete the courses and pass the quizzes to receive incentives to learning from our brilliant partners.
+                       Earn a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin Entertainment.
+                        Earn tasty macaroons  from Ms Macaroon, a burger from McDonalds, some stationery from Rymans, even some time with a life coach.
+                         hibretOne with our fantastic partners aims to incentivise your learning to support your success.
+
                       </p>
                               
                       <p className=" mt-10" style={{ color: "#6C6E70" }}>
-                      Complete the courses and pass the quizzes to receive incentives to learning from our partners.
-                       Win a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin 
-                       Entertainment. Win tasty macaroons  from Ms Macaroon, even some time with a life coach. hibretOne 
-                       with our fantastic partners aims to incentivise your learning and success.
+                      Upgrade or you can buy other products and service from our partners at a discount. 
+                      So you can enjoy the experience with other family members, or anyone you want to spend time with.
                       </p>
     </div>
                  <div className="mt-20 mb-30">
@@ -74,23 +73,22 @@ export default function EntrepreneurAcademyVideo() {
   </Grid>
   <Grid item xs={12} md={12} style={{ marginTop: '20px' }}>
   <div className='grid__thumb w-img fix grid_thumb_height grid_thumb'>
-                                <iframe width="" height="100%" src="https://www.youtube.com/embed/XPf1kLnJpio" frameborder="0" allowfullscreen></iframe>
+                                <iframe width="" height="100%" src="https://www.youtube.com/embed/vmUaZtrwAq8" frameborder="0" allowfullscreen></iframe>
                             </div>
   </Grid>
   <Grid item xs={12} md={12} style={{marginTop:'20px '}}>
   <div style={{ textAlign: 'justify'}}>
-                      <p style={{ color: "#6C6E70" }}>
-                      Complete the courses and pass the quizzes to receive incentives to learning from our partners.
-                       Win a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin 
-                       Entertainment. Win tasty macaroons  from Ms Macaroon, even some time with a life coach. hibretOne 
-                       with our fantastic partners aims to incentivise your learning and success.
+  <p  style={{ color: "#6C6E70" }}>
+                      Complete the courses and pass the quizzes to receive incentives to learning from our brilliant partners.
+                       Earn a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin Entertainment.
+                        Earn tasty macaroons  from Ms Macaroon, a burger from McDonalds, some stationery from Rymans, even some time with a life coach.
+                         hibretOne with our fantastic partners aims to incentivise your learning to support your success.
+
                       </p>
                               
                       <p style={{ color: "#6C6E70" }}>
-                      Complete the courses and pass the quizzes to receive incentives to learning from our partners.
-                       Win a ticket to Sea World, Madame Tussauds, Alton Towers and many other attractions from Merlin 
-                       Entertainment. Win tasty macaroons  from Ms Macaroon, even some time with a life coach. hibretOne 
-                       with our fantastic partners aims to incentivise your learning and success.
+                      Upgrade or you can buy other products and service from our partners at a discount. 
+                      So you can enjoy the experience with other family members, or anyone you want to spend time with.
                       </p>
     </div>
                  <div className="mt-20 mb-30">
