@@ -15369,6 +15369,9 @@ ul li:last-child .card-list-4 {
   width: 100%;
   display: flex;
 }
+.btn-search{
+  margin-left:7px !important;
+}
 }
 @media screen and (max-width: 1199px) {
   .block-banner1 {
