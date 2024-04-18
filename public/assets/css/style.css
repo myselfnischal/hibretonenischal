@@ -14362,7 +14362,7 @@ ul li:last-child .card-list-4 {
  }
   .btn-online-course-search:first-of-type {
     margin-top: 20px;
-    width: 100%;
+    width: 96%;
     margin-left: 4px;
  }
   .btn-online-course-search:not(:first-of-type) {
@@ -15365,6 +15365,10 @@ ul li:last-child .card-list-4 {
     padding: 10px 0px 15px 0px !important;
     margin: 0 -10px !important;
  }
+ .banner-hero1 .block-banner1 .industry-form-find form{
+  width: 100%;
+  display: flex;
+}
 }
 @media screen and (max-width: 1199px) {
   .block-banner1 {
@@ -15394,7 +15398,7 @@ ul li:last-child .card-list-4 {
  }
   .btn-search:first-of-type, .btn-search-one:first-of-type {
     margin-top: 20px;
-    width: 100%;
+    width: 96%;
     margin-left: 4px;
  }
   .btn-search:not(:first-of-type), .btn-search-one:not(:first-of-type) {

@@ -39,6 +39,12 @@ const NoSSRTestimonialSliderEntrepreneurAcademy = dynamic(
   { ssr: false }
 );
 
+const handleClick = () => {
+  // Change the URL to the desired link
+  const url = '/entrepreneur-academy/accelerator-programme-courses';
+  // Open a new tab/window with the specified URL
+  window.open(url, '_blank');
+};
 export default function Index() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -88,9 +94,9 @@ export default function Index() {
                                   
                                 </div>
                                   <div className="col d-flex justify-content-center align-items-center mt-35">
-                        <a href="/entrepreneur-academy/accelerator-programme-courses" className="btn btn-default fs-6">
+                        <button className="btn btn-default fs-6" onClick={handleClick}>
                        Get Started
-                          </a>
+                          </button>
                           </div>
                             </div>
                         </div>
