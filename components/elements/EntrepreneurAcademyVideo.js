@@ -175,7 +175,7 @@ export default function EntrepreneurAcademyVideo() {
                       </p>
     </div>
     <div className="mt-20">
-      <button href="" className="btn btn-default fs-6">
+      <button className="btn btn-default fs-6" onClick={handleClick}>
        Get Started
       </button>
     </div>
