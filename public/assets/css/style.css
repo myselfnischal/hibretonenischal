@@ -14333,8 +14333,8 @@ ul li:last-child .card-list-4 {
  }
   .banner-hero1 .block-banner1 .online-course-form-find {
     padding: 20px;
-    width: 149%;
-    margin-left: -74px !important;
+    width: 170%;
+    margin-left: -91px !important;
 
  }
   .banner-hero1 .block-banner1 .online-course-form-find form {
@@ -14342,7 +14342,7 @@ ul li:last-child .card-list-4 {
     flex-wrap: wrap;
  }
   .banner-hero1 .block-banner1 .online-course-form-find form .online-course-input-top-five {
-    margin-left: 1px;
+    margin-left: -4px;
     margin-top: 15px !important;
  }
   .btn-online-course-search {
@@ -14362,11 +14362,14 @@ ul li:last-child .card-list-4 {
  }
   .btn-online-course-search:first-of-type {
     margin-top: 20px;
+    width: 100%;
+    margin-left: 4px;
  }
   .btn-online-course-search:not(:first-of-type) {
     margin-top: 10px;
  }
 }
+
 
 @media screen and (max-width: 450px) {
 
@@ -15391,9 +15394,12 @@ ul li:last-child .card-list-4 {
  }
   .btn-search:first-of-type, .btn-search-one:first-of-type {
     margin-top: 20px;
+    width: 100%;
+    margin-left: 4px;
  }
   .btn-search:not(:first-of-type), .btn-search-one:not(:first-of-type) {
     margin-top: 10px;
+    
  }
   .divider, .divider1 {
     display: none;
