@@ -14315,7 +14315,7 @@ ul li:last-child .card-list-4 {
     font-size: 12px !important;
  }
   .btn-online-course-search:first-of-type {
-    font-size: 15px;
+    font-size: 16px !important;
  }
 }
 @media screen and (max-width: 455px) {

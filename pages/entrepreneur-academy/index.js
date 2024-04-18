@@ -132,7 +132,7 @@ export default function Index() {
                                     <h2 className="section-title testonomial-entrepreneur-academy mb-10 wow animate__animated animate__fadeInUp">
                                         Testimonials
                                     </h2>
-                                    <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto wow animate__animated animate__fadeInUp" style={{fontSize:'18px !important'}}>
+                                    <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto wow animate__animated animate__fadeInUp" style={{color:'#435579',fontSize:'18px !important'}}>
                                     Trusted feedback from aspirers attending our programmes 
                                         
                                     </p>

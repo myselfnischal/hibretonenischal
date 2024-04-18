@@ -13,7 +13,7 @@ import "swiper/css/grid";
 const PopularAcceleratorLesson = () => {
     const data = [
         {
-            image: "assets/imgs/page/online-courses/img1.png",
+            image: "/assets/imgs/page/entrepreneur-academy/1.png",
             title: "Pitching, Testing, and Prototyping",
             description:
             "We delve into the dynamic trio of pitching,testing,and prototyping in the enterpreneurial journey.Explore the art of carfting compelling pitches to effectively communicate your business ideas...more ",
@@ -24,7 +24,7 @@ const PopularAcceleratorLesson = () => {
         type:"Strategic",
         type1:"Product"
         }, {
-            image: "assets/imgs/page/online-courses/img1.png",
+            image: "/assets/imgs/page/online-courses/img1.png",
             title: "Identifying problems your product solves",
             description:
                 "The importance of accurately identifying user pain points, aligning product features to these challenges, and studying real-world examples for clarity...more ",
@@ -35,7 +35,7 @@ const PopularAcceleratorLesson = () => {
           type:"Marketing",
           type1:"Product"
       }, {
-        image: "assets/imgs/page/online-courses/img2.jpg",
+        image: "/assets/imgs/page/online-courses/img2.jpg",
         title: "Product Ideation and Brainstorming",
         description:
             "Foundational techniques and strategies to generate innovative product ideas. Through collaborative brainstorming sessions and creative exercises...more ",
