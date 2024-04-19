@@ -5,7 +5,7 @@ import Subscription from '../../components/Layout/Subscription';
 import KickstartButton from '../../components/elements/KickstartButton';
 import dynamic from "next/dynamic";
 import CustomPagination from '../../components/elements/CustomPagination';
-
+import { Carousel } from 'react-bootstrap'; // Import the Carousel component from Bootstrap
 
 const articleData = [{
     image: "/assets/imgs/page/online-courses/img1.png",
@@ -64,71 +64,231 @@ const articleData = [{
         image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
 
     },
-    type:"Strategic",
-    type1:"Product",
-    readTime: "7 mins to read",
-},{
-    image: "/assets/imgs/page/online-courses/img1.png",
-    title: "11 Tips for an Entrepreneur Programme",
-    description:
-        "Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
-    author: {
-        image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
-    },
-    type:"Strategic",
-    type1:"Product",
-    readTime: "8 mins to read",
-},
-{
-    image: "/assets/imgs/page/online-courses/img1.png",
-    title: "11 Tips for an Entrepreneur Programme",
-    description:
-        "Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
-    author: {
-        image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
-    },
-    type:"Strategic",
-    type1:"Product",
-    readTime: "8 mins to read",
-},
-{
-    image: "/assets/imgs/page/online-courses/img1.png",
-    title: "11 Tips for an Entrepreneur Programme",
-    description:
-        "Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
-    author: {
-        image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
-    },
-    type:"Strategic",
-    type1:"Product",
-    readTime: "8 mins to read",
-},
-{
-    image: "/assets/imgs/page/online-courses/img1.png",
-    title: "11 Tips for an Entrepreneur Programme",
-    description:
-        "Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
-    author: {
-        image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
-    },
-    type:"Strategic",
-    type1:"Product",
-    readTime: "8 mins to read",
-},
-];
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "7 mins to read",
+	},{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for an Entrepreneur Programme",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "8 mins to read",
+	},
+	{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for an Entrepreneur Programme",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "8 mins to read",
+	},
+
+	{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for an Entrepreneur Programme",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "8 mins to read",
+	},
+	{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for an Entrepreneur Programme",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "8 mins to read",
+	},
+	{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for an Entrepreneur Programme",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "7 mins to read",
+	},
+	 {
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for Student Work Placement success",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "6 mins to read",
+	},
+	{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips to Help upskill your Career",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "8 mins to read",
+	},
+	{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Grant Writing Tips: How To Exceed Expectations",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "6 mins to read",
+	}, {
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for Creating Social Impact",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "7 mins to read",
+	},{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for an Entrepreneur Programme",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "8 mins to read",
+	},
+	{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for an Entrepreneur Programme",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "8 mins to read",
+	},
+
+	{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for an Entrepreneur Programme",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "8 mins to read",
+	},
+	{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for an Entrepreneur Programme",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "8 mins to read",
+	},
+	{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for an Entrepreneur Programme",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "8 mins to read",
+	},
+	{
+	    image: "/assets/imgs/page/online-courses/img1.png",
+	    title: "11 Tips for an Entrepreneur Programme",
+	    description:
+		"Our mission is to create the world's most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
+	    author: {
+		image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
+	    },
+	    type:"Strategic",
+	    type1:"Product",
+	    readTime: "8 mins to read",
+	},
+	];
 
 export default function EntrepreneurAcceleratorProgrammeCourses() {
-
     const [currentPage, setCurrentPage] = useState(1);
+    // const handlePageChange = (pageNumber) => {
+    //     setCurrentPage(pageNumber);
+    // }
+
+    const [visibleCards, setVisibleCards] = useState(9); 
+    const [showRemaining, setShowRemaining] = useState(false);
+
+    const handleShowMore = () => {
+        if (!showRemaining) {
+         
+            setVisibleCards(Math.min(visibleCards + 9, articleData.length));
+            if (visibleCards + 9 >= articleData.length) {
+                setShowRemaining(true);
+            }
+        } else {
+          
+            setVisibleCards(9);
+            setShowRemaining(false);
+        }
+    };
+
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
-    }
-
+        // Calculate the index of the first card to be displayed on the selected page
+        const startIndex = (pageNumber - 1) * 9;
+        // Calculate the index of the last card to be displayed on the selected page
+        const endIndex = Math.min(startIndex + 9, articleData.length);
+        setVisibleCards(endIndex); // Set the number of visible cards to display the range for the selected page
+    };
+    
+    
     return (
         <>
         <div>
-                                <div className="card-list mt-30">
-                                {articleData.map((article, index) => (
+                                <div className="card-list mt-30 ">
+                                {articleData.slice(0, visibleCards).map((article, index) => (
     <article className="news-article-card" key={index}>
         <div className="card-content">
             <img
@@ -161,15 +321,26 @@ export default function EntrepreneurAcceleratorProgrammeCourses() {
         </div>
     </article>
 ))}
-
-
-        
-                                </div>
+        </div>
                             </div>
-                            {/* <section className="section-box mt-60"  >
-                                <CustomPagination currentPage={currentPage} totalPages={10} onPageChange={handlePageChange} setCurrentPage={setCurrentPage} />
-                            </section> */}
+                            {(visibleCards < articleData.length) || showRemaining ? ( 
+                <div className="col d-flex justify-content-center align-items-center mt-35">
+                    <button className="btn btn-default fs-6" onClick={handleShowMore}>
+                        {showRemaining ? "Show Less" : "Show More"}
+                    </button>
+                </div>
+            ) : null}
+        {visibleCards === articleData.length && (
+    <section className="section-box mt-60">
+     <CustomPagination currentPage={currentPage} totalPages={10} onPageChange={handlePageChange} setCurrentPage={setCurrentPage} />
+
+
+    </section>
+)}
+
+            
                 
         </>
     );
 }
+

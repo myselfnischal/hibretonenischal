@@ -33,6 +33,7 @@ export default function AcceleratorProgrammeCourses() {
       <Layout>
         <div className="background-random-entrepreneur-academy mb-25">
         < EntrepreneurAcceleratorProgramme />
+        
         <section className="section-box mt-25 mb-25">
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
@@ -45,6 +46,7 @@ export default function AcceleratorProgrammeCourses() {
                                     </p>
                                 </div>
                                         <AcceleratorProgrammes />
+                              
                             </div>
                         </div>
                     </section>
