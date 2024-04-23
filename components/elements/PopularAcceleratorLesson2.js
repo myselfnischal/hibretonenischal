@@ -13,7 +13,7 @@ import "swiper/css/grid";
 const PopularAcceleratorLesson2 = () => {
     const data = [
         {
-            image: "assets/imgs/page/entrepreneur-academy/3.jpg",
+            image: "/assets/imgs/page/entrepreneur-academy/3.jpg",
             title: "Pitching, Testing, and Prototyping",
             description:
             "We delve into the dynamic trio of pitching,testing,and prototyping in the enterpreneurial journey.Explore the art of carfting compelling pitches to effectively communicate your business ideas...more ",
@@ -24,7 +24,7 @@ const PopularAcceleratorLesson2 = () => {
         type:"People",
         type1:"Users"
         }, {
-            image: "assets/imgs/page/entrepreneur-academy/2.png",
+            image: "/assets/imgs/page/entrepreneur-academy/2.png",
             title: "Identifying problems your product solves",
             description:
                 "We delve into the dynamic trio of pitching,testing,and prototyping in the enterpreneurial journey.Explore the art of carfting compelling pitches to effectively communicate your business ideas...more ",
@@ -35,7 +35,7 @@ const PopularAcceleratorLesson2 = () => {
           type:"Product",
           type1:"Product"
       }, {
-        image: "assets/imgs/page/entrepreneur-academy/3.png",
+        image: "/assets/imgs/page/entrepreneur-academy/3.png",
         title: "Product Ideation and Brainstorming",
         description:
             "We delve into the dynamic trio of pitching,testing,and prototyping in the enterpreneurial journey.Explore the art of carfting compelling pitches to effectively communicate your business ideas...more ",

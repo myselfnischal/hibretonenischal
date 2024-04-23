@@ -9,7 +9,7 @@ const Subscription = () => {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-xl-4 col-12 text-center d-none d-xl-block">
-                                        <img src="assets/imgs/page/homepage1/newsletter.png" alt="joxBox" />
+                                        <img src="/assets/imgs/page/homepage1/newsletter.png" alt="joxBox" />
                                     </div>
                                     <div className="col-xl-8 col-lg-12 col-12 text-center">
                                         <div className="d-inline-block">

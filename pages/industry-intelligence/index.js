@@ -67,11 +67,6 @@ export default function Index() {
                         translation by H. Rackham.{" "}
                       </p>
                     </div>
-                    <div className="mt-20">
-                      <button href="" className="btn btn-default fs-6">
-                        Create Guide
-                      </button>
-                    </div>
                   </Grid>
                   <Grid item lg={6} className="d-flex justify-content-center">
                     <img
@@ -117,11 +112,6 @@ export default function Index() {
                         form, accompanied by English versions from the 1914
                         translation by H. Rackham.{" "}
                       </p>
-                    </div>
-                    <div className="mt-20 mb-30">
-                      <button href="" className="btn btn-default fs-6">
-                        Create Guide
-                      </button>
                     </div>
                   </Grid>
                 </Grid>
