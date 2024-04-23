@@ -290,7 +290,6 @@ export default function EntrepreneurAcceleratorProgrammeCourses() {
         }
     };
     
-    
     return (
         <>
         <div>

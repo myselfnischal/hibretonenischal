@@ -25,13 +25,8 @@ const OnlineCourseTwo = dynamic(
   () => import("../../components/sliders/OnlineCourse2"),
   { ssr: false }
 )
-
-const PopularCourseOne = dynamic(
-  () => import("../../components/elements/PopularCourse1"),
-  { ssr: false }
-);
-const PopularCourseTwo = dynamic(
-  () => import("../../components/elements/PopuarCourse2"),
+const PopularCourse = dynamic(
+  () => import("../../components/elements/PopularCourse"),
   { ssr: false }
 );
 
@@ -88,8 +83,7 @@ export default function Index() {
                                 </div>
                                 <div className="box-swiper mt-50 grant-category">
                                     <div>
-                                        <PopularCourseOne />
-                                        <PopularCourseTwo />
+                                        <PopularCourse />
                                         <div className="swiper-button-next" style={{marginTop:'400px !important'}} />
                                         <div className="swiper-button-prev" style={{marginTop:'400px !important'}}/>
                                     </div>
