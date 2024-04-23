@@ -79,8 +79,8 @@ const Footer = () => {
                     <div className="footer-col-6 col-md-3 col-sm-12">
                         <h6 className="mb-20">Download App</h6>
                         <div className="mt-15">
-                            <a className="mr-5" href="#"><img src="assets/imgs/template/icons/app-store.png" alt="joxBox" /></a>
-                            <a href="#"><img src="assets/imgs/template/icons/android.png" alt="joxBox" /></a></div>
+                            <a className="mr-5" href="#"><img src="/assets/imgs/template/icons/app-store.png" alt="joxBox" /></a>
+                            <a href="#"><img src="/assets/imgs/template/icons/android.png" alt="joxBox" /></a></div>
                     </div>
                 </div>
                 <div className="footer-bottom mt-50">

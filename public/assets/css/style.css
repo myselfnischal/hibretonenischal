@@ -16036,7 +16036,7 @@ ul li:last-child .card-list-4 {
     font-size: 26px !important;
 }
 .text-size-popular-entrepreneur-academy{
-  font-size: 26px !important;;  
+  font-size: 24px !important;;  
 }
 .text-size-patners-entrepreneur-academy{
   font-size: 26px !important;;  
@@ -16179,15 +16179,6 @@ ul li:last-child .card-list-4 {
 
   .read-time-entrepreneur-academy{
     font: 500 16px/135% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
- }
-}
-@media screen and (max-width: 450px) {
-  .article-description-online-course {
-    font: 500 16px/16px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
- }
-
-  .read-time-entrepreneur-academy {
-    font: 500 10px/135% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
  }
 }
 
@@ -16394,52 +16385,6 @@ font-size: 16px !important;
   padding: 13px 12px;
   height: 100%;
 }
-@media (min-width: 992px) {
-  .card-list-inner-page-one-entrepreneur-academy  {
-      grid-template-columns: repeat(3, 1fr) !important; 
-  }
-  .card-content-inner-page-one-entrepreneur-academy {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .card-content-inner-page-one-entrepreneur-academy {
-    padding: 10px;
-    width:98%;
-  }
-  .card-list-inner-page-one-entrepreneur-academy  {
-    grid-template-columns: repeat(auto-fill, minmax(calc(50% - 20px), 1fr));
-  }
-  
-  }
-
-  @media (max-width: 600px) {
-    .card-content-inner-page-one-entrepreneur-academy {
-      padding: 10px;
-    }
-  }
-
-  @media (min-width: 576px) {
-    .card-list-inner-page-one-entrepreneur-academy  {
-        grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (max-width: 475px) {
-    .card-list-inner-page-one-entrepreneur-academy  {
-    grid-template-columns: repeat(auto-fill, minmax(calc(100% - 20px), 1fr));
-  }
-}
-
-.new-text{
-  fill: #3C65F5;
-  width: 40.63px;
-  margin-left: 79%;
-  margin-top: -12px;
-  height: 23%;
-
-}
 .completion-course-percentage {
   position: absolute;
   display: inline-block;
@@ -16457,9 +16402,7 @@ font-size: 16px !important;
 
 
 .article-title-inner-page-one-entrepreneur-academy{
-  /* position: relative; */
-  margin: -12px 5px 0;
-  /* font-family: Plus Jakarta Sans; */
+  margin: 48px 5px 0;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -16477,7 +16420,7 @@ font-size: 16px !important;
   height: auto;
   font-size: 16px;
   padding: 0px 5px 0px 8px;
-  margin-top: 14%;
+  margin-top: -93px; 
   color: #3c65f5;
 }
 
@@ -16489,59 +16432,10 @@ font-size: 16px !important;
   height: auto;
   font-size: 16px;
   padding: 0px 5px 0px 8px;
-  margin-top: 14%;
-  margin-left: 9%; 
-  transform: translateX(-50%);
+ margin-top: -93px;
+ margin-left: 100px;
   color: #3c65f5;
 }
-
-
-@media screen and (max-width: 992px) {
-
- .image-text-inner-page-one-entrepreneur-academy {
-font-size: 16px !important;
-}
-
-.image-text-inner-
-page-one-entrepreneur-academy-type-one{
-  font-size: 16px !important;
-} 
-
-}
-@media screen and (max-width: 768px) {
-
- .image-text-inner-page-one-entrepreneur-academy {
-  font-size: 16px !important;
-  }
-  
-  .image-text-inner-page-one-entrepreneur-academy-type-one{
-    font-size: 16px !important;
-  } 
-}
-
-@media (max-width: 680px) {
-  .image-text-inner-page-one-entrepreneur-academy {
-    font-size: 16px !important;
-    }
-    
-    .image-text-inner-page-one-entrepreneur-academy-type-one{
-      font-size: 16px !important;
-    } 
-
-}
-@media (max-width: 574px){
-   .article-title-inner-page-one-entrepreneur-academy {
-  font-size: 20px !important;
-  height: 52px !important;
-}
-
-}
-@media (max-width: 400px) {
-  .article-title-inner-page-one-entrepreneur-academy {
-   font-size: 20px !important;
-   height: 63px !important;
- }
- }
 
 
 .article-description-inner-page-one-entrepreneur-academy {
@@ -16549,46 +16443,148 @@ page-one-entrepreneur-academy-type-one{
   align-self: center;
   margin-top: 18px;
   font: 500 16px/25px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-  margin: 0 10px;
-  height: 159px;
+  margin: 0 7px;
+  height: 123px;
   text-align: justify;
   overflow: hidden;
 }
 
-@media screen and (max-width: 1350px) {
-  .article-description-inner-page-one-entrepreneur-academy {
-    font: 500 16px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-    height: 119px;
- }}
 
-@media screen and (max-width: 1200px) {
-  .article-description-inner-page-one-entrepreneur-academy {
-    font: 500 16px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-    height: 161px;
- }
-}
-
-@media screen and (max-width: 760px) {
-  .article-description-inner-page-one-entrepreneur-academy {
-    font: 500 16px/17px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-    height: 173px;
- }
-}
- @media (max-width: 574px){
-  .article-description-inner-page-one-entrepreneur-academy {
-    font: 500 16px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-    height: 88px !important;
-}
+@media (max-width: 1400px) {
+ 
+    .completion-course-percentage {
+    
+      margin-top: 185px;
+      margin-left: 285px !important;
+      padding:1px
+    } 
+  
 }
 
-@media screen and (max-width: 468px){
-  .article-description-inner-page-one-entrepreneur-academy {
-      font: 500 16px/20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
-      height: 120px !important;
+@media (max-width: 1200px) {
+    .completion-course-percentage {
+    
+      margin-top: 160px;
+      margin-left: 233px !important;
+      padding:1px
+    } 
+  
+}
+
+@media (max-width: 992px) {
+  .card-list-inner-page-one-entrepreneur-academy  {
+      grid-template-columns: repeat(2, 1fr) !important; 
   }
+    .completion-course-percentage {
+    
+      margin-top: 178px;
+      margin-left: 255px !important;
+      padding:1px
+    } 
+  
+}
+
+
+@media (max-width: 767px) {
+  .card-content-inner-page-one-entrepreneur-academy {
+    padding: 10px;
+    width:102%;
+  }
+  .card-list-inner-page-one-entrepreneur-academy  {
+      grid-template-columns: repeat(2, 1fr);
+  }
+    .completion-course-percentage {
+    
+      margin-top: 132px;
+      margin-left: 191px !important;
+      padding:1px
+    }
+     .read-time-entrepreneur-academy {
+       font: 500 16px/135% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+       margin-top: 16px;
+   }
+  
+   .article-description-inner-page-one-entrepreneur-academy {
+    color: var(--text-paragraph, #6c6e70);
+    align-self: center;
+    margin-top: 18px;
+    font: 500 16px / 25px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    margin: 0 7px;
+    height:186px;
+    text-align: justify;
+    overflow: hidden;
+  }
+  
 }
 
 
 
+@media (max-width: 575px) {
+  .card-list-inner-page-one-entrepreneur-academy  {
+  grid-template-columns: repeat(auto-fill, minmax(calc(100% - 20px), 1fr)) !important;
+}
+  .completion-course-percentage{
+    margin-top: 53% !important;
+    margin-left: 74% !important;
+  }
+ 
+   .read-time-entrepreneur-academy {
+     font: 500 16px/135% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+     margin-top: 16px;
+ }
+
+ .article-description-inner-page-one-entrepreneur-academy {
+  color: var(--text-paragraph, #6c6e70);
+  align-self: center;
+  margin-top: 18px;
+  font: 500 16px / 25px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  margin: 0 7px;
+  height:106px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+
+
+}
+@media (max-width: 400px) {
+  .card-list-inner-page-one-entrepreneur-academy  {
+  grid-template-columns: repeat(auto-fill, minmax(calc(100% - 20px), 1fr)) !important;
+}
+
+.article-title-inner-page-one-entrepreneur-academy {
+  font-size: 20px !important;
+  height: 63px !important;
+} 
+ .image-text-inner-page-one-entrepreneur-academy {
+ font-size: 16px !important;
+ margin-top: -26% !important;
+ }
+ 
+ .image-text-inner-page-one-entrepreneur-academy-type-one{
+   font-size: 16px !important;
+   margin-top: -26% !important;
+   margin-left: 100px !important;
+ } 
+ .completion-course-percentage{
+   margin-top: 51% !important;
+   margin-left: 74% !important;
+ }
+
+  .read-time-entrepreneur-academy {
+    font: 500 16px/135% Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-top: 16px;
+}
+
+.article-description-inner-page-one-entrepreneur-academy {
+  color: var(--text-paragraph, #6c6e70);
+  align-self: center;
+  margin-top: 18px;
+  font: 500 16px / 25px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  margin: 0 7px;
+  text-align: justify;
+  overflow: hidden;
+}
+}
 /* inner page end */
 

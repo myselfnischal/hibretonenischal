@@ -68,6 +68,7 @@ export default function Index() {
                                         <OnlineCourseTwo />
                                         <div className="swiper-button-next" style={{marginTop:'-10px'}} />
                                         <div className="swiper-button-prev" />
+                             
                                     </div>
                                 </div>
                             </div>
