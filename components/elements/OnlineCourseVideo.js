@@ -248,7 +248,7 @@ export default function OnlineCourseVideo() {
                     }}
                 >
                     <Grid item xs={12} md={12}>
-                        <h3 style={{ fontSize: "24px !important" }}>
+                        <h3 style={{ fontSize: "24px !important",marginTop:'-30px' }}>
                             Fail-forward into Success
                         </h3>
                     </Grid>

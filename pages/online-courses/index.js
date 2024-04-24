@@ -46,7 +46,7 @@ export default function Index() {
           <section className="section-box mt-25 mb-25">
         < OnlineCourseVideo />
         </section>
-          <section className="section-box mt-50 mb-25">
+          <section className="section-box mt-50">
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
                                 <div className="text-center">
@@ -97,7 +97,7 @@ export default function Index() {
                             </div>
                         </div>
                     </section>
-                    <div className="col d-flex justify-content-center align-items-center mt-50">
+                    <div className="col d-flex justify-content-center align-items-center mt-25">
                                     <button className="btn btn-sign-up-inverted fs-6 hover-up font-force-lg">
                                         Subscribe For Full Access
                                     </button>

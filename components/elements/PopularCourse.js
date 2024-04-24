@@ -145,12 +145,12 @@ const PopularCourse = () => {
                                             className="featured-image"
                                         />
                                          
-                                        <div className="article-category"></div>
-                                        <a href="/online-courses/search">
+                                        <div className="article-category">
                                         <p className='image-text-online-course'>{item.type}</p>
                                            <p className='image-text-online-course_next'>{item.type1}</p>
                                     <p className='image-text-online-course_third'>{item.type2}</p>
-                                      
+                                        </div>
+                                        <a href="/online-courses/search">
                                                     <div className="article-title">{item.title}</div>
                                             </a>
                                         <p className="article-description-online-course">{item.description}</p>
