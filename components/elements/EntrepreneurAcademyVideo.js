@@ -24,12 +24,12 @@ export default function EntrepreneurAcademyVideo() {
                             <div className="about__thumb-left">
                                 <img
                                     className="online-video-section-image-one"
-                                    src="../assets/imgs/page/online-courses/image2.jpg"
+                                    src="../assets/imgs/page/entrepreneur-academy/000.png"
                                     alt=""
                                 />
                                 <img
                                     className="online-video-section-image-two"
-                                    src="../assets/imgs/page/online-courses/image8.jpeg"
+                                    src="../assets/imgs/page/entrepreneur-academy/002.png"
                                     alt=""
                                 />
 
@@ -58,7 +58,7 @@ export default function EntrepreneurAcademyVideo() {
                                 >
                                     <img
                                         className="online-video-section-image-four"
-                                        src="../assets/imgs/page/online-courses/image5.jpg"
+                                        src="../assets/imgs/page/entrepreneur-academy/004.png"
                                         alt=""
                                     />
                                 </div>
@@ -66,19 +66,19 @@ export default function EntrepreneurAcademyVideo() {
                             <div>
                                 <img
                                     className="online-video-section-image-three"
-                                    src="../assets/imgs/page/online-courses/image3.jpg"
+                                    src="../assets/imgs/page/entrepreneur-academy/003.png"
                                     alt=""
                                 />
 
                                 <img
                                     className="online-video-section-image-five"
-                                    src="../assets/imgs/page/online-courses/image2.jpg"
+                                    src="../assets/imgs/page/entrepreneur-academy/006.png"
                                     alt=""
                                 />
 
                                 <img
                                     className="online-video-section-image-six"
-                                    src="../assets/imgs/page/online-courses/image6.jpg"
+                                    src="../assets/imgs/page/entrepreneur-academy/005.png"
                                     alt=""
                                 />
                             </div>
@@ -140,14 +140,14 @@ export default function EntrepreneurAcademyVideo() {
                                 <div>
                                     <img
                                         className="online-video-section-image-one"
-                                        src="../assets/imgs/page/online-courses/image2.jpg"
+                                        src="../assets/imgs/page/entrepreneur-academy/000.png"
                                         alt=""
                                     />
                                 </div>
                                 <div className="about__thumb-2 text-end">
                                     <img
                                         className="online-video-section-image-two"
-                                        src="../assets/imgs/page/online-courses/image8.jpeg"
+                                        src="../assets/imgs/page/entrepreneur-academy/002.png"
                                         alt=""
                                     />
                                 </div>
@@ -172,7 +172,7 @@ export default function EntrepreneurAcademyVideo() {
                                 <div>
                                     <img
                                         className="online-video-section-image-four"
-                                        src="../assets/imgs/page/online-courses/image5.jpg"
+                                        src="../assets/imgs/page/entrepreneur-academy/004.png"
                                         alt=""
                                     />
                                 </div>
@@ -180,21 +180,21 @@ export default function EntrepreneurAcademyVideo() {
                             <div className="" style={{}}>
                                 <img
                                     className="online-video-section-image-three"
-                                    src="../assets/imgs/page/online-courses/image3.jpg"
+                                    src="../assets/imgs/page/entrepreneur-academy/003.png"
                                     alt=""
                                 />
                             </div>
                             <div className="" style={{}}>
                                 <img
                                     className="online-video-section-image-five"
-                                    src="../assets/imgs/page/online-courses/image2.jpg"
+                                    src="../assets/imgs/page/entrepreneur-academy/006.png"
                                     alt=""
                                 />
                             </div>
                             <div className="" style={{}}>
                                 <img
                                     className="online-video-section-image-six"
-                                    src="../assets/imgs/page/online-courses/image6.jpg"
+                                    src="../assets/imgs/page/entrepreneur-academy/005.png"
                                     alt=""
                                 />
                             </div>

@@ -18,7 +18,7 @@ function useLockBodyScroll(open) {
     return () => {
       document.body.style.overflow = "visible";
     };
-  }, [open]);
+  }, [open]); 
 }
 
 const PopularAcceleratorLessonOne = dynamic(
@@ -88,7 +88,7 @@ export default function Index() {
                                 <div className="mt-20 grant-category">
                                     <div>
                                         <PopularAcceleratorLessonOne />
-                                        <PopularAcceleratorLessonTwo />
+                                        {/* <PopularAcceleratorLessonTwo /> */}
                                     </div>
                                   
                                 </div>

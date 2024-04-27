@@ -16407,7 +16407,7 @@ font-size: 16px !important;
 
 .article-title-inner-page-one-entrepreneur-academy{
   margin: 48px 5px 0;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 26px;
@@ -16473,7 +16473,7 @@ font-size: 16px !important;
       margin-left: 233px !important;
       padding:1px
     } 
-  
+    
 }
 
 @media (max-width: 992px) {
@@ -16486,7 +16486,7 @@ font-size: 16px !important;
       margin-left: 255px !important;
       padding:1px
     } 
-  
+
 }
 
 
@@ -16515,11 +16515,20 @@ font-size: 16px !important;
     margin-top: 18px;
     font: 500 16px / 25px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
     margin: 0 7px;
-    height:186px;
+    height:196px !important;
     text-align: justify;
     overflow: hidden;
   }
-  
+
+  .mobile-view{
+    margin-top:-30px !important;
+  }
+  .mobile-view-2{
+    margin-top:-30px !important;
+  }
+  .mobile-view-last{
+    margin-top:-60px !important;
+  }
 }
 
 
@@ -16549,7 +16558,12 @@ font-size: 16px !important;
   overflow: hidden;
 }
 
-
+.mobile-view{
+  margin-top:-60px !important;
+}
+.mobile-view-last{
+  margin-top:-60px !important;
+}
 
 }
 @media (max-width: 400px) {
@@ -16590,6 +16604,97 @@ font-size: 16px !important;
   text-align: justify;
   overflow: hidden;
 }
+.mobile-view{
+  margin-top:-60px !important;
+}
+.mobile-view-last{
+  margin-top:-60px !important;
+}
 }
 /* inner page end */
 
+/* home page lesson start */
+
+.article-title-lessons-title{
+  color: var(--brand-brand-1, #05264e);
+  align-self: start;
+  margin: 32px 0 0 2px;
+  font: 700 20px / 26px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  height: 60px;
+  overflow: hidden;
+}
+.image-lesson-text{
+  position: absolute;
+    background-color: #b4c0e0;
+    /* border: none; */
+    border-radius: 6px;
+    height: auto;
+    font-size: 16px;
+    padding: 0px 5px 0px 8px;
+    margin-top: -8px;
+    margin-left: -7px;
+    color: #3c65f5;
+}
+.lesson-description-entrepreneur-academy{
+  color: var(--text-paragraph, #6c6e70);
+  align-self: center;
+  margin-top: 18px;
+  font: 500 16px / 25px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  margin: 0 7px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.card-content-lesson-page {
+  border-radius: 16px;
+  border: 1px solid rgb(224, 230, 246);
+  background-color: #fff;
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  padding: 13px 12px;
+  height: 100%;
+  margin-top: 10px;
+  /* Ensure each card fills the height of its container */
+}
+
+@media (max-width: 575px) {
+  .article-title-lessons-title{
+    height:56px;
+}
+.lesson-description-entrepreneur-academy {
+  color: var(--text-paragraph, #6c6e70);
+  align-self: center;
+  margin-top: 18px;
+  font: 500 16px / 20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  margin: 0 7px;
+  text-align: justify;
+  overflow: hidden;
+}
+}
+@media (max-width: 480px) {
+  .article-title-lessons-title{
+    height:56px;
+}
+
+.lesson-description-entrepreneur-academy {
+  color: var(--text-paragraph, #6c6e70);
+  align-self: center;
+  margin-top: 18px;
+  font: 500 16px / 20px Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  margin: 0 7px;
+  text-align: justify;
+  overflow: hidden;
+}
+}
+
+.slick-dots li button:before {
+  font-size: 13px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 0px !important;
+}
+
+
+/* home page lesson end */

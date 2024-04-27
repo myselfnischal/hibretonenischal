@@ -42,7 +42,7 @@ export default function AcceleratorProgrammeCourses() {
                                     Entrepreneur Accelerator Programme 
                                     </h2>
                                     <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto" style={{color:'#435579'}}>
-                                    Byte-sized entrepreneur learning
+                                    20 comprehensive courses, to kickstart a successful enterprise
                                     </p>
                                 </div>
                                         <AcceleratorProgrammes />
