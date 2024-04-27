@@ -67,7 +67,7 @@ const data = [
         title: "An Introduction to Product Progress",
         description:{
             full:"Understanding the process of product development, from ideation to launch. You'll learn how to identify problems your product can solve, refine your ideas, create prototypes, and test their effectiveness. Further resources will provide links to books and courses that can help you deepen your understanding of product development and improve your skills in this area.",
-            short:"Understanding the process of product development, from ideation to launch. You'll learn how to identify problems your product can solve,"
+            short:"Understanding the process of product development, from ideation to launch. You'll learn how to identify problems your product can solve, refine your ideas,create"
         },
         readTime: "25mins",
         author: {
@@ -83,6 +83,7 @@ const data = [
             full:"In this lesson, you will explore the concept of product categories and their importance in marketing and business. You will learn about the different types of product categories and how they play a crucial role in product development, marketing strategies, and consumer behavior. By understanding the various product categories, you will be able to effectively position your products in the market and cater to the specific needs and preferences of your target audience.",
             short:"In this lesson, you will explore the concept of product categories and their importance in marketing and business. You will learn about the different types of product"
         },
+        readTime: "25mins",
         author: {
             image: "/assets/imgs/page/entrepreneur-academy/HibretOne Logo v1.png",
         },
