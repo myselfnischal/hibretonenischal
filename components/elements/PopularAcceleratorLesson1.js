@@ -11,7 +11,7 @@ const data = [
         title: "Who is an entrepreneur?",
         description:{
             full:"In this lesson, learn what entrepreneurship is all about. Investigate the core characteristics, mindset, and traits of an entrepreneur. Learn about their function as creative problem-solvers and economic growth catalysts. Learn about the various pathways that entrepreneurs, whether in startups or established businesses, pursue. You'll have a good idea of what it means to be an entrepreneur and the essential qualities that contribute to their success at the end of this session.",
-            short:"In this lesson, learn what entrepreneurship is all about. Investigate the core characteristics, mindset, and traits of an entrepreneur. Learn about their"
+            short:"In this lesson, learn what entrepreneurship is all about. Investigate the core characteristics, mindset, and traits of an entrepreneur. Learn about"
         },
         readTime: "25mins",
         author: {
@@ -39,7 +39,7 @@ const data = [
         title: "Understanding the Concept Vision ",
         description:{
             full:"In this foundational lesson, we delve into the essence of vision in entrepreneurship. We explore what vision means, why it's crucial for business success, and how to cultivate a visionary mindset.",
-            short:"In this foundational lesson, we delve into the essence of vision in entrepreneurship. We explore what vision means, why it's crucial for business"
+            short:"In this foundational lesson, we delve into the essence of vision in entrepreneurship. We explore what vision means, why it's crucial for business success, "
         },
         readTime: "18mins",
         author: {
@@ -67,7 +67,7 @@ const data = [
         title: "An Introduction to Product Progress",
         description:{
             full:"Understanding the process of product development, from ideation to launch. You'll learn how to identify problems your product can solve, refine your ideas, create prototypes, and test their effectiveness. Further resources will provide links to books and courses that can help you deepen your understanding of product development and improve your skills in this area.",
-            short:"Understanding the process of product development, from ideation to launch. You'll learn how to identify problems your product can solve, refine your ideas,create"
+            short:"Understanding the process of product development, from ideation to launch. You'll learn how to identify problems your product can solve, refine your"
         },
         readTime: "25mins",
         author: {
@@ -207,7 +207,7 @@ return(
                     />
                     <div className="article-category">
                         <p className='image-lesson-text'>{item.type}</p>
-                        <p className='image-text-online-course_next'>{item.type1}</p>
+                        <p className='image-text-online-course_next' style={{color:'#05264e',backgroundColor:'rgba(81,146,255,.12)'}}>{item.type1}</p>
                     </div>
                     
                     <a href="/entrepreneur-academy">
@@ -237,6 +237,7 @@ return(
                     </div>
                 </div>
                 </div>
+            
          
         ))}
         </div>

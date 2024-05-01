@@ -1,29 +1,48 @@
 import React, { useState } from "react";
 import IndustryIntelligenceGenerateBox from '../../components/elements/IndustryIntelligenceGenerateBox';
 import IndustryIntelligenceTopBusinessIdea from '../../components/elements/IndustryIntelligenceTopBusinessIdea';
+
 import { IoShareSocialOutline } from "react-icons/io5";
+import NewCareerGuide from "./NewCareerGuide";
 
 
 const DiscoverButton = () => {
 
     const [showIndustryComponent, setShowIndustryComponent] = useState(true);
     const [showBusinessComponent, setShowBusinessComponent] = useState(false);
+    const [showNewCareerComponent,setShowNewCareerComponent] = useState(false);
     const [industryButtonClass, setIndustryButtonClass] = useState('btn btn-discover-intelligence fs-6');
     const [businessButtonClass, setBusinessButtonClass] = useState('btn btn-discover-ideas fs-6');
+    const [newCareerbuttonClass,setNewCareerButtonClass] = useState('btn btn-new-career-guide fs-6');
 
     const handleIndustryClick = () => {
         setShowIndustryComponent(true);
         setShowBusinessComponent(false);
+        setShowNewCareerComponent(false);
         setIndustryButtonClass('btn btn-discover-intelligence fs-6');
         setBusinessButtonClass('btn btn-discover-ideas fs-6');
+        setNewCareerButtonClass('btn btn-new-career-guide fs-6');
     };
 
     const handleBusinessClick = () => {
-        setShowIndustryComponent(false);
         setShowBusinessComponent(true);
+        setShowIndustryComponent(false);
+        setShowNewCareerComponent(false);
         setIndustryButtonClass('btn btn-discover-ideas fs-6');
         setBusinessButtonClass('btn btn-discover-intelligence fs-6');
+        setNewCareerButtonClass('btn btn-new-career-guide fs-6');
     };
+    const handlenewCareerClick = () => {
+        setShowNewCareerComponent(true);
+        setShowIndustryComponent(false);
+        setShowBusinessComponent(false);
+        setNewCareerButtonClass('btn btn-discover-intelligence fs-6');
+        setIndustryButtonClass('btn btn-new-career-guide fs-6'); 
+        setBusinessButtonClass('btn btn-discover-ideas fs-6');
+    };
+    
+
+
 
     return (
         <>
@@ -34,7 +53,7 @@ const DiscoverButton = () => {
                     <div className="container d-flex align-items-center">
                         <div className="row">
                             <div className="col">
-                                <h2 style={{ marginBottom: '20px', fontSize: '60px' }}>Industry Intelligence</h2>
+                                <h2>Industry Intelligence</h2>
                                 <p className="industry-intelligence-sub-text">Create bespoke <span className="color-blue"> Market Sector Guides, New Occupation Guides </span> and get <span className="color-blue"> inspiration </span> for your chosen <span className="color-blue">idea</span>, market, or career</p>
                             </div>
                         </div>
@@ -42,7 +61,7 @@ const DiscoverButton = () => {
                 </div>
             </section>
 
-            <section className="section-box mt-50 mb-15">
+            <section className="section-box mt-50 mb-25">
                 <div className="container">
                     <div className="flex-container">
                         <div className="share-icon-industry-intelligence-container">
@@ -51,10 +70,10 @@ const DiscoverButton = () => {
                 
                         </div>
                         <div className="text-center">
-                            <h2 className="section-title text-size mb-10" style={{fontSize:'36px'}}>
+                            <h2 className="section-title text-size mb-10">
                                 Research your Market and Occupation
                             </h2>
-                            <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto" style={{color:'#435579'}}>
+                            <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto sub-title-text-industry">
                                 Easily search your market or business idea
                             </p>
                         </div>
@@ -67,17 +86,25 @@ const DiscoverButton = () => {
                     <div className="text-center1">
                         <button
                             className={`buttondiscover ${industryButtonClass}`}
-                            style={{ padding: '21px 0px', width: '100%', fontSize: '20px !important' }}
+                            style={{ padding: '21px 0px', width: '100%', }}
                             onClick={handleIndustryClick}
                         >
-                            Rapidly Discover Intelligence
+                          Explore a Market Sector 
                         </button>
                         <button
+                            className={`buttondiscover1 ${newCareerbuttonClass}`}
+                            style={{ padding: '21px 0px', width: '100%', }}
+                            onClick={handlenewCareerClick}
+                        >
+                            Discover a New Career
+                        </button>
+
+                        <button
                             className={`buttondiscover1 ${businessButtonClass}`}
-                            style={{ padding: '21px 0px', width: '100%', fontSize: '20px !important' }}
+                            style={{ padding: '21px 0px', width: '100%', }}
                             onClick={handleBusinessClick}
                         >
-                            Discover Top Business Ideas
+                         Discover Top Business Ideas
                         </button>
                     </div>
                 </div>
@@ -87,8 +114,10 @@ const DiscoverButton = () => {
                 <div className="container">
                     <div className="banner-hero1">
                         <div className="block-banner1">
-                            {showIndustryComponent && <IndustryIntelligenceGenerateBox />}
-                            {showBusinessComponent && <IndustryIntelligenceTopBusinessIdea />}
+                        {showIndustryComponent && <IndustryIntelligenceGenerateBox />}
+                        {showBusinessComponent && <IndustryIntelligenceTopBusinessIdea />}
+                        {showNewCareerComponent && <NewCareerGuide />}
+
                         </div>
                     </div>
                 </div>

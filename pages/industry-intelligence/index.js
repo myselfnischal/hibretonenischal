@@ -38,33 +38,29 @@ export default function Index() {
                   container
                   alignItems="center"
                   style={{ minWidth: "100%" }}
-                  sx={{ display: { xs: "none", md: "none", lg: "flex" } }}
+                  sx={{ display: { xs: "none",sm:"none", md: "none", lg: "flex" } }}
                 >
                   <Grid item lg={6} sx={{ paddingRight: { lg: "75px" } }}>
-                    <h2
-                      className="section-header"
-                      style={{ fontSize: "36px !important" }}
-                    >
+                    <h2 style={{ fontSize: "34px !important" }}>
                       Intelligence to Plan or Change Career
                     </h2>
                     <div className="title-details">
-                      <p className="p-color">
-                        {" "}
-                        Our tool enables you to quickly gather the intelligence
-                        and information you need to make informed decisions.
-                        Validating each of your ideas, to decide which to take
-                        forward.{" "}
+                    <p className="p-color">
+                      Say goodbye to endless weeks of market research and gain access
+                      to instant intelligence within minutes.
                       </p>
                       <p className="p-color mt-10">
-                        {" "}
-                        Research which would normally take weeks, or even months
-                        to gather, hibretOne can discover it for you in minutes.
-                        The standard chunk of Lorem Ipsum used since the 1500s
-                        is reproduced below for those interested. Sections
-                        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
-                        by Cicero are also reproduced in their exact original
-                        form, accompanied by English versions from the 1914
-                        translation by H. Rackham.{" "}
+                      Our cutting-edge Intelligence tools allow you to gather meaningful
+                      insights, accelerating your decision-making process significantly. 
+                      Whether you are analysing industry trends in your existing business, 
+                      exploring new markets, or assessing potential competitors, condensing 
+                      what would normally take weeks or even months into mere minutes.
+                      </p>
+                      <p className="p-color mt-10">
+                      Embrace the power of our tool to validate each of your ideas efficiently
+                      and leverage market research to identify the ideas, or the careers with 
+                      the greatest potential for success. Seize the opportunity to turn your 
+                      vision into reality today.
                       </p>
                     </div>
                   </Grid>
@@ -80,10 +76,10 @@ export default function Index() {
                   container
                   alignItems="center"
                   style={{ minWidth: "100%" }}
-                  sx={{ display: { xs: "flex", md: "flex", lg: "none" } }}
+                  sx={{ display: { xs: "none",sm:"flex", md: "flex", lg: "none" } }}
                 >
                   <Grid item xs={12} md={12} sx={{ marginBottom: "20px" }}>
-                    <h3 style={{ fontSize: "24px !important" }}>Intelligence to Plan or Change Career</h3>
+                    <h3 style={{ fontSize: "28px !important" }}>Intelligence to Plan or Change Career</h3>
                   </Grid>
                   <Grid item xs={12} md={12}>
                     <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
@@ -97,20 +93,61 @@ export default function Index() {
                   <Grid item xs={12} md={12}>
                     <div className="mt-10" style={{ textAlign: "justify" }}>
                       <p className="p-color">
-                        Our tool enables you to quickly gather the intelligence
-                        and information you need to make informed decisions.
-                        Validating each of your ideas, to decide which to take
-                        forward.{" "}
+                      Say goodbye to endless weeks of market research and gain access
+                      to instant intelligence within minutes.
                       </p>
-                      <p className="p-color mt-10">
-                        Research which would normally take weeks, or even months
-                        to gather, hibretOne can discover it for you in minutes.
-                        The standard chunk of Lorem Ipsum used since the 1500s
-                        is reproduced below for those interested. Sections
-                        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
-                        by Cicero are also reproduced in their exact original
-                        form, accompanied by English versions from the 1914
-                        translation by H. Rackham.{" "}
+                      <p className="p-color  mt-20">
+                      Our cutting-edge Intelligence tools allow you to gather meaningful
+                      insights, accelerating your decision-making process significantly. 
+                      Whether you are analysing industry trends in your existing business, 
+                      exploring new markets, or assessing potential competitors, condensing 
+                      what would normally take weeks or even months into mere minutes.
+                      </p>
+                      <p className="p-color  mt-20">
+                      Embrace the power of our tool to validate each of your ideas efficiently
+                      and leverage market research to identify the ideas, or the careers with 
+                      the greatest potential for success. Seize the opportunity to turn your 
+                      vision into reality today.
+                      </p>
+                    </div>
+                  </Grid>
+                </Grid>
+                <Grid
+                  container
+                  alignItems="center"
+                  style={{ minWidth: "100%" }}
+                  sx={{ display: { xs: "flex",sm:"none", md: "none", lg: "none" } }}
+                >
+                  <Grid item xs={12} md={12} sx={{ marginBottom: "20px" }}>
+                    <h3 style={{ fontSize: "20px !important" }}>Intelligence to Plan or Change Career</h3>
+                  </Grid>
+                  <Grid item xs={12} md={12}>
+                    <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
+                      <img
+                        className="content-media"
+                        src="assets/imgs/page/industry-intelligence/intelligence.jpg"
+                        alt="joxBox"
+                      />
+                    </div>
+                  </Grid>
+                  <Grid item xs={12} md={12}>
+                    <div className="mt-10" style={{ textAlign: "justify" }}>
+                      <p className="p-color">
+                      Say goodbye to endless weeks of market research and gain access
+                      to instant intelligence within minutes.
+                      </p>
+                      <p className="p-color  mt-10">
+                      Our cutting-edge Intelligence tools allow you to gather meaningful
+                      insights, accelerating your decision-making process significantly. 
+                      Whether you are analysing industry trends in your existing business, 
+                      exploring new markets, or assessing potential competitors, condensing 
+                      what would normally take weeks or even months into mere minutes.
+                      </p>
+                      <p className="p-color  mt-10">
+                      Embrace the power of our tool to validate each of your ideas efficiently
+                      and leverage market research to identify the ideas, or the careers with 
+                      the greatest potential for success. Seize the opportunity to turn your 
+                      vision into reality today.
                       </p>
                     </div>
                   </Grid>
@@ -125,7 +162,7 @@ export default function Index() {
                   container
                   alignItems="center"
                   style={{ minWidth: "100%" }}
-                  sx={{ display: { xs: "none", md: "none", lg: "flex" } }}
+                  sx={{ display: { xs: "none",sm:"none", md: "none", lg: "flex" } }}
                 >
                   <Grid item lg={6}>
                     <img
@@ -140,25 +177,23 @@ export default function Index() {
                     lg={6}
                     sx={{ paddingLeft: { lg: "75px" } }}
                   >
-                    <h3 style={{ fontSize: "36px !important" }}>Market Sector Guide</h3>
+                    <h3 style={{ fontSize: "34px !important" }}>Explore Your Market Sector</h3>
                     <div className="title-details">
                       <p className="p-color">
-                        Intelligence to support your idea, your market, or to
-                        build your business plan. Helping you determine whether
-                        your idea is worth exploring, without investing too much
-                        time or money.
+                      Let certainty drive you forward. Research your business idea and get
+                      results back today on whether it’s worth exploring or discarding. Our 
+                      Market Sector Guide tool can provide intelligent insights within minutes. 
                       </p>
                       <p className="p-color mt-10">
-                        The standard chunk of Lorem Ipsum used since the 1500s
-                        is reproduced below for those interested. Sections
-                        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
-                        by Cicero are also reproduced in their exact original
-                        form, accompanied by English versions from the 1914
-                        translation by H. Rackham.
+                      Imagine having all the information you need at your fingertips: From an insightful
+                       overview to in-depth market analysis, industry trends, and key competitors, we've 
+                       got you covered. Worried about legal hurdles or navigating legislation? Our tool 
+                       provides valuable insights into potential legal issues, ensuring you're prepared 
+                       every step of the way.
                       </p>
                       <p className="p-color mt-10">
-                        Comprehensive analysis and statistics at your
-                        finger-tips.{" "}
+                      The future of your entrepreneurial success starts now—try our tool and unlock your 
+                      business idea potential today.
                       </p>
                     </div>
                   </Grid>
@@ -167,10 +202,10 @@ export default function Index() {
                   container
                   alignItems="center"
                   style={{ minWidth: "100%" }}
-                  sx={{ display: { xs: "flex", md: "flex", lg: "none" } }}
+                  sx={{ display: { xs: "none",sm:"flex", md: "flex", lg: "none" } }}
                 >
                   <Grid item xs={12} md={12} sx={{ marginBottom: "20px" }}>
-                    <h3 style={{ fontSize: "24px !important" }}>Market Sector Guide</h3>
+                    <h3 style={{ fontSize: "28px !important" }}>Explore Your Market Sector</h3>
                   </Grid>
                   <Grid item xs={12} md={12}>
                     <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
@@ -183,23 +218,60 @@ export default function Index() {
                   </Grid>
                   <Grid item xs={12} md={12}>
                     <div className="mt-10" style={{ textAlign: "justify" }}>
-                      <p>
-                        Intelligence to support your idea, your market, or to
-                        build your business plan. Helping you determine whether
-                        your idea is worth exploring, without investing too much
-                        time or money.
+                    <p className="p-color">
+                      Let certainty drive you forward. Research your business idea and get
+                      results back today on whether it’s worth exploring or discarding. Our 
+                      Market Sector Guide tool can provide intelligent insights within minutes. 
                       </p>
-                      <p className="p-color mt-10">
-                        The standard chunk of Lorem Ipsum used since the 1500s
-                        is reproduced below for those interested. Sections
-                        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
-                        by Cicero are also reproduced in their exact original
-                        form, accompanied by English versions from the 1914
-                        translation by H. Rackham.{" "}
+                      <p className="p-color  mt-20">
+                      Imagine having all the information you need at your fingertips: From an insightful
+                       overview to in-depth market analysis, industry trends, and key competitors, we've 
+                       got you covered. Worried about legal hurdles or navigating legislation? Our tool 
+                       provides valuable insights into potential legal issues, ensuring you're prepared 
+                       every step of the way.
                       </p>
-                      <p className="p-color mt-10">
-                        Comprehensive analysis and statistics at your
-                        finger-tips.{" "}
+                      <p className="p-color  mt-20">
+                      The future of your entrepreneurial success starts now—try our tool and unlock your 
+                      business idea potential today.
+                      </p>
+                    </div>
+                  </Grid>
+                </Grid>
+                <Grid
+                  container
+                  alignItems="center"
+                  style={{ minWidth: "100%",marginTop:'-20px' }}
+                  sx={{ display: { xs: "flex",sm:"none", md: "none", lg: "none" } }}
+                >
+                  <Grid item xs={12} md={12} sx={{ marginBottom: "20px" }}>
+                    <h3 style={{ fontSize: "20px !important" }}>Explore Your Market Sector</h3>
+                  </Grid>
+                  <Grid item xs={12} md={12}>
+                    <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
+                      <img
+                        className="content-media"
+                        src="assets/imgs/page/industry-intelligence/market-sector-guide.jpg"
+                        alt="joxBox"
+                      />
+                    </div>
+                  </Grid>
+                  <Grid item xs={12} md={12}>
+                    <div className="mt-10" style={{ textAlign: "justify" }}>
+                    <p className="p-color">
+                      Let certainty drive you forward. Research your business idea and get
+                      results back today on whether it’s worth exploring or discarding. Our 
+                      Market Sector Guide tool can provide intelligent insights within minutes. 
+                      </p>
+                      <p className="p-color  mt-10">
+                      Imagine having all the information you need at your fingertips: From an insightful
+                       overview to in-depth market analysis, industry trends, and key competitors, we've 
+                       got you covered. Worried about legal hurdles or navigating legislation? Our tool 
+                       provides valuable insights into potential legal issues, ensuring you're prepared 
+                       every step of the way.
+                      </p>
+                      <p className="p-color  mt-10">
+                      The future of your entrepreneurial success starts now—try our tool and unlock your 
+                      business idea potential today.
                       </p>
                     </div>
                   </Grid>
@@ -214,7 +286,7 @@ export default function Index() {
                   container
                   alignItems="center"
                   style={{ minWidth: "100%" }}
-                  sx={{ display: { xs: "none", md: "none", lg: "flex" } }}
+                  sx={{ display: { xs: "none",sm:"none", md: "none", lg: "flex" } }}
                 >
                   <Grid
                     className="mt-40"
@@ -222,22 +294,29 @@ export default function Index() {
                     lg={6}
                     sx={{ paddingRight: { lg: "75px" } }}
                   >
-                    <h3 style={{ fontSize: "36px !important" }}>New Occupation Guide</h3>
+                    <h3 style={{ fontSize: "34px !important" }}>Discover that New Occupation</h3>
                     <div className="title-details">
                       <p className="p-color mt-10">
-                        For not-yet-ready entrepreneurs seeking fail-forward
-                        pathways into better-paying careers. hibretOne quickly
-                        and at low-cost, provides intelligence on the chosen
-                        career, qualifications, and skills needed to be
-                        successful in the new career.{" "}
+                      For not-yet-ready entrepreneurs seeking fail-forward pathways into better-paying careers.
+                      hibretOne quickly and at low-cost, provides intelligence on the chosen career, qualifications, 
+                      and skills needed to be successful in the new career.
                       </p>
-                      <p className="p-color mt-10">
-                        The standard chunk of Lorem Ipsum used since the 1500s
-                        is reproduced below for those interested. Sections
-                        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
-                        by Cicero are also reproduced in their exact original
-                        form, accompanied by English versions from the 1914
-                        translation by H. Rackham.{" "}
+                      <p className="p-color  mt-10">
+                      Feeling weighed down by failing business and financial burdens, know that you're not alone. 
+                      Introducing our New Occupation Guide—a lifeline for failing entrepreneurs, presenting pathways 
+                      to jobs and brighter futures, that to anyone else would appear as your first choice, before
+                      entrepreneurship.
+                      </p>
+                      <p className="p-color  mt-10">
+
+                      With quick and cost-effective intelligence at your fingertips, you gain comprehensive information 
+                      into chosen careers, ranging from understanding business responsibilities, key market issues and
+                      trends to identifying the qualifications and skills needed for success.
+
+                      </p>
+                      <p className="p-color  mt-10">
+                      Try our tool to embrace the opportunity to pursue alternative career trajectories with confidence 
+                      and clarity.
                       </p>
                     </div>
                   </Grid>
@@ -253,10 +332,10 @@ export default function Index() {
                   container
                   alignItems="center"
                   style={{ minWidth: "100%" }}
-                  sx={{ display: { xs: "flex", md: "flex", lg: "none" } }}
+                  sx={{ display: { xs: "none",sm:"flex", md: "flex", lg: "none" } }}
                 >
                   <Grid item xs={12} md={12} sx={{ marginBottom: "20px" }}>
-                    <h3 style={{ fontSize: "24px !important" }}>New Occupation Guide</h3>
+                    <h3 style={{ fontSize: "28px !important" }}>Discover that New Occupation</h3>
                   </Grid>
                   <Grid item xs={12} md={12}>
                     <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
@@ -269,20 +348,72 @@ export default function Index() {
                   </Grid>
                   <Grid item xs={12} md={12}>
                     <div className="mt-10" style={{ textAlign: "justify" }}>
-                      <p className="p-color mt-10">
-                        For not-yet-ready entrepreneurs seeking fail-forward
-                        pathways into better-paying careers. hibretOne quickly
-                        and at low-cost, provides intelligence on the chosen
-                        career, qualifications, and skills needed to be
-                        successful in the new career.{" "}
+                    <p className="p-color mt-10">
+                      For not-yet-ready entrepreneurs seeking fail-forward pathways into better-paying careers.
+                      hibretOne quickly and at low-cost, provides intelligence on the chosen career, qualifications, 
+                      and skills needed to be successful in the new career.
                       </p>
-                      <p className="p-color mt-10">
-                        The standard chunk of Lorem Ipsum used since the 1500s
-                        is reproduced below for those interested. Sections
-                        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
-                        by Cicero are also reproduced in their exact original
-                        form, accompanied by English versions from the 1914
-                        translation by H. Rackham.{" "}
+                      <p className="p-color  mt-20">
+                      Feeling weighed down by failing business and financial burdens, know that you're not alone. 
+                      Introducing our New Occupation Guide—a lifeline for failing entrepreneurs, presenting pathways 
+                      to jobs and brighter futures, that to anyone else would appear as your first choice, before
+                      entrepreneurship.
+                      </p>
+                      <p className="p-color  mt-20">
+
+                      With quick and cost-effective intelligence at your fingertips, you gain comprehensive information 
+                      into chosen careers, ranging from understanding business responsibilities, key market issues and
+                      trends to identifying the qualifications and skills needed for success.
+
+                      </p>
+                      <p className="p-color  mt-20">
+                      Try our tool to embrace the opportunity to pursue alternative career trajectories with confidence 
+                      and clarity.
+                      </p>
+                    </div>
+                  </Grid>
+                </Grid>
+                <Grid
+                  container
+                  alignItems="center"
+                  style={{ minWidth: "100%",marginTop:'-20px' }}
+                  sx={{ display: { xs: "flex",sm:"none", md: "none", lg: "none" } }}
+                >
+                  <Grid item xs={12} md={12} sx={{ marginBottom: "20px" }}>
+                    <h3 style={{ fontSize: "20px !important" }}>Discover that New Occupation</h3>
+                  </Grid>
+                  <Grid item xs={12} md={12}>
+                    <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
+                      <img
+                        className="content-media"
+                        src="assets/imgs/page/industry-intelligence/occupation-guide.jpg"
+                        alt="joxBox"
+                      />
+                    </div>
+                  </Grid>
+                  <Grid item xs={12} md={12}>
+                    <div className="mt-10" style={{ textAlign: "justify" }}>
+                    <p className="p-color mt-10">
+                      For not-yet-ready entrepreneurs seeking fail-forward pathways into better-paying careers.
+                      hibretOne quickly and at low-cost, provides intelligence on the chosen career, qualifications, 
+                      and skills needed to be successful in the new career.
+                      </p>
+                      <p className="p-color  mt-10">
+                      Feeling weighed down by failing business and financial burdens, know that you're not alone. 
+                      Introducing our New Occupation Guide—a lifeline for failing entrepreneurs, presenting pathways 
+                      to jobs and brighter futures, that to anyone else would appear as your first choice, before
+                      entrepreneurship.
+                      </p>
+                      <p className="p-color  mt-10">
+
+                      With quick and cost-effective intelligence at your fingertips, you gain comprehensive information 
+                      into chosen careers, ranging from understanding business responsibilities, key market issues and
+                      trends to identifying the qualifications and skills needed for success.
+
+                      </p>
+                      <p className="p-color  mt-10">
+                      Try our tool to embrace the opportunity to pursue alternative career trajectories with confidence 
+                      and clarity.
                       </p>
                     </div>
                   </Grid>
@@ -297,7 +428,7 @@ export default function Index() {
                   container
                   alignItems="center"
                   style={{ minWidth: "100%" }}
-                  sx={{ display: { xs: "none", md: "none", lg: "flex" } }}
+                  sx={{ display: { xs: "none",sm:"none", md: "none", lg: "flex" } }}
                 >
                   <Grid item lg={6}>
                     <img
@@ -307,26 +438,22 @@ export default function Index() {
                     />
                   </Grid>
                   <Grid item lg={6} sx={{ paddingLeft: { lg: "75px" } }}>
-                    <h3 className="mt-5" style={{ fontSize: "36px !important" }}>
-                      Discover Business Idea
+                    <h3  style={{ fontSize: "34px !important",marginTop:'-40px' }}>
+                    Explore Business Ideas from Around the World
                     </h3>
                     <div  className="title-details">
-                      <p className="p-color mt-10">
-                        If you are in need of inspiration to start a new
-                        business, we've got you covered. You can discover the
-                        most popular businesses in the country of your choice.
-                        If one of them seems appealing, then generate a market
-                        sector guide, or an occupation guide. It may be the push
-                        you need to start a new business, or change for a new
-                        career.
+                      <p className="p-color">
+                      Are you aspiring to launch a new business, look no further – we've got you covered!
                       </p>
-                      <p className="p-color mt-10">
-                        The standard chunk of Lorem Ipsum used since the 1500s
-                        is reproduced below for those interested. Sections
-                        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
-                        by Cicero are also reproduced in their exact original
-                        form, accompanied by English versions from the 1914
-                        translation by H. Rackham.{" "}
+                      <p className="p-color  mt-10">
+                      Explore the most popular businesses in all the countries or regions around the world 
+                      effortlessly. Whether you already have an idea and you just wish to be inspired and explore 
+                      alternatives, with our customized New Business Ideas tool, you can generate the insights you 
+                      need to navigate the next big thing.
+                      </p>
+                      <p className="p-color  mt-10">
+                      Use our tools to transform your dreams into a lucrative reality. The perfect business or career
+                      change is just few clicks away!
                       </p>
                     </div>
                   </Grid>
@@ -334,11 +461,11 @@ export default function Index() {
                 <Grid
                   container
                   alignItems="center"
-                  style={{ minWidth: "100%" }}
-                  sx={{ display: { xs: "flex", md: "flex", lg: "none" } }}
+                  style={{ minWidth: "100%",marginTop:'-20px' }}
+                  sx={{ display: { xs: "flex",sm:"none", md: "none", lg: "none" } }}
                 >
                   <Grid item xs={12} md={12}>
-                    <h3 style={{fontSize:'24px !important'}}>Discover Business Idea</h3>
+                    <h3 style={{fontSize:'20px !important'}}>Explore Business Ideas from Around the World</h3>
                   </Grid>
                   <Grid className="mt-10" item xs={12} md={12}>
                     <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
@@ -351,35 +478,32 @@ export default function Index() {
                   </Grid>
                   <Grid item xs={12} md={12}>
                     <div  className="mt-10" style={{ textAlign: "justify" }}>
-                      <p className="p-color">
-                        If you are in need of inspiration to start a new
-                        business, we've got you covered. You can discover the
-                        most popular businesses in the country of your choice.
-                        If one of them seems appealing, then generate a market
-                        sector guide, or an occupation guide. It may be the push
-                        you need to start a new business, or change for a new
-                        career.
+                    <p className="p-color mt-10">
+                      Are you aspiring to launch a new business, look no further – we've got you covered!
                       </p>
-                      <p className="p-color">
-                        The standard chunk of Lorem Ipsum used since the 1500s
-                        is reproduced below for those interested. Sections
-                        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
-                        by Cicero are also reproduced in their exact original
-                        form, accompanied by English versions from the 1914
-                        translation by H. Rackham.{" "}
+                      <p className="p-color  mt-10">
+                      Explore the most popular businesses in all the countries or regions around the world 
+                      effortlessly. Whether you already have an idea and you just wish to be inspired and explore 
+                      alternatives, with our customized New Business Ideas tool, you can generate the insights you 
+                      need to navigate the next big thing.
+                      </p>
+                      <p className="p-color  mt-10">
+                      Use our tools to transform your dreams into a lucrative reality. The perfect business or career
+                      change is just few clicks away!
                       </p>
                     </div>
                   </Grid>
-                </Grid>
+                </Grid> 
               </div>
             </div>
           </section>
-          <section className="section-box mt-0 mb-75">
+          <section className="section-box mt-40">
             <div className="post-loop-grid">
-              <div className="container"></div>
+              <div className="container">
+                        <KickstartButton />
+              </div>
             </div>
           </section>
-          <KickstartButton />
           <Subscription />
         </div>
       </Layout>

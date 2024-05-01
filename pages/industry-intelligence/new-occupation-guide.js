@@ -92,16 +92,6 @@ export default function NewOccupationGuide() {
   };
 
 
-  const handleClick = (event) => {
-      setShowDialog(true);
-  };
-
-  const handleClose = () => {
-      setShowDialog(false);
-  };
-
-
-
 
   useLockBodyScroll(isOpen);
 
@@ -178,15 +168,15 @@ export default function NewOccupationGuide() {
 
                   <div className="overview-button-d">
                   <button 
-                                         onClick={handleClick}
+                                        
                                             className="previous-button"
                                         >
                                             Previous Guides
                                         </button>       
-                                        <ComingSoon open={showDialog} handleClose={handleClose} />     
+                                        
                                         <button
                                             className="example-button"
-                                            onClick={handleClick}
+                                           
                                         >
                                             Examples Guides
                                         </button>
@@ -645,7 +635,7 @@ export default function NewOccupationGuide() {
 
                                   <div className="row mt-15 mb-15">
                                     <div className="titleforguides">
-                                      10. Useful Contacts:
+                                      10. Useful Contacts
                                     </div>
                                     <div
                                       className="mt-10"
@@ -673,13 +663,13 @@ export default function NewOccupationGuide() {
                                     </div>
                                   </div>
                                   <div className="button-container">
-                                    <button className="button regenerate-button" onClick={handleClick}>
+                                    <button className="button regenerate-button">
                                       Regenerate
                                     </button>
-                                    <button className="button download-button" onClick={handleClick}>
+                                    <button className="button download-button">
                                       Download PDF
                                     </button>
-                                    <button className="button share-button" onClick={handleClick}>
+                                    <button className="button share-button">
                                       Share by Email
                                     </button>
                                   </div>

@@ -5,7 +5,11 @@ import Subscription from '../../components/Layout/Subscription';
 import KickstartButton from "../../components/elements/KickstartButton";
 import { useRouter } from 'next/router';
 import axios from 'axios';
-import ComingSoon from '../../components/elements/ComingSoon';
+import { IoIosShareAlt } from "react-icons/io";
+import { FiDownload } from "react-icons/fi";
+
+
+
 
 function useLockBodyScroll(open) {
     
@@ -74,18 +78,6 @@ const formattedDate = `${day} ${monthName} ${year}`;
         setCounter(prevCounter => prevCounter + 1);
     };
 
-    const [showDialog, setShowDialog] = useState(false);
-
-    const handleClick = (event) => {
-        setShowDialog(true);
-    };
-
-    const handleClose = () => {
-        setShowDialog(false);
-    };
-
-  
-
     useLockBodyScroll(isOpen)
 
     return (
@@ -136,15 +128,15 @@ const formattedDate = `${day} ${monthName} ${year}`;
 
                                     <div className="overview-button-d">
                                     <button 
-                                         onClick={handleClick}
+                                      
                                             className="previous-button"
                                         >
                                             Previous Guides
                                         </button>       
-                                        <ComingSoon open={showDialog} handleClose={handleClose} />     
+                                        
                                         <button
                                             className="example-button"
-                                            onClick={handleClick}
+                                           
                                         >
                                             Examples Guides
                                         </button>
@@ -161,6 +153,7 @@ const formattedDate = `${day} ${monthName} ${year}`;
                                                     <div className="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab">
                                                         <div className="row">
                                                             <h3 className="guideheading">Market Sector Guide</h3>
+                                                            <span className='underline-industry-intelligence'></span>
                                                             <div className="mb-15" style={{ textAlign: 'justify', marginTop: '11px' }}>
                                                             </div>
                                                         </div>
@@ -509,7 +502,7 @@ const formattedDate = `${day} ${monthName} ${year}`;
 
                                                          <div className="row mt-15 mb-15">
                                                             <div className="titleforguides">
-                                                                11. Useful Contacts:
+                                                                11. Useful Contacts
                                                             </div>
                                                             <div className="mt-10" style={{ textAlign: 'justify' }}>
                                                                     {responseData && responseData.extracted_text_11 && (
@@ -528,13 +521,14 @@ const formattedDate = `${day} ${monthName} ${year}`;
                                                             </div>
                                                         </div>  
                                                         <div className="button-container">
-                                    <button className="button regenerate-button" onClick={handleClick}>
+                                    <button className="button regenerate-button">
                                       Regenerate
                                     </button>
-                                    <button className="button download-button" onClick={handleClick}>
-                                      Download PDF
+                                    <button className="button download-button">
+                                    <span className='share-email-icon'><FiDownload /></span> Download PDF
                                     </button>
-                                    <button className="button share-button" onClick={handleClick}>
+                                    <button className="button share-button">
+                                    <span className='share-email-icon'><IoIosShareAlt /></span>
                                       Share by Email
                                     </button>
                                   </div>
