@@ -16109,6 +16109,7 @@ color:#435579;
  .text-size{
   font-size: 22px !important;
   line-height: 26px !important;
+  margin-top: -19px !important;
 }
 .sub-title-text-industry{
 font-size: 18px;
@@ -16430,14 +16431,14 @@ color:#435579;
 
   .banner-hero1 .block-banner1 .industry-form-find, .banner-hero1 .block-banner1 .industry-form-find-top {
     padding: 20px;
-    width: 400px !important;
+    width: 380px !important;
  }
 } 
 @media screen and (max-width: 410px) {
 
   .banner-hero1 .block-banner1 .industry-form-find, .banner-hero1 .block-banner1 .industry-form-find-top {
     padding: 20px;
-    width: 352px !important;
+    width: 340px !important;
  }
 } 
 @media (min-width: 768px) {
@@ -16898,7 +16899,7 @@ color:#435579;
     font-size: 12px !important;
   }
   .te{
-  margin-left: 175px !important;
+  margin-left: 165px !important;
   
   }
 
