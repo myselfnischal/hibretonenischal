@@ -16414,9 +16414,14 @@ color:#435579;
   .divider, .divider1 {
     display: none;
  }
-   .mike-audio{
+   /* .mike-audio{
     width: 19px !important;
     margin-left: 12px !important;
+  } */
+  .mike-audio{
+    margin-left: 450px !important;
+    margin-top: -51px !important;
+    width: 14px !important;
   }
 }
 
@@ -16438,7 +16443,7 @@ color:#435579;
 
   .banner-hero1 .block-banner1 .industry-form-find, .banner-hero1 .block-banner1 .industry-form-find-top {
     padding: 20px;
-    width: 340px !important;
+    width: 353px !important;
  }
 } 
 @media (min-width: 768px) {
@@ -16902,7 +16907,11 @@ color:#435579;
   margin-left: 171px !important;
   
   }
-
+.mike-audio{
+  margin-left: 329px !important;
+  margin-top: -51px !important;
+  width: 14px !important;
+}
 }
 .share-email-icon{
   font-size:30px;

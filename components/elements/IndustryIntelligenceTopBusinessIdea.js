@@ -121,74 +121,17 @@ const IndustryIntelligenceTopBusinessIdea = () => {
                         placeholder="Enter name of your sector and your location"
                         style={{ marginTop: "4px" }}
                     />
-          {/* <Autocomplete
-            clearOnEscape
-            options={locations}
-            onChange={(event, value) =>
-              handleChange({ target: { name: "location", value } })
-            }
-            renderInput={(params) => (
-              <TextField
-                name="location"
-                id="location"
-                value={formData.location}
-                onChange={handleChange}
-                sx={{
-                  border: "none !important",
-                  "&:focus": {
-                    border: "none !important",
-                  },
-                  "& .MuiInputBase-input": {
-                    border: "none !important",
-                    height: "auto",
-                    width: "auto !important",
-                  },
-                }}
-                {...params}
-                label="City, region or country"
-                variant="standard"
-                InputProps={{
-                  ...params.InputProps,
-                  disableUnderline: true,
-                }}
-              />
-            )}
-            className="industry-input-top-one"
-          /> */}
-          {formErrors.guidename && <p style={{ color: "red" }}>required*</p>}
-          {/* <div className="divider"></div> */}
 
-          {/* <input
-            className="industry-input-top-two"
-            type="text"
-            name="number_of_business_ideas"
-            id="number_of_business_ideas"
-            value={formData.number_of_business_ideas}
-            onChange={handleChange}
-            placeholder="Number of ideas"
-            style={{ marginTop: "5px" }}
-          />
-          {formErrors.number_of_business_ideas && (
-            <p style={{ color: "red" }}>
-              {(() => {
-                const inputValue = formData.number_of_business_ideas;
-                console.log("Input value:", inputValue);
-                const isNum = isNumber(inputValue);
-                console.log("Is number:", isNum);
-                if (inputValue === "") {
-                  return "required*";
-                } else if (!isNum) {
-                  return "number only*";
-                } else {
-                  return "";
-                }
-              })()}
-            </p>
-          )} */}
-
+                    <div className="mike-audio">
+                    <img src="/assets/imgs/page/industry-intelligence/00.png" />
+                    </div>
           <button className="btn-search">GENERATE</button>
         </form>
       </div>
+      <div className="example-industry wow animate__animated animate__fadeInUp">
+            <h6  className="sha">Example Searches:</h6>
+            <p className="te">I floristry maidenhead,  clothes manufacturers leicester, PR companies cardiff</p>
+          </div>
     </>
   );
 };

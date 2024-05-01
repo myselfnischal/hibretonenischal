@@ -110,78 +110,16 @@ function NewCareerGuide() {
                         style={{ marginTop: "4px" }}
                     />
                {formErrors.guidename && <p style={{color:'red'}}>required*</p>}
-                {/* <div className="divider1"></div>
-                    <Autocomplete
-                        clearOnEscape
-                        options={guide_type}
-                        onChange={(event, value) => handleChange({ target: { name: 'guidetype', value } })}
-                        renderInput={(params) => (
-                            <TextField
-                                name="guidetype"
-                                id="guidetype"
-                                value={formData.guidetype}
-                                onChange={handleChange}
-                                sx={{
-                                    border: "none !important",
-                                    "&:focus": {
-                                        border: "none !important",
-                                    },
-                                    "& .MuiInputBase-input": {
-                                        border: "none !important",
-                                        height: "auto",
-                                        width: "100% !important",
-                                    },
-                                }}
-                                {...params}
-                                label="Guide Type"
-                                variant="standard"
-                                InputProps={{
-                                    ...params.InputProps,
-                                    disableUnderline: true,
-                                }}
-                            />
-                        )}
-                        className="industry-input-top-three"
-                    /> */}
-                     {/* {formErrors.location && <p style={{color:'red'}}>required*</p>} */}
-                    {/* <div className="divider1"></div> */}
-                    {/* <Autocomplete
-                        clearOnEscape
-                        options={locations}
-                        onChange={(event, value) => handleChange({ target: { name: 'location', value } })}
-                        renderInput={(params) => (
-                            <TextField
-                                name="location"
-                                id="location"
-                                value={formData.location}
-                                onChange={handleChange}
-                                sx={{
-                                    border: "none !important",
-                                    "&:focus": {
-                                        border: "none !important",
-                                    },
-                                    "& .MuiInputBase-input": {
-                                        border: "none !important",
-                                        height: "auto",
-                                        width: "100% !important",
-                                    },
-                                }}
-                                {...params}
-                                label="City, region or country"
-                                variant="standard"
-                                InputProps={{
-                                    ...params.InputProps,
-                                    disableUnderline: true,
-                                }}
-                            />
-                        )}
-                        className="industry-input-top-four"
-                    /> */}
-                     {/* {formErrors.location && <p style={{color:'red'}}>required*</p>} */}
-                    <div className="divider2"></div>
+               <div className="mike-audio">
+                    <img src="/assets/imgs/page/industry-intelligence/00.png" />
+                    </div>
                     <button type="submit" className="btn-search">GENERATE</button>
                 </form>
             </div>
+            <div className="example-industry wow animate__animated animate__fadeInUp">
+            <h6  className="sha">Example Searches:</h6>
+            <p className="te">I floristry maidenhead,  clothes manufacturers leicester, PR companies cardiff</p>
+          </div>
         </>
     );
 }
