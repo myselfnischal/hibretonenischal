@@ -21,18 +21,21 @@ const OnlineCourse = () => {
                     </div>
                 </div>
             </section>
-
             <section className="section-box mt-50 mb-25">
                 <div className="container">
                     <div className="flex-container">
-                        <div className="share-icon-entrepreneur-academy-container">
-                                <IoShareSocialOutline className="share-icon-entrepreneur-academy" />
+                        <div className="share-icon-online-course-container">
+                                <IoShareSocialOutline className="share-icon-online-course" />
                         </div>
                         <div className="text-center">
-                                <EntrepreneurAcademyCounter />
-                            </div>
-                            </div>
-                    
+                            <h2 className="section-title  text-size-online-course mb-10">
+                            Entrepreneurship Programmes
+                            </h2>
+                            <p className="font-lg fw-bold color-text-paragraph w-lg-50 mx-auto"style={{color:'#435579'}}>
+                            Courses  and  content from hibretOne and partners to build your career
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section className="section-box mt-25 mb-25">
@@ -43,6 +46,16 @@ const OnlineCourse = () => {
                        
                         </div>
                     </div>
+                </div>
+            </section>
+            <section className="section-box mt-50 mb-25">
+                <div className="container">
+                    <div className="flex-container">
+                        <div className="text-center">
+                                <EntrepreneurAcademyCounter />
+                            </div>
+                            </div>
+                    
                 </div>
             </section>
         </>

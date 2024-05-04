@@ -61,11 +61,7 @@ export default function Index() {
           <section className="section-box mt-25 mb-25">
                         <div className="section-box wow animate__animated animate__fadeIn">
                             <div className="container">
-                                <div className="text-center">
-                                    <h2 className="section-title text-size-entrepreneur-academy mb-40">
-                                    Entrepreneur Accelerator
-                                    </h2>
-                                </div>
+                               
                                     < EntrepreneurAcademyVideo />
                                 
                                 </div>
@@ -85,7 +81,7 @@ export default function Index() {
                                     Byte-sized entrepreneur learning
                                     </p>
                                 </div>
-                                <div className="mt-20 grant-category">
+                                <div className="mt-20">
                                     <div>
                                         <PopularAcceleratorLessonOne />
                                         {/* <PopularAcceleratorLessonTwo /> */}

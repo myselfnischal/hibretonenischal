@@ -61,7 +61,7 @@ const DiscoverButton = () => {
                 </div>
             </section>
 
-            <section className="section-box mt-50 mb-25">
+            <section className="section-box mt-25 mb-25">
                 <div className="container">
                     <div className="flex-container">
                         <div className="share-icon-industry-intelligence-container">
@@ -110,7 +110,7 @@ const DiscoverButton = () => {
                 </div>
             </section>
 
-            <section className="section-box mt-25 mb-25">
+            <section className="section-box  mt-25 mb-25">
                 <div className="container">
                     <div className="banner-hero1">
                         <div className="block-banner1">

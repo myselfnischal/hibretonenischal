@@ -1,72 +1,34 @@
 import React, { useState } from "react";
-import { Autocomplete, TextField } from "@mui/material";
 import { useRouter } from "next/router";
+import { AiFillAudio } from "react-icons/ai";
 
 const IndustryIntelligenceTopBusinessIdea = () => {
   const [formData, setFormData] = useState({
-    top_business_idea: "",
-    location: "",
+    guidename:""
   });
   const [formErrors, setFormErrors] = useState({
-    number_of_business_ideas: "",
-    location: "",
+  guidename:false
   });
 
   const router = useRouter();
-  const locations = [
-    "London",
-    "Edinburgh",
-    "Manchester",
-    "Birmingham",
-    "Glasgow",
-    "Bristol",
-    "Liverpool",
-    "Oxford",
-    "Cambridge",
-    "Brighton",
-    "Newcastle",
-    "Leeds",
-    "Sheffield",
-    "Portsmouth",
-    "Nottingham",
-    "Leicester",
-    "Southampton",
-    "Belfast",
-    "Cardiff",
-    "Coventry",
-  ];
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    if (!formData.number_of_business_ideas || !formData.location) {
+    if (!formData.guidename) {
       setFormErrors({
-        number_of_business_ideas: !formData.number_of_business_ideas,
-        location: !formData.location,
+        guidename: !formData.guidename,
       });
       return;
     }
 
     const queryParams = new URLSearchParams();
 
-    if (isNumber(formData.number_of_business_ideas)) {
-      queryParams.append(
-        "number_of_business_ideas",
-        formData.number_of_business_ideas
-      );
+    if (formData.guidename) {
+      queryParams.append("guidename", formData.guidename);
     } else {
       setFormErrors((prevFormErrors) => ({
         ...prevFormErrors,
-        number_of_business_ideas: "number only*",
-      }));
-      return;
-    }
-
-    if (formData.location) {
-      queryParams.append("location", formData.location);
-    } else {
-      setFormErrors((prevFormErrors) => ({
-        ...prevFormErrors,
-        location: "required*",
+        guidename: "required*",
       }));
       return;
     }
@@ -100,12 +62,7 @@ const IndustryIntelligenceTopBusinessIdea = () => {
       [name]: false,
     }));
   };
-  const isNumber = (value) => {
-    console.log(value);
-    const numericRegex = /^[0-9]+$/;
-    console.log(numericRegex.test(value));
-    return numericRegex.test(value);
-  };
+
 
   return (
     <>
@@ -118,19 +75,20 @@ const IndustryIntelligenceTopBusinessIdea = () => {
                         id="guidename"
                         value={formData.guidename}
                         onChange={handleChange}
-                        placeholder="Enter name of your sector and your location"
+                        placeholder="Enter location and the number of ideas"
                         style={{ marginTop: "4px" }}
                     />
-
-                    <div className="mike-audio">
-                    <img src="/assets/imgs/page/industry-intelligence/00.png" />
+          {formErrors.guidename && <p style={{color:'red'}}>required*</p>}
+             
+          <div className="mike-audio">
+                    <AiFillAudio />
                     </div>
           <button className="btn-search">GENERATE</button>
         </form>
       </div>
       <div className="example-industry wow animate__animated animate__fadeInUp">
-            <h6  className="sha">Example Searches:</h6>
-            <p className="te">I floristry maidenhead,  clothes manufacturers leicester, PR companies cardiff</p>
+            <h6  className="example-title">Example input:</h6>
+            <p className="example-top-business-idea">slovenia  10,  oslo 15,  baghdad 20</p>
           </div>
     </>
   );

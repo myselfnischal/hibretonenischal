@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Subscription = () => {
     return (
-        <section className="section-box mt-50 mb-20">
+        <section className="section-box mt-35 mb-20">
                         <div className="box-newsletter box-newsletter-2">
                             <div className="container">
                                 <div className="row">

@@ -5,7 +5,10 @@ import Subscription from "../../components/Layout/Subscription";
 import KickstartButton from "../../components/elements/KickstartButton";
 import { useRouter } from "next/router";
 import axios from "axios";
-import ComingSoon from "../../components/elements/ComingSoon";
+import { IoIosShareAlt } from "react-icons/io";
+import { FiDownload } from "react-icons/fi";
+
+
 function useLockBodyScroll(open) {
   useEffect(() => {
     if (open) {
@@ -45,17 +48,12 @@ export default function NewOccupationGuide() {
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     guidename: "",
-    guidetype: "",
-    location: "",
   });
   const [responseData, setResponseData] = useState(null);
-  const [showDialog, setShowDialog] = useState(false);
   useEffect(() => {
-    const { guidename, guidetype, location } = router.query;
+    const { guidename} = router.query;
     setFormData({
       guidename: guidename || "",
-      guidetype: guidetype || "",
-      location: location || "",
     });
   }, [router.query]);
 
@@ -81,8 +79,10 @@ export default function NewOccupationGuide() {
       setLoading(false);
     }
   };
+
+  
   useEffect(() => {
-    if (formData.guidename && formData.guidetype && formData.location) {
+    if (formData.guidename) {
       callAPI();
     }
   }, [formData]);
@@ -90,8 +90,6 @@ export default function NewOccupationGuide() {
   const incrementCounter = () => {
     setCounter((prevCounter) => prevCounter + 1);
   };
-
-
 
   useLockBodyScroll(isOpen);
 
@@ -137,7 +135,7 @@ export default function NewOccupationGuide() {
                           />
                           <div className="div-5"> Guide Number </div>
                         </div>
-                        <div className="div-6">{`NOG${counter
+                        <div className="div-6">{`NCG${counter
                           .toString()
                           .padStart(3, "0")}`}</div>
 
@@ -196,7 +194,7 @@ export default function NewOccupationGuide() {
                           >
                             <div className="row">
                               <h3 className="guideheading">
-                                New Occupation Guide
+                                New Career Guide
                               </h3>
                               <div
                                 className="mb-15"
@@ -667,9 +665,10 @@ export default function NewOccupationGuide() {
                                       Regenerate
                                     </button>
                                     <button className="button download-button">
-                                      Download PDF
+                                    <span className='share-email-icon'><FiDownload /></span> Download PDF
                                     </button>
                                     <button className="button share-button">
+                                    <span className='share-email-icon'><IoIosShareAlt /></span>
                                       Share by Email
                                     </button>
                                   </div>

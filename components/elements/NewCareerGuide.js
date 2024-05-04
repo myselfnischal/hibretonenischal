@@ -1,127 +1,118 @@
 import React, { useState } from "react";
-import { Autocomplete, TextField } from "@mui/material";
 import { useRouter } from "next/router";
+import axios from "axios";
+import { AiFillAudio } from "react-icons/ai";
 
 
+const NewCareerGuide = () => {
+  const [isValidPlace, setIsValidPlace] = useState(false);
+  const [formData, setFormData] = useState({
+    guidename: ""
+  });
+  const [formErrors, setFormErrors] = useState({
+    guidename: false
+  });
 
-function NewCareerGuide() {
-    const [formData, setFormData] = useState({
-        guidename: '',
-        guidetype: '',
-        location: ''
-    });
-    const [formErrors, setFormErrors] = useState({
-        guidename: false,
-        guidetype: false,
-        location: false
-    });
+  const router = useRouter();
 
-    const router = useRouter();
+  const validatePlace = async () => {
+    try {
+      const response = await axios.post("http://localhost:8000/validate-place", { text: formData.guidename });
+      console.log('response',response);
+      setIsValidPlace(response.data.isValidPlace);
+    } catch (error) {
+      console.error("Error validating place:", error);
+    }
+  };
+  
 
-    const guide_type = ["Market Sector Guide", "New Occupation Guide"];
-    const locations = [
-        "London",
-        "Edinburgh",
-        "Manchester",
-        "Birmingham",
-        "Glasgow",
-        "Bristol",
-        "Liverpool",
-        "Oxford",
-        "Cambridge",
-        "Brighton",
-        "Newcastle",
-        "Leeds",
-        "Sheffield",
-        "Portsmouth",
-        "Nottingham",
-        "Leicester",
-        "Southampton",
-        "Belfast",
-        "Cardiff",
-        "Coventry",
-    ];
-
-    const handleSubmit = async (event) => {
-        event.preventDefault();
-        
-        if (!formData.guidename || !formData.guidetype || !formData.location) {
-            setFormErrors({
-                guidename: !formData.guidename,
-                guidetype: !formData.guidetype,
-                location: !formData.location
-            });
-            return;
-        }
-        
-        const queryParams = new URLSearchParams(formData);
-        const guideType = queryParams.get('guidetype');
-        
-        if (guideType === 'New Occupation Guide') {
-            const new_url = `/industry-intelligence/new-occupation-guide?${queryParams}`;
-            if (window.location.pathname !== '/industry-intelligence/new-occupation-guide') {
-                router.push(new_url);
-            } else {
-                router.push({
-                    pathname: window.location.pathname,
-                    query: queryParams.toString()
-                }, undefined, { shallow: true, replace: true });
-            }
-        } else {
-            const url = `/industry-intelligence/market-sector-guide?${queryParams}`;
-            if (window.location.pathname !== '/industry-intelligence/market-sector-guide') {
-                router.push(url);
-            } else {
-                router.push({
-                    pathname: window.location.pathname,
-                    query: queryParams.toString() 
-                }, undefined, { shallow: true, replace: true });
-            }
-        }
-        
-        
-    };
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+  
+    if (!formData.guidename) {
+      setFormErrors((prevFormErrors) => ({
+        ...prevFormErrors,
+        guidename: "required*",
+      }));
+      return;
+    }
     
-    const handleChange = (event) => {
-        const { name, value } = event.target;
-        setFormData(prevFormData => ({
-            ...prevFormData,
-            [name]: value
+    try {
+      const isValidPlace = await validatePlace(formData.guidename);
+      console.log(isValidPlace);
+      if (!isValidPlace) {
+        setFormErrors((prevFormErrors) => ({
+          ...prevFormErrors,
+          guidename: "Please enter a valid place name*"
         }));
+        return;
+      }
+  
+      const queryParams = new URLSearchParams();
+      queryParams.append("guidename", formData.guidename);
+      console.log(queryParams);
     
-        setFormErrors(prevFormErrors => ({
-            ...prevFormErrors,
-            [name]: false
-        }));
-    };
+      const url = `/industry-intelligence/new-career-guide?${queryParams}`;
+      if (window.location.pathname !== "/industry-intelligence/new-career-guide") {
+        router.push(url);
+      } else {
+        router.push(
+          {
+            pathname: window.location.pathname,
+            query: queryParams.toString(),
+          },
+          undefined,
+          { shallow: true, replace: true }
+        );
+      }
+    } catch (error) {
+      console.error("Error occurred during place validation:", error);
+      // Handle error if necessary
+    }
+  };
+  
 
-    return (
-        <>
-            <div className="industry-form-find wow animate__animated animate__fadeInUp">
-                <form onSubmit={handleSubmit}>
-                    <input
-                        className="industry-input-top-five"
-                        type="text"
-                        name="guidename"
-                        id="guidename"
-                        value={formData.guidename}
-                        onChange={handleChange}
-                        placeholder="Enter name of your sector and your location "
-                        style={{ marginTop: "4px" }}
-                    />
-               {formErrors.guidename && <p style={{color:'red'}}>required*</p>}
-               <div className="mike-audio">
-                    <img src="/assets/imgs/page/industry-intelligence/00.png" />
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+
+    setFormErrors((prevFormErrors) => ({
+      ...prevFormErrors,
+      [name]: false,
+    }));
+  };
+
+  return (
+    <>
+      <div className="industry-form-find  wow animate__animated animate__fadeInUp">
+        <form onSubmit={handleSubmit}>
+          <input
+            className="industry-input-top-five"
+            type="text"
+            name="guidename"
+            id="guidename"
+            value={formData.guidename}
+            onChange={handleChange}
+            placeholder="Enter your career and location "
+            style={{ marginTop: "4px" }}
+          />
+          {formErrors.guidename && <p style={{ color: 'red' }}>{formErrors.guidename}</p>}
+
+          <div className="mike-audio">
+                    <AiFillAudio />
                     </div>
-                    <button type="submit" className="btn-search">GENERATE</button>
-                </form>
-            </div>
-            <div className="example-industry wow animate__animated animate__fadeInUp">
-            <h6  className="sha">Example Searches:</h6>
-            <p className="te">I floristry maidenhead,  clothes manufacturers leicester, PR companies cardiff</p>
-          </div>
-        </>
-    );
-}
+          <button className="btn-search">GENERATE</button>
+        </form>
+      </div>
+      <div className="example-industry wow animate__animated animate__fadeInUp">
+        <h6 className="example-title">Example input:</h6>
+        <p className="example-new-career-guide">computer programmer belfast, hairdresser st ives, website developer cardiff</p>
+      </div>
+    </>
+  );
+};
 
 export default NewCareerGuide;

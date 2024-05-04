@@ -9,7 +9,7 @@ const data = [
   {
         id:1,
         image: "/assets/imgs/page/entrepreneur-academy/4.jpg",
-        title: "Entrepreneurial Readiness",
+        title: "Course 1: Entrepreneurial Readiness",
         description:{
           full:"Develop essential entrepreneurial skills, by assessing your current skills, traits  and strengths, identifying your passions, conducting market research, and creating a business plan, you'll set the stage for a successful venture. Dive into financial evaluation, build a supportive network, learn from setbacks, and foster resilience.",
           short:"Develop essential entrepreneurial skills, by assessing your current skills, traits  and strengths, identifying your passions, conducting market research,"
@@ -25,7 +25,7 @@ const data = [
     {
       id:2,
       image: "/assets/imgs/page/entrepreneur-academy/5.jpg",
-      title: "Sustainability",
+       title: "Course 4: Entrepreneurial Vision",
       description:{
         full:"For entrepreneurs wanting to integrate sustainability into their business practices and contribute to building a greener and more sustainable future. Explore the importance of sustainability in entrepreneurship, learn about eco-friendly business strategies, and discover innovative ways to create a positive impact on the environment and society. Also cover topics such as sustainable business models, responsible supply chain management, and measuring the impact of sustainability efforts.",
         short:"For entrepreneurs wanting to integrate sustainability into their business practices and contribute to building a greener and more sustainable future. Explore the"
@@ -41,7 +41,7 @@ const data = [
   {
     id:3,
     image:"/assets/imgs/page/entrepreneur-academy/6.jpg",
-    title: "Product Progress",
+    title: "Course 7: Learning & Upskilling",
     description:{
       full:"Product development, from ideation to launch. Learn how to identify problems your product can solve, refine your ideas, create prototypes, and test their effectiveness.",
       short:"Product development, from ideation to launch. Learn how to identify problems your product can solve, refine your ideas, create prototypes, and test their"
@@ -57,7 +57,7 @@ const data = [
 {
   id:4,
   image:"/assets/imgs/page/entrepreneur-academy/7.jpg",
-  title: "Entrepreneurial Vision",
+  title: "Course 2: Sustainability",
   description:{
     full:"Learn the importance of developing a clear vision and mission for your business. Understand how to identify your passion and purpose as an entrepreneur and master the art of storytelling to engage your audience.",
     short:"Learn the importance of developing a clear vision and mission for your business. Understand how to identify your passion and purpose as an entrepreneur and master the"
@@ -73,7 +73,7 @@ const data = [
 {
   id:5,
   image:"/assets/imgs/page/entrepreneur-academy/8.jpg",
-  title: "Create the Brand",
+  title: "Course 5: Create the Brand",
   description:{
     full:"Creating a strong brand identity and strategy. Learn the importance of segmentation, marketing, and public relations in building a successful brand.",
     short:"Creating a strong brand identity and strategy. Learn the importance of segmentation, marketing, and public relations in building a"
@@ -89,7 +89,7 @@ const data = [
 {
   id:6,
   image:"/assets/imgs/page/entrepreneur-academy/10.jpg",
-  title: "Equality, Diversity, Inclusion (EDI)",
+  title: "Course 8: Reality Check My Idea",
   description:{
     full:"Looking at the principles of equity, diversity, and inclusion (EDI), gaining insights on cultivating an inclusive environment in your organisation.",
     short:"Looking at the principles of equity, diversity, and inclusion (EDI), gaining insights on cultivating an inclusive environment in your organisation."
@@ -105,7 +105,7 @@ const data = [
 {
   id:7,
   image:"/assets/imgs/page/entrepreneur-academy/9.jpg",
-  title: "Learning & Upskilling",
+  title: "Course 3: Product Progress",
   description:{
     full:"Attention will be directed towards the significance of continuous learning and skill development for maintaining a competitive edge in the entrepreneurial world. Create a comprehensive learning strategy, establish objectives, and explore diverse learning avenues to expand your skill set.",
     short:"Attention will be directed towards the significance of continuous learning and skill development for maintaining a competitive edge in the"
@@ -121,7 +121,7 @@ const data = [
 {
   id:8,
   image:"/assets/imgs/page/entrepreneur-academy/11.jpg",
-  title: "Reality Check My Idea",
+  title: "Course 6: Equality, Diversity, Inclusion (EDI)",
   description:{
     full:"One will be guided in assessing the feasibility of business concepts by conducting a reality check. Acquire the skills to evaluate and select an appropriate business model, develop a sound financial plan, identify key team members, and adapt your ideas as necessary.",
     short:"One will be guided in assessing the feasibility of business concepts by conducting a reality check. Acquire the skills to evaluate and select an appropriate business"
@@ -137,7 +137,7 @@ const data = [
 {
   id:9,
   image:"/assets/imgs/page/entrepreneur-academy/12.jpg",
-  title: "People & Hiring",
+  title: "Course 9: People & Hiring",
   description:{
     full:"Gain an understanding of creating comprehensive job descriptions, sourcing potential candidates, verifying their credentials, and assessing their skills, experience, and alignment with your organisational culture.",
     short:"Gain an understanding of creating comprehensive job descriptions, sourcing potential candidates, verifying their credentials, and assessing their skills,"
@@ -152,7 +152,7 @@ const data = [
 },
   {      id:10,
        image:"/assets/imgs/page/entrepreneur-academy/13.jpg",
-        title: "Customer Development",
+        title: "Course 10: Customer Development",
         description:{
           full:"Strong emphasis on recognizing the significance of comprehending your target customers and their requirements. Acquire the skills to conduct thorough customer research, construct customer personas, and validate your assumptions.",
           short:"Strong emphasis on recognizing the significance of comprehending your target customers and their requirements. Acquire the skills to conduct thorough customer"
@@ -168,7 +168,7 @@ const data = [
     {
       id:11,
      image:"/assets/imgs/page/entrepreneur-academy/14.jpg",
-      title: "Incorporation, IP, Employment & Legals",
+      title: "Course 13: Enterprise Resource Planning Systems (ERPS)",
       description:{
         full:"Provide knowledge about the legal considerations involved in operating a business. This encompasses selecting the appropriate legal framework, registering your business, employment law and safeguarding your intellectual property, patents. trademarks, copyrights.",
         short:"Provide knowledge about the legal considerations involved in operating a business. This encompasses selecting the appropriate legal"
@@ -184,7 +184,7 @@ const data = [
   {
     id:12,
    image:"/assets/imgs/page/entrepreneur-academy/15.jpg",
-    title: "Scaleup & Growth",
+    // title: "Course 12: Scaleup & Growth",
     description:{
       full:"Fundamental aspects of expanding and advancing your business are shown. Explore techniques for attracting customers, projecting demand, evaluating opportunities, and establishing a resilient brand.",
       short:"Fundamental aspects of expanding and advancing your business are shown. Explore techniques for attracting customers, projecting demand, evaluating opportunities,"
@@ -200,7 +200,8 @@ const data = [
 {
   id:13,
  image:"/assets/imgs/page/entrepreneur-academy/16.jpg",
-  title: "Enterprise Resource Planning Systems (ERPS)",
+  // title: "Course 13: Enterprise Resource Planning Systems (ERPS)",
+  title: "Course 11: Incorporation, IP, Employment & Legals",
   description:{
     full:"Comprehending the significance of Enterprise Resource Planning Systems (ERPs) and their role in efficiently managing business operations. Acquire the skills to identify your specific business requirements, strategise implementation processes, and select the most suitable software solution.",
     short:"Comprehending the significance of Enterprise Resource Planning Systems (ERPs) and their role in efficiently managing business operations. Acquire the skills to identify"
@@ -216,7 +217,7 @@ const data = [
 {
   id:14,
  image:"/assets/imgs/page/entrepreneur-academy/17.jpg",
-  title: "Product Launch",
+  title: "Course 14: Product Launch",
   description:{
     full:"The step-by-step process of introducing a new product to the market, starting from identifying your target audience to constructing an effective marketing strategy. Explore diverse product management methodologies, agile practices, and sales strategies.",
     short:"The step-by-step process of introducing a new product to the market, starting from identifying your target audience to constructing an effective marketing"
@@ -232,7 +233,7 @@ const data = [
 {
   id:15,
  image:"/assets/imgs/page/entrepreneur-academy/18.jpg",
-  title: "Corporate Social Responsibility (CSR)",
+  title: "Course 15: Corporate Social Responsibility (CSR)",
   description:{
     full:"The significance of Corporate Social Responsibility (CSR) in contemporary businesses. Discover the advantages of implementing CSR practices, its influence on the environment, and methods to integrate it into your overall business strategy.",
     short:"The significance of Corporate Social Responsibility (CSR) in contemporary businesses. Discover the advantages of implementing CSR"
@@ -248,7 +249,8 @@ const data = [
 {
   id:16,
  image:"/assets/imgs/page/entrepreneur-academy/19.jpg",
-  title: "Revenue Models",
+  // title: "Course 16: Revenue Models",
+  title: "Course 12: Scaleup & Growth",
   description:{
     full:"A diverse range of revenue models and their significance in the business realm. Explore the factors that can impact revenue, methods to estimate enterprise value, and strategies for utilising revenue models to foster sustainability.",
     short:"A diverse range of revenue models and their significance in the business realm. Explore the factors that can impact revenue, methods"
@@ -264,7 +266,7 @@ const data = [
 {
   id:17,
  image:"/assets/imgs/page/entrepreneur-academy/20.jpg",
-  title: "Product Development",
+  title: "Course 17: Product Development",
   description:{
     full:"The various phases of product development, spanning generation of ideas, to the introduction of products in the market. Understand the significance of feedback, promotion, and the creation of a viable and profitable product in the long run.",
     short:"The various phases of product development, spanning generation of ideas, to the introduction of products in the market. Understand the significance of"
@@ -280,7 +282,7 @@ const data = [
 {
   id:18,
  image:"/assets/imgs/page/entrepreneur-academy/21.jpg",
-  title: "Funding & Finance",
+  title: "Course 18: Funding & Finance",
   description:{
     full:"Funding and financing alternatives accessible for your business or social enterprise. Learn how to assess your financial requirements, develop a funding strategy, and obtain the necessary resources to facilitate the growth of your enterprise.",
     short:"Funding and financing alternatives accessible for your business or social enterprise. Learn how to assess your financial requirements, develop a funding"
@@ -296,7 +298,7 @@ const data = [
 {
   id:19,
  image:"/assets/imgs/page/entrepreneur-academy/22.jpg",
-  title: "Enterprise for Good",
+  title: "Course 19: Enterprise for Good",
   description:{
     full:"The concept of Enterprise for Good and its profound moral influence on both society, the environment and the economy. Gain insights into the financial advantages, ethical considerations, and methods of integrating these principles into your business practices.",
     short:"The concept of Enterprise for Good and its profound moral influence on both society, the environment and the economy. Gain"
@@ -312,7 +314,7 @@ const data = [
 {
   id:20,
  image:"/assets/imgs/page/entrepreneur-academy/23.jpg",
-  title: "Entrepreneurial Resilience",
+  title: "Course 20: Entrepreneurial Resilience",
   description:{
     full:"Designed to equip aspiring and current entrepreneurs with the mindset, skills, and strategies needed to develop and maintain entrepreneurial resilience. Participants will learn to overcome obstacles, adapt to changing circumstances, and stay motivated on their entrepreneurial journey. Exploring various aspects of resilience, including emotional intelligence, problem-solving, risk management, and the importance of a strong support network.",
     short:"Designed to equip aspiring and current entrepreneurs with the mindset, skills, and strategies needed to develop and maintain entrepreneurial"

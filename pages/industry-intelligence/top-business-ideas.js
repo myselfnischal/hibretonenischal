@@ -5,6 +5,8 @@ import Subscription from "../../components/Layout/Subscription";
 import KickstartButton from "../../components/elements/KickstartButton";
 import { useRouter } from "next/router";
 import axios from "axios";
+import { IoIosShareAlt } from "react-icons/io";
+import { FiDownload } from "react-icons/fi";
 
 function useLockBodyScroll(open) {
   useEffect(() => {
@@ -303,17 +305,11 @@ const shareByEmail = async () =>{
                                       Regenerate
                                     </button>
 
-                                    <button
-                                      className="button download-button"
-                                      onClick={handleClick}
-                                    >
-                                      Download PDF
+                                    <button className="button download-button">
+                                    <span className='share-email-icon'><FiDownload /></span> Download PDF
                                     </button>
-
-                                    <button
-                                      className="button share-button"
-                                      onClick={shareByEmail}
-                                    >
+                                    <button className="button share-button">
+                                    <span className='share-email-icon'><IoIosShareAlt /></span>
                                       Share by Email
                                     </button>
                                   </div>
