@@ -47,7 +47,7 @@ const NewCareerGuide = () => {
         }));
         return;
       }
-  
+      else{
       const queryParams = new URLSearchParams();
       queryParams.append("guidename", formData.guidename);
       console.log(queryParams);
@@ -65,6 +65,7 @@ const NewCareerGuide = () => {
           { shallow: true, replace: true }
         );
       }
+    }
     } catch (error) {
       console.error("Error occurred during place validation:", error);
       // Handle error if necessary

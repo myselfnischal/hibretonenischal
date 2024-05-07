@@ -79,28 +79,30 @@ export default function Index() {
                   style={{ minWidth: "100%" }}
                   sx={{ display: { xs: "none",sm:"none", md: "flex", lg: "none" } }}
                 >
-                  <Grid item md={12} sx={{ marginBottom: "20px" }}>
-                    <h3 style={{ fontSize: "28px !important" }}>Intelligence to Plan or Change Career</h3>
-                    <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
-                      <img
-                        className="content-media"
-                        src="assets/imgs/page/industry-intelligence/intelligence.jpg"
-                        alt="joxBox"
-                      />
-                    </div>
-                    <div className="mt-10" style={{ textAlign: "justify" }}>
-                      <p className="p-color">
+                  <Grid item md={12} sx={{ paddingRight: { lg: "75px" } }}>
+                    <h2 style={{ fontSize: "26px !important" }}>
+                      Intelligence to Plan or Change Career
+                    </h2>
+                    <Grid item md={12} className="d-flex justify-content-center">
+                    <img
+                      className="content-media"
+                      src="assets/imgs/page/industry-intelligence/intelligence.jpg"
+                      alt="joxBox"
+                    />
+                  </Grid>
+                    <div className="title-details">
+                    <p className="p-color">
                       Say goodbye to endless weeks of market research and gain access
                       to instant intelligence within minutes.
                       </p>
-                      <p className="p-color  mt-20">
+                      <p className="p-color mt-10">
                       Our cutting-edge Intelligence tools allow you to gather meaningful
                       insights, accelerating your decision-making process significantly. 
                       Whether you are analysing industry trends in your existing business, 
                       exploring new markets, or assessing potential competitors, condensing 
                       what would normally take weeks or even months into mere minutes.
                       </p>
-                      <p className="p-color  mt-20">
+                      <p className="p-color mt-10">
                       Embrace the power of our tool to validate each of your ideas efficiently
                       and leverage market research to identify the ideas, or the careers with 
                       the greatest potential for success. Seize the opportunity to turn your 
@@ -115,30 +117,30 @@ export default function Index() {
                   style={{ minWidth: "100%" }}
                   sx={{ display: { xs: "none",sm:"flex", md: "none", lg: "none" } }}
                 >
-                  <Grid item sm={12} sx={{ marginBottom: "10px" }}>
-                    <h3 style={{ fontSize: "20px !important" }}>Intelligence to Plan or Change Career</h3>
+                  <Grid item sm={12} sx={{ paddingRight: { lg: "75px" } }}>
+                    <h2 style={{ fontSize: "26px !important" }}>
+                      Intelligence to Plan or Change Career
+                    </h2>
+                    <Grid item sm={12} className="d-flex justify-content-center">
+                    <img
+                      className="content-media"
+                      src="assets/imgs/page/industry-intelligence/intelligence.jpg"
+                      alt="joxBox"
+                    />
                   </Grid>
-                  <Grid item sm={12}>
-                    <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
-                      <img
-                        className="content-media"
-                        src="assets/imgs/page/industry-intelligence/intelligence.jpg"
-                        alt="joxBox"
-                      />
-                    </div>
-                    <div className="mt-10" style={{ textAlign: "justify" }}>
-                      <p className="p-color">
+                    <div className="title-details">
+                    <p className="p-color">
                       Say goodbye to endless weeks of market research and gain access
                       to instant intelligence within minutes.
                       </p>
-                      <p className="p-color  mt-20">
+                      <p className="p-color mt-10">
                       Our cutting-edge Intelligence tools allow you to gather meaningful
                       insights, accelerating your decision-making process significantly. 
                       Whether you are analysing industry trends in your existing business, 
                       exploring new markets, or assessing potential competitors, condensing 
                       what would normally take weeks or even months into mere minutes.
                       </p>
-                      <p className="p-color  mt-20">
+                      <p className="p-color mt-10">
                       Embrace the power of our tool to validate each of your ideas efficiently
                       and leverage market research to identify the ideas, or the careers with 
                       the greatest potential for success. Seize the opportunity to turn your 
@@ -146,6 +148,7 @@ export default function Index() {
                       </p>
                     </div>
                   </Grid>
+     
                 </Grid>
                 <Grid
                   container
@@ -190,7 +193,7 @@ export default function Index() {
               </div>
             </div>
           </section>
-          <section className="section-box mt-100-industry-grid">
+           <section className="section-box mt-100-industry-grid">
             <div className="post-loop-grid">
               <div className="container">
                 <Grid
@@ -239,8 +242,9 @@ export default function Index() {
                   style={{ minWidth: "100%" }}
                   sx={{ display: { xs: "none",sm:"none", md: "flex", lg: "none" } }}
                 >
-                  <Grid item md={12} sx={{ marginBottom: "20px",marginTop:'-50px !important' }}>
+                  <Grid item md={12} sx={{ marginBottom: "20px",marginTop:'-70px !important' }}>
                     <h3 style={{ fontSize: "28px !important" }}>Explore Your Market Sector</h3>
+                    <Grid item md={12} sx={{marginTop:'10px !important'}} className="d-flex justify-content-center">
                     <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
                       <img
                         className="content-media"
@@ -248,6 +252,7 @@ export default function Index() {
                         alt="joxBox"
                       />
                     </div>
+                    </Grid>
                     <div className="mt-10" style={{ textAlign: "justify" }}>
                     <p className="p-color">
                       Let certainty drive you forward. Research your business idea and get
@@ -277,7 +282,7 @@ export default function Index() {
                   <Grid item sm={12} sx={{marginTop:'-120px' }}>
                     <h3 style={{ fontSize: "20px !important" }}>Explore Your Market Sector</h3>
                   </Grid>
-                  <Grid item sm={12} sx={{marginTop:'-30px'}}>
+                  <Grid item sm={12} sx={{marginTop:'10px !important'}}>
                     <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
                       <img
                         className="content-media"
@@ -346,7 +351,7 @@ export default function Index() {
                 </Grid>
               </div>
             </div>
-          </section>
+          </section> 
           <section className="section-box mt-100-industry-grid">
             <div className="post-loop-grid">
               <div className="container">
@@ -357,7 +362,6 @@ export default function Index() {
                   sx={{ display: { xs: "none",sm:"none", md: "none", lg: "flex" } }}
                 >
                   <Grid
-                    className="mt-40"
                     item
                     lg={6}
                     sx={{ paddingRight: { lg: "75px" } }}
@@ -421,8 +425,9 @@ export default function Index() {
                   style={{ minWidth: "100%" }}
                   sx={{ display: { xs: "none",sm:"none", md: "flex", lg: "none" } }}
                 >
-                  <Grid item md={12} sx={{ marginBottom: "20px",marginTop:'-50px !important' }}>
-                    <h3 style={{ fontSize: "28px !important" }}>Discover that New Occupation</h3>
+                  <Grid item md={12} sx={{ marginBottom: "20px",marginTop:'-90px !important' }}>
+                    <h3 style={{ fontSize: "26px !important" }}>Discover that New Occupation</h3>
+                    <Grid item md={12} sx={{marginTop:'10px !important'}} className="d-flex justify-content-center">
                     <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
                       <img
                         className="content-media"
@@ -430,6 +435,7 @@ export default function Index() {
                         alt="joxBox"
                       />
                     </div>
+                    </Grid>
                     <div className="mt-10" style={{ textAlign: "justify" }}>
                     <p className="p-color mt-10">
                       For not-yet-ready entrepreneurs seeking fail-forward pathways into better-paying careers.
@@ -603,8 +609,8 @@ export default function Index() {
                 </Grid>
               </div>
             </div>
-          </section>
-          <section className="section-box mt-100-industry-grid">
+          </section> 
+           <section className="section-box mt-100-industry-grid">
             <div className="post-loop-grid">
               <div className="container">
                 <Grid
@@ -621,7 +627,7 @@ export default function Index() {
                     />
                   </Grid>
                   <Grid item lg={6} sx={{ paddingLeft: { lg: "75px" } }}>
-                    <h3  style={{ fontSize: "34px !important",marginTop:'-40px' }}>
+                    <h3  style={{ fontSize: "34px !important",marginTop:'-60px' }}>
                     Explore Business Ideas from Around the World
                     </h3>
                     <div  className="title-details">
@@ -647,8 +653,9 @@ export default function Index() {
                   style={{ minWidth: "100%",marginTop:'-20px' }}
                   sx={{ display: { xs: "none",sm:"none", md: "flex", lg: "none" } }}
                 >
-                  <Grid item md={12}>
+                  <Grid item md={12} sx={{ marginBottom: "20px",marginTop:'-70px !important' }}>
                     <h3 style={{fontSize:'20px !important'}}>Explore Business Ideas from Around the World</h3>
+                    <Grid item md={12} sx={{marginTop:'10px !important'}} className="d-flex justify-content-center">
                     <div className="grid__thumb w-img fix grid_thumb_height grid_thumb">
                       <img
                         className="content-media"
@@ -656,6 +663,7 @@ export default function Index() {
                         alt="joxBox"
                       />
                     </div>
+                    </Grid>
                     <div  className="mt-10" style={{ textAlign: "justify" }}>
                     <p className="p-color mt-10">
                       Are you aspiring to launch a new business, look no further – we've got you covered!

@@ -1,56 +1,85 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { AiFillAudio } from "react-icons/ai";
+import axios from 'axios';
 
 
+const IndustryIntelligenceGenerateBox = () => {
+  const [formData, setFormData] = useState({
+    guidename:""
+  });
+  const [formErrors, setFormErrors] = useState({
+  guidename:false
+  });
 
+  const router = useRouter();
 
-function IndustryIntelligenceGenerateBox() {
-    const [formData, setFormData] = useState({
-        guidename: '',
-    });
-    const [formErrors, setFormErrors] = useState({
-        guidename: false,
-    });
+  const validatePlace = async (placeName) => {
+    try {
+      const response = await axios.post("http://localhost:8000/validate-place", { text: placeName });
+      console.log('response', response);
+      return response.data.isValidPlace;
+    } catch (error) {
+      console.error("Error validating place:", error);
+      return false; 
+    }
+  };
+  
+  const handleSubmit = async (event) => {
+    event.preventDefault();
 
-    const router = useRouter();
-    const handleSubmit = async (event) => {
-        event.preventDefault();
-        
-        if (!formData.guidename) {
-            setFormErrors({
-                guidename: !formData.guidename,
-            });
-            return;
+    setFormErrors({ guidename: false });
+    if (!formData.guidename) {
+      setFormErrors({ guidename: "required*" });
+      return;
+    }
+    const input =  formData.guidename;
+    const inputs = input.split(/\s+/);  
+    let foundPlaceName = "";
+    let additionalInfo = [];
+
+    for (let i = 0; i < inputs.length; i++) {
+        let testPlaceName = inputs[i];
+        if (await validatePlace(testPlaceName)) {
+            foundPlaceName = testPlaceName; 
+            continue;  
         }
-        
-        const queryParams = new URLSearchParams(formData);
-            const url = `/industry-intelligence/market-sector-guide?${queryParams}`;
-            if (window.location.pathname !== '/industry-intelligence/market-sector-guide') {
-                router.push(url);
-            } else {
-                router.push({
-                    pathname: window.location.pathname,
-                    query: queryParams.toString() 
-                }, undefined, { shallow: true, replace: true });
-            }
-        
-        
-        
-    };
+        additionalInfo.push(inputs[i]);
+    }
+
+    if (!foundPlaceName) {
+        setFormErrors({ guidename: "Please enter a valid place name" });
+        return;
+    }
+    else if (foundPlaceName && !additionalInfo.join(' ')){
+        setFormErrors({ guidename: "Please enter choosen market sector" });
+        return;
+    }
+
+   else{
+    const queryParams = new URLSearchParams({
+        guidename: additionalInfo.join(' '),
+        location: foundPlaceName
+      });
     
-    const handleChange = (event) => {
-        const { name, value } = event.target;
-        setFormData(prevFormData => ({
-            ...prevFormData,
-            [name]: value
-        }));
-    
-        setFormErrors(prevFormErrors => ({
-            ...prevFormErrors,
-            [name]: false
-        }));
-    };
+          const url = `/industry-intelligence/market-sector-guide?${queryParams}`;
+          router.push(url, undefined, { shallow: true });
+        }
+};
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+
+    setFormErrors((prevFormErrors) => ({
+      ...prevFormErrors,
+      [name]: false,
+    }));
+  };
+
 
     return (
         <>
@@ -66,7 +95,7 @@ function IndustryIntelligenceGenerateBox() {
                         placeholder="Enter chosen market sector and location "
                         style={{ marginTop: "4px" }}
                     />
-               {formErrors.guidename && <p style={{color:'red'}}>required*</p>}
+               {formErrors.guidename && <p style={{color:'red'}}>{formErrors.guidename}</p>}
                     <div className="mike-audio">
                     <AiFillAudio />
                     </div>

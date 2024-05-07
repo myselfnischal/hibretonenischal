@@ -40,15 +40,13 @@ const formattedDate = `${day} ${monthName} ${year}`;
     const [loading, setLoading] = useState(false);
     const [formData, setFormData] = useState({
         guidename: '',
-        guidetype: '',
         location: ''
     });
     const [responseData, setResponseData] = useState(null);
     useEffect(() => {
-        const { guidename, guidetype, location } = router.query;
+        const { guidename, location } = router.query;
         setFormData({
             guidename: guidename || '',
-            guidetype: guidetype || '',
             location: location || ''
         });
     }, [router.query]);
@@ -69,7 +67,7 @@ const formattedDate = `${day} ${monthName} ${year}`;
         }
     };
     useEffect(() => {
-        if (formData.guidename && formData.guidetype && formData.location) {
+        if (formData.guidename && formData.location) {
             callAPI();
         }
     }, [formData]);

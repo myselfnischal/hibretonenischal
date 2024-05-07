@@ -52,6 +52,7 @@ export default function InnerPage() {
   const [responseData, setResponseData] = useState(null);
   useEffect(() => {
     const { number_of_business_ideas, location } = router.query;
+    console.log(number_of_business_ideas,location);  
     setFormData({
       number_of_business_ideas: number_of_business_ideas || "",
       location: location || "",
@@ -83,9 +84,10 @@ export default function InnerPage() {
     setCounter((prevCounter) => prevCounter + 1);
   };
 
-  const [showDialog, setShowDialog] = useState(false);
 
-  const handleClick = async () => {
+
+  const handleClick = async (event) => {
+    event.preventDefault();
     try {
       setLoading(true);
   
@@ -114,12 +116,12 @@ export default function InnerPage() {
   };
   
   const handleRegenerateClick = async() => {
+    window.scrollTo({
+      top: 450,
+      behavior: 'smooth'
+    });
     callAPI();
   }
-
-const shareByEmail = async () =>{
-    console.log('hello');
-}
 
   useLockBodyScroll(isOpen);
 
@@ -260,8 +262,9 @@ const shareByEmail = async () =>{
                                 <>
                                   <div className="row mt-15 mb-15">
                                     <div className="titleforguides">
-                                      Overview of Top{" "}
-                                      {formData.number_of_business_ideas} Ideas
+                                      Overview of Top {" "}
+                                      {formData.number_of_business_ideas} Business Ideas
+                                      of {formData.location}
                                     </div>
                                     <div
                                       className="mt-10"
@@ -276,21 +279,20 @@ const shareByEmail = async () =>{
                                             textAlign: "justify",
                                           }}
                                         >
-    <ul className="bullet-list">
+<ul className="bullet-list">
   {responseData &&
-    responseData.split('\n').map((item, index) => {
-      const cleanItem = item.replace(/^\d+\.\s*/, '');
-      if (cleanItem.trim() !== '') { 
-        const [title, description] = cleanItem.split(':');
-        return (
-          <li key={index}>
-            <span style={{ fontWeight: 'bold' }}>{`• `}{title}:</span> {description}
-          </li>
-        );
-      }
-      return null;
+    responseData.split('\n')
+    .filter(item => item.replace(/^\d+\.\s*/, '').trim() !== '')  // Filter out empty or non-valid entries first
+    .map((cleanItem, index) => {
+      const [title, description] = cleanItem.split(':');
+      return (
+        <li key={index} className="descriptionoftitle">
+          <span style={{ fontWeight: 'bold' }}>{title}:</span> {description}
+        </li>
+      );
     })}
 </ul>
+
 
                                         </div>
                                       </ul>
@@ -305,12 +307,16 @@ const shareByEmail = async () =>{
                                       Regenerate
                                     </button>
 
-                                    <button className="button download-button">
-                                    <span className='share-email-icon'><FiDownload /></span> Download PDF
+                                    <button
+                                      className="button download-button"
+                                      onClick={handleClick} 
+                                    >
+                                      <span className='share-email-icon'><FiDownload /></span>
+                                      Download PDF
                                     </button>
                                     <button className="button share-button">
                                     <span className='share-email-icon'><IoIosShareAlt /></span>
-                                      Share by Email
+                                    Share by Email
                                     </button>
                                   </div>
                                 </>
